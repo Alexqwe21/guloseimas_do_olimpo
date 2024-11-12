@@ -10,4 +10,23 @@
 }
 
 
+header{
+    padding-top: 20px;
+}
+
+header .site{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header .site nav ul{
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+}
+
+
+
 
