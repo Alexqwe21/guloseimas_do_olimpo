@@ -33,7 +33,9 @@ body {
     --font_titulo: Great Vibes;
     --negrito_normal: normal;
     --marrom_do_header: #985C41;
-    --para_separar_a_secoes: padding 100 0;
+    /* --para_separar_a_secoes: padding 100px 0; */
+    --para_separar_a_secoes: 100px 0;
+    --fundo_verde_secao:rgba(230, 234, 225, 0.5);
 }
 
 
@@ -76,7 +78,7 @@ header .site nav ul li a:hover {
     max-width: 1400px;
 }
 
-.ben_vindo .site .lado_a_lado {
+.ben_vindo .site .lado_a_lado, .qualidade_especial .site .lado_a_lado {
     display: flex;
     justify-content: space-between;
 }
@@ -91,7 +93,7 @@ header .site nav ul li a:hover {
     height: 400px;
 }
 
-.ben_vindo .guloseimas h2 {
+.ben_vindo .guloseimas h2, .qualidade_especial .site h2 {
     font-family: var(--font_titulo);
     font-size: 48pt;
     text-align: center;
@@ -160,5 +162,38 @@ header .site nav ul li a:hover {
 
 
 .qualidade_especial{
-    padding: var(--para_separar_a_secoes);
+   
+     padding: var(--para_separar_a_secoes); 
+    background-color: var(--fundo_verde_secao);
+
+}
+
+.qualidade_especial .site .alta_qualidade{
+    background-image: url(../img/produto_03.svg);
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+   
+}
+
+
+.qualidade_especial .site .alta_qualidade .verde{
+    width: 150px;
+    height: 150px;
+    background-color: #0B3222;
+    position: relative;
+    left: 215px;
+    top: 228px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.qualidade_especial .site .alta_qualidade .verde p{
+    color: white;
+    font-weight: 500  ;
+    text-align: center;
+    font-family: Poppins;
+   
 }
