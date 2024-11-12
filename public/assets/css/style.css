@@ -1,4 +1,7 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Great+Vibes&display=swap');
+/* font-family: "Great Vibes", cursive; */
+
+* {
     padding: 0;
     margin: 0;
 }
@@ -28,5 +31,17 @@ header .site nav ul{
 }
 
 
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: "Great Vibes", cursive;
+}
 
+.subtitle {
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-weight: 24p;
+    
 
+}
