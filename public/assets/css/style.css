@@ -30,13 +30,20 @@ body {
 :root {
     --cor_de_funco: #FEFBF3;
     --cor_dourado: #DAA522;
-    --font_titulo: Great Vibes;
+    --font_titulo: 'Great Vibes';
     --negrito_normal: normal;
     --marrom_do_header: #985C41;
     /* --para_separar_a_secoes: padding 100px 0; */
     --para_separar_a_secoes: 100px 0;
     --fundo_verde_secao: rgba(230, 234, 225, 0.5);
+    --para_texto: 'Poppins';
+    /* Define a variável com o valor da fonte */
+    --cor_da_fonte: #241810;
+    --fundo_verde_secao: rgba(230, 234, 225, 0.5);
 }
+
+
+
 
 
 
@@ -153,6 +160,19 @@ header .site nav ul li a:hover {
     margin: 1px;
 }
 
+.highlights {
+    display: flex;
+    justify-content: space-between;
+
+    .box {
+        width: 330px;
+        margin: 20px;
+
+        img {
+            margin: 10px;
+            width: 330px;
+            height: 300px;
+        }
 .destaques {
     .highlights {
         display: flex;
@@ -187,25 +207,35 @@ header .site nav ul li a:hover {
                 font-family: "Poppins", sans-serif;
             }
 
-            p {
-                font-size: 18pt;
-                align-items: center;
-                text-align: center;
-                font-family: "Poppins", sans-serif;
-            }
+        p {
+            font-size: 18pt;
+            align-items: center;
+            text-align: center;
+            font-family: "Poppins", sans-serif;
         }
+        
     }
 }
 
 
 
+.qualidade_especial {
     .qualidade_especial {
 
+    padding: var(--para_separar_a_secoes);
+    background-color: var(--fundo_verde_secao);
         padding: var(--para_separar_a_secoes);
         background-color: var(--fundo_verde_secao);
 
     }
 
+.qualidade_especial .site .alta_qualidade {
+    background-image: url(../img/produto_03.svg);
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+
+}
     .qualidade_especial .site .alta_qualidade {
         background-image: url(../img/produto_03.svg);
         width: 300px;
@@ -215,6 +245,17 @@ header .site nav ul li a:hover {
     }
 
 
+.qualidade_especial .site .alta_qualidade .verde {
+    width: 150px;
+    height: 150px;
+    background-color: #0B3222;
+    position: relative;
+    left: 215px;
+    top: 228px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
     .qualidade_especial .site .alta_qualidade .verde {
         width: 150px;
         height: 150px;
@@ -228,6 +269,13 @@ header .site nav ul li a:hover {
     }
 
 
+.qualidade_especial .site .alta_qualidade .verde p {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    font-family: Poppins;
+
+}
     .qualidade_especial .site .alta_qualidade .verde p {
         color: white;
         font-weight: 500;
@@ -238,6 +286,10 @@ header .site nav ul li a:hover {
 
 
 
+.qualidade_especial {
+
+    padding: var(--para_separar_a_secoes);
+    background-color: var(--fundo_verde_secao);
     .qualidade_especial {
 
         padding: var(--para_separar_a_secoes);
@@ -245,6 +297,13 @@ header .site nav ul li a:hover {
 
     }
 
+.qualidade_especial .site .alta_qualidade {
+    background-image: url(../img/produto_03.svg);
+    width: 400px;
+    height: 420px;
+    background-repeat: no-repeat;
+
+}
     .qualidade_especial .site .alta_qualidade {
         background-image: url(../img/produto_03.svg);
         width: 300px;
@@ -254,6 +313,17 @@ header .site nav ul li a:hover {
     }
 
 
+.qualidade_especial .site .alta_qualidade .verde {
+    width: 200px;
+    height: 170px;
+    background-color: #0B3222;
+    position: relative;
+    left: 241px;
+    top: 324px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
     .qualidade_especial .site .alta_qualidade .verde {
         width: 150px;
         height: 150px;
@@ -265,6 +335,47 @@ header .site nav ul li a:hover {
         display: flex;
         align-items: center;
     }
+
+
+.qualidade_especial .site .alta_qualidade .verde p {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    font-family: Poppins;
+
+}
+
+.qualidade_especial .site .lado_a_lado .encomenda {
+    width: 60%;
+}
+
+.qualidade_especial .site .lado_a_lado .encomenda h3 {
+    margin-top: 30px;
+    font-size: 20pt;
+    font-weight: var(--negrito_normal);
+    font-family: Poppins;
+    line-height: 35px;
+    color: var(--cor_da_fonte);
+}
+
+
+.qualidade_especial .site .lado_a_lado .encomenda p {
+   margin: 30px 0;
+    font-size: 15pt;
+    font-weight: var(--negrito_normal);
+    font-family: var(--para_texto);
+    line-height: 30px;
+    color: var(--cor_da_fonte);
+}
+
+
+.qualidade_especial .site .lado_a_lado .encomenda .hr_doces h4 , .qualidade_especial .site .lado_a_lado .encomenda .hr_doces strong{
+    margin: 10px 0;
+    font-size: 25pt;
+    font-weight: var(--negrito_normal);
+    color: var(--cor_da_fonte);
+    font-family: var(--para_texto);
+}
 
 
     .qualidade_especial .site .alta_qualidade .verde p {
