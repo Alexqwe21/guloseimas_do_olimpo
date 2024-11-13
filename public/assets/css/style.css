@@ -1,16 +1,13 @@
 /* Font para textos */
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Great+Vibes&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/* font-family: "Poppins", sans-serif; */
 
 /* Font p/ links */
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Great+Vibes&family=Poly:ital@0;1&display=swap');
-/* font-family: "Poly", serif; */
 
 /* Fonte cursiva */
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Great+Vibes&display=swap');
-/* font-family: "Great Vibes", cursive; */
 
-
+/* Reseta padding e margin */
 * {
     padding: 0;
     margin: 0;
@@ -26,29 +23,19 @@ body {
     width: 100%;
 }
 
-
 :root {
     --cor_de_funco: #FEFBF3;
     --cor_dourado: #DAA522;
     --font_titulo: 'Great Vibes';
     --negrito_normal: normal;
     --marrom_do_header: #985C41;
-    /* --para_separar_a_secoes: padding 100px 0; */
     --para_separar_a_secoes: 100px 0;
     --fundo_verde_secao: rgba(230, 234, 225, 0.5);
     --para_texto: 'Poppins';
-    /* Define a variável com o valor da fonte */
     --cor_da_fonte: #241810;
-    --fundo_verde_secao: rgba(230, 234, 225, 0.5);
 }
 
-
-
-
-
-
-
-
+/* Header */
 header .site {
     display: flex;
     justify-content: space-between;
@@ -56,14 +43,11 @@ header .site {
     padding-top: 25px;
 }
 
-
 header .site nav ul {
     display: flex;
     width: 700px;
     justify-content: space-around;
 }
-
-
 
 header .site nav ul li a {
     color: black;
@@ -75,6 +59,7 @@ header .site nav ul li a:hover {
     color: var(--cor_dourado);
 }
 
+/* Ben Vindo */
 .ben_vindo {
     padding: var(--para_separar_a_secoes);
 }
@@ -84,11 +69,10 @@ header .site nav ul li a:hover {
 }
 
 .ben_vindo .site .lado_a_lado,
-.qualidade_especial .site .lado_a_lado {
+.qualidade_especial .site .lado_a_lado, .sobre_pessoa .site .lado_a_lado {
     display: flex;
     justify-content: space-between;
 }
-
 
 .ben_vindo .site .guloseimas {
     width: 35%;
@@ -100,7 +84,7 @@ header .site nav ul li a:hover {
 }
 
 .ben_vindo .guloseimas h2,
-.qualidade_especial .site h2 {
+.qualidade_especial .site h2, .sobre_pessoa .site .sobre h2 {
     font-family: var(--font_titulo);
     font-size: 48pt;
     text-align: center;
@@ -123,13 +107,11 @@ header .site nav ul li a:hover {
 
 .ben_vindo .site .lado_a_lado .img_01 {
     height: 500px;
-    /* background-color: #DAA522; */
     align-self: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
 
 .ben_vindo .site .lado_a_lado .img_02 {
     height: 500px;
@@ -139,8 +121,7 @@ header .site nav ul li a:hover {
     justify-content: start;
 }
 
-
-
+/* Title and Subtitle */
 .title {
     display: flex;
     justify-content: center;
@@ -149,10 +130,6 @@ header .site nav ul li a:hover {
     margin: 5px;
 }
 
-
-
-
-
 .subtitle {
     font-size: 28pt;
     display: flex;
@@ -160,193 +137,59 @@ header .site nav ul li a:hover {
     margin: 1px;
 }
 
+/* Highlights Section */
 .highlights {
     display: flex;
     justify-content: space-between;
-
-    .box {
-        width: 330px;
-        margin: 20px;
-
-        img {
-            margin: 10px;
-            width: 330px;
-            height: 300px;
-        }
-.destaques {
-    .highlights {
-        display: flex;
-        justify-content: space-between;
-        .box {
-            width: 330px;
-            margin: 20px;
-            
-            .img_01{
-                align-items: center;
-                text-align: center;
-                height: 400px;
-                display: flex;
-                
-            }
-            .img_03{
-                align-items: center;
-                text-align: center;
-                display: flex;
-                height: 400px;
-            }
-            img {
-                margin: 10px;
-                width: 330px;
-                height: 300px;
-            }
-
-            h3 {
-                font-size: 21pt;
-                align-items: center;
-                text-align: center;
-                font-family: "Poppins", sans-serif;
-            }
-
-        p {
-            font-size: 18pt;
-            align-items: center;
-            text-align: center;
-            font-family: "Poppins", sans-serif;
-        }
-        
-    }
 }
 
+.box {
+    width: 330px;
+    margin: 20px;
+}
 
+.box img {
+    margin: 10px;
+    width: 330px;
+    height: 300px;
+}
 
+/* Qualidade Especial */
 .qualidade_especial {
-    .qualidade_especial {
-
     padding: var(--para_separar_a_secoes);
     background-color: var(--fundo_verde_secao);
-        padding: var(--para_separar_a_secoes);
-        background-color: var(--fundo_verde_secao);
-
-    }
-
-.qualidade_especial .site .alta_qualidade {
-    background-image: url(../img/produto_03.svg);
-    width: 300px;
-    height: 400px;
-    background-repeat: no-repeat;
-
 }
-    .qualidade_especial .site .alta_qualidade {
-        background-image: url(../img/produto_03.svg);
-        width: 300px;
-        height: 400px;
-        background-repeat: no-repeat;
-
-    }
-
-
-.qualidade_especial .site .alta_qualidade .verde {
-    width: 150px;
-    height: 150px;
-    background-color: #0B3222;
-    position: relative;
-    left: 215px;
-    top: 228px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-}
-    .qualidade_especial .site .alta_qualidade .verde {
-        width: 150px;
-        height: 150px;
-        background-color: #0B3222;
-        position: relative;
-        left: 215px;
-        top: 228px;
-        margin: 0;
-        display: flex;
-        align-items: center;
-    }
-
-
-.qualidade_especial .site .alta_qualidade .verde p {
-    color: white;
-    font-weight: 500;
-    text-align: center;
-    font-family: Poppins;
-
-}
-    .qualidade_especial .site .alta_qualidade .verde p {
-        color: white;
-        font-weight: 500;
-        text-align: center;
-        font-family: Poppins;
-
-    }
-
-
-
-.qualidade_especial {
-
-    padding: var(--para_separar_a_secoes);
-    background-color: var(--fundo_verde_secao);
-    .qualidade_especial {
-
-        padding: var(--para_separar_a_secoes);
-        background-color: var(--fundo_verde_secao);
-
-    }
 
 .qualidade_especial .site .alta_qualidade {
     background-image: url(../img/produto_03.svg);
     width: 400px;
     height: 420px;
     background-repeat: no-repeat;
-
 }
-    .qualidade_especial .site .alta_qualidade {
-        background-image: url(../img/produto_03.svg);
-        width: 300px;
-        height: 400px;
-        background-repeat: no-repeat;
-
-    }
-
 
 .qualidade_especial .site .alta_qualidade .verde {
-    width: 200px;
-    height: 170px;
+    width: 218px;
+    height: 149px;
     background-color: #0B3222;
     position: relative;
-    left: 241px;
-    top: 324px;
+    left: 260px;
+    top: 334px;
     margin: 0;
     display: flex;
     align-items: center;
 }
-    .qualidade_especial .site .alta_qualidade .verde {
-        width: 150px;
-        height: 150px;
-        background-color: #0B3222;
-        position: relative;
-        left: 215px;
-        top: 228px;
-        margin: 0;
-        display: flex;
-        align-items: center;
-    }
-
 
 .qualidade_especial .site .alta_qualidade .verde p {
     color: white;
     font-weight: 500;
     text-align: center;
     font-family: Poppins;
-
+    margin: 0 4px;
+    line-height: 20px;
 }
 
 .qualidade_especial .site .lado_a_lado .encomenda {
-    width: 60%;
+    width: 50%;
 }
 
 .qualidade_especial .site .lado_a_lado .encomenda h3 {
@@ -358,9 +201,8 @@ header .site nav ul li a:hover {
     color: var(--cor_da_fonte);
 }
 
-
 .qualidade_especial .site .lado_a_lado .encomenda p {
-   margin: 30px 0;
+    margin: 30px 0;
     font-size: 15pt;
     font-weight: var(--negrito_normal);
     font-family: var(--para_texto);
@@ -368,11 +210,78 @@ header .site nav ul li a:hover {
     color: var(--cor_da_fonte);
 }
 
-
-.qualidade_especial .site .lado_a_lado .encomenda .hr_doces h4 , .qualidade_especial .site .lado_a_lado .encomenda .hr_doces strong{
+.qualidade_especial .site .lado_a_lado .encomenda .hr_doces h4,
+.qualidade_especial .site .lado_a_lado .encomenda .hr_doces strong {
     margin: 10px 0;
     font-size: 25pt;
     font-weight: var(--negrito_normal);
     color: var(--cor_da_fonte);
     font-family: var(--para_texto);
+}
+
+
+.sobre_pessoa{
+    padding: var(--para_separar_a_secoes);
+}
+.sobre_pessoa .site .sobre{
+width: 60%;
+display: flex;
+align-items: center;
+flex-flow: column nowrap;
+justify-content: center;
+}
+
+
+.sobre_pessoa .site .sobre p{
+    font-size: 18pt;
+    font-weight: var(--negrito_normal);
+    font-family: var(--para_texto);
+    text-align: center;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+
+.sobre_pessoa .site .sobre a{
+border:  1px solid #241810;
+padding: 10px;
+color: black;
+font-weight: bold;
+display: flex;
+align-items: center;
+border-radius: 10px;
+
+}
+
+.sobre_pessoa .site .sobre a:hover{
+ background-color: #985C41;
+    color: white;
+    }
+
+
+.sobre_pessoa .site .sobre a strong img{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+   
+}
+
+
+.banner_chocolate{
+     padding: var(--para_separar_a_secoes); 
+   
+}
+
+
+
+.banner_chocolate .banner{
+    background-image: url(../img/efeito_paralax.jpg);
+    height: 700px;
+
+    height: 80vh;
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    
 }
