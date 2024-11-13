@@ -10,9 +10,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Great+Vibes&display=swap');
 /* font-family: "Great Vibes", cursive; */
 
+
 * {
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-color: var(--cor_de_funco);
 }
 
 .site {
@@ -22,14 +27,26 @@
 }
 
 
-header {
-    padding-top: 20px;
+:root {
+    --cor_de_funco: #FEFBF3;
+    --cor_dourado: #DAA522;
+    --font_titulo: Great Vibes;
+    --negrito_normal: normal;
+    --marrom_do_header: #985C41;
+    /* --para_separar_a_secoes: padding 100px 0; */
+    --para_separar_a_secoes: 100px 0;
+    --fundo_verde_secao:rgba(230, 234, 225, 0.5);
 }
+
+
+
+
 
 header .site {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 25px;
 }
 
 
@@ -39,6 +56,90 @@ header .site nav ul {
     justify-content: space-around;
 }
 
+
+
+header .site nav ul li a {
+    color: black;
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+header .site nav ul li a:hover {
+    color: var(--cor_dourado);
+}
+
+
+
+.ben_vindo {
+    padding: var(--para_separar_a_secoes);
+}
+
+.ben_vindo .site {
+    max-width: 1400px;
+}
+
+.ben_vindo .site .lado_a_lado, .qualidade_especial .site .lado_a_lado {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ben_vindo .site .guloseimas {
+    width: 35%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+
+.ben_vindo .guloseimas h2, .qualidade_especial .site h2 {
+    font-family: var(--font_titulo);
+    font-size: 48pt;
+    text-align: center;
+}
+
+.ben_vindo .guloseimas h3 {
+    font-size: 20pt;
+    font-weight: var(--negrito_normal);
+    text-align: center;
+}
+
+
+
+.ben_vindo .guloseimas a {
+    padding: 30px 70px;
+    background-color: var(--marrom_do_header);
+    border-radius: 30px;
+    color: white;
+    font-size: 18pt;
+    font-weight: var(--negrito_normal);
+}
+
+
+
+.ben_vindo .site .lado_a_lado .img_01 {
+    height: 500px;
+    /* background-color: #DAA522; */
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+
+.ben_vindo .site .lado_a_lado .img_02 {
+    height: 500px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: start;
+}
+
+
+
 .title {
     display: flex;
     justify-content: center;
@@ -46,6 +147,10 @@ header .site nav ul {
     font-size: 48pt;
     margin: 5px;
 }
+
+
+
+
 
 .subtitle {
     font-size: 28pt;
@@ -81,4 +186,82 @@ header .site nav ul {
             font-family: "Poppins", sans-serif;
         }
     }
+}
+
+
+
+.qualidade_especial{
+   
+     padding: var(--para_separar_a_secoes); 
+    background-color: var(--fundo_verde_secao);
+
+}
+
+.qualidade_especial .site .alta_qualidade{
+    background-image: url(../img/produto_03.svg);
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+   
+}
+
+
+.qualidade_especial .site .alta_qualidade .verde{
+    width: 150px;
+    height: 150px;
+    background-color: #0B3222;
+    position: relative;
+    left: 215px;
+    top: 228px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.qualidade_especial .site .alta_qualidade .verde p{
+    color: white;
+    font-weight: 500  ;
+    text-align: center;
+    font-family: Poppins;
+   
+}
+
+
+
+.qualidade_especial{
+   
+     padding: var(--para_separar_a_secoes); 
+    background-color: var(--fundo_verde_secao);
+
+}
+
+.qualidade_especial .site .alta_qualidade{
+    background-image: url(../img/produto_03.svg);
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+   
+}
+
+
+.qualidade_especial .site .alta_qualidade .verde{
+    width: 150px;
+    height: 150px;
+    background-color: #0B3222;
+    position: relative;
+    left: 215px;
+    top: 228px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.qualidade_especial .site .alta_qualidade .verde p{
+    color: white;
+    font-weight: 500  ;
+    text-align: center;
+    font-family: Poppins;
+   
 }
