@@ -191,8 +191,8 @@ header .site nav ul li a:hover {
 
 
 .qualidade_especial{
-   
-     padding: var(--para_separar_a_secoes); 
+
+    padding: var(--para_separar_a_secoes); 
     background-color: var(--fundo_verde_secao);
 
 }
