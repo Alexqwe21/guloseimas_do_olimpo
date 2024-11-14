@@ -140,7 +140,7 @@ header .site nav ul li a:hover {
 .title {
     display: flex;
     justify-content: center;
-    font-family: "Great Vibes", cursive;
+    font-family: var(--font_titulo);
     font-size: 48pt;
     margin: 5px;
 }
@@ -290,7 +290,6 @@ header .site nav ul li a:hover {
     justify-content: center;
 }
 
-
 .sobre_pessoa .site .sobre p{
     font-size: 18pt;
     font-weight: var(--negrito_normal);
@@ -326,11 +325,10 @@ header .site nav ul li a:hover {
 
 .banner_chocolate {
     padding: var(--para_separar_a_secoes);
-
 }
 
 .banner_chocolate {
-    background-image: url(../img/banner_chocolate.jpg);
+    background-image: url(../img/paralex_chocolate.jpeg);
     background-position: bottom bottom;
     background-size: cover;
     background-attachment: fixed;
@@ -339,10 +337,19 @@ header .site nav ul li a:hover {
     height: 500px;
 }
 
-.caroseul:nth-child(1){
+.box_carousel {
     display: flex;
+    justify-content: space-around;
+    margin: 25px;
+    height: 400px;
     color: red;
+    align-items: center;
 }
+.box_carousel div img {
+    width: 320px;
+    height: 320px;
+}
+
 footer {
     padding: var(--para_separar_a_secoes);
     background-color: var(--cor_do_footer);
