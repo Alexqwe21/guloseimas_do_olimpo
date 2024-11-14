@@ -33,6 +33,7 @@ body {
     --fundo_verde_secao: rgba(230, 234, 225, 0.5);
     --para_texto: 'Poppins';
     --cor_da_fonte: #241810;
+    --cor_do_footer: #0B3222;
 }
 
 /* Header */
@@ -70,7 +71,8 @@ header .site nav ul li a:hover {
 }
 
 .ben_vindo .site .lado_a_lado,
-.qualidade_especial .site .lado_a_lado, .sobre_pessoa .site .lado_a_lado {
+.qualidade_especial .site .lado_a_lado,
+.sobre_pessoa .site .lado_a_lado {
     display: flex;
     justify-content: space-between;
 }
@@ -85,7 +87,8 @@ header .site nav ul li a:hover {
 }
 
 .ben_vindo .guloseimas h2,
-.qualidade_especial .site h2, .sobre_pessoa .site .sobre h2 {
+.qualidade_especial .site h2,
+.sobre_pessoa .site .sobre h2 {
     font-family: var(--font_titulo);
     font-size: 48pt;
     text-align: center;
@@ -105,6 +108,7 @@ header .site nav ul li a:hover {
     font-size: 18pt;
     font-weight: var(--negrito_normal);
 }
+
 .ben_vindo .guloseimas a:hover {
     color: var(--cor_dourado);
 }
@@ -163,6 +167,7 @@ header .site nav ul li a:hover {
 .box .img_02 {
     margin: 20px;
 }
+
 .box .img_03 {
     display: flex;
     align-items: center;
@@ -176,15 +181,16 @@ header .site nav ul li a:hover {
     height: 300px;
     margin: 10px;
 }
-.box img:hover{
+
+.box img:hover {
     transition: 0.5s ease;
     transform: scale(1.2);
 }
 
 .box h3 {
     font-size: 21pt;
-    align-items: center; 
-    text-align: center; 
+    align-items: center;
+    text-align: center;
     font-family: var(--para_texto);
 }
 
@@ -192,7 +198,7 @@ header .site nav ul li a:hover {
     font-size: 18pt;
     align-items: center;
     text-align: center;
-    font-family: var(--para_texto); 
+    font-family: var(--para_texto);
 }
 
 .space {
@@ -266,19 +272,20 @@ header .site nav ul li a:hover {
 }
 
 
-.sobre_pessoa{
+.sobre_pessoa {
     padding: var(--para_separar_a_secoes);
 }
-.sobre_pessoa .site .sobre{
-width: 60%;
-display: flex;
-align-items: center;
-flex-flow: column nowrap;
-justify-content: center;
+
+.sobre_pessoa .site .sobre {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
 
 
-.sobre_pessoa .site .sobre p{
+.sobre_pessoa .site .sobre p {
     font-size: 18pt;
     font-weight: var(--negrito_normal);
     font-family: var(--para_texto);
@@ -288,48 +295,48 @@ justify-content: center;
 }
 
 
-.sobre_pessoa .site .sobre a{
-border:  1px solid #241810;
-padding: 10px;
-color: black;
-font-weight: bold;
-display: flex;
-align-items: center;
-border-radius: 10px;
+.sobre_pessoa .site .sobre a {
+    border: 1px solid #241810;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
 
 }
 
-.sobre_pessoa .site .sobre a:hover{
- background-color: #985C41;
+.sobre_pessoa .site .sobre a:hover {
+    background-color: #985C41;
     color: white;
-    }
+}
 
 
-.sobre_pessoa .site .sobre a strong img{
+.sobre_pessoa .site .sobre a strong img {
     width: 20px;
     height: 20px;
     margin-left: 30px;
-   
+
 }
 
 
-.banner_chocolate{
-     padding: var(--para_separar_a_secoes); 
-   
+.banner_chocolate {
+    padding: var(--para_separar_a_secoes);
+
 }
 
 
 
-.banner_chocolate .banner{
+.banner_chocolate .banner {
     background-image: url(../img/efeito_paralax.jpg);
     height: 700px;
 
     height: 80vh;
-    
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
-    
+
 }
 
 
@@ -338,7 +345,7 @@ border-radius: 10px;
 
 .banner_chocolate {
     background-image: url(../img/banner_chocolate.jpg);
-    background-position: right center;
+    background-position: bottom bottom;
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 6px 7px 7px 3px black;
@@ -347,17 +354,8 @@ border-radius: 10px;
 }
 
 
-
-.livro {
-
-    background-image: url(img/background002.jpg);
-    background-position: right bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 6px 7px 7px 3px black;
-    padding: 50px 0;
-    margin-top: 43px;
+footer {
+    padding: var(--para_separar_a_secoes);
+    background-color: var(--cor_do_footer);
 
 }
-
-
