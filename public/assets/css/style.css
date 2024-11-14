@@ -333,6 +333,7 @@ footer .site .lado_a_lado {
     background-position: bottom bottom;
     background-size: cover;
     background-attachment: fixed;
+    filter: brightness(50%);
     box-shadow: inset 6px 7px 7px 3px black;
     padding: 50px 0;
     height: 500px;
