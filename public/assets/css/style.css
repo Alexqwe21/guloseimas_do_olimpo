@@ -209,9 +209,8 @@ header .site nav ul li a:hover {
 }
 
 .space {
-    padding: var(--para_separar_a_secoes);
+    padding: 50px;
 }
-
 
 /* Qualidade Especial */
 .qualidade_especial {
@@ -330,11 +329,6 @@ header .site nav ul li a:hover {
 
 }
 
-
-
-
-
-
 .banner_chocolate {
     background-image: url(../img/banner_chocolate.jpg);
     background-position: bottom bottom;
@@ -345,7 +339,10 @@ header .site nav ul li a:hover {
     height: 500px;
 }
 
-
+.caroseul:nth-child(1){
+    display: flex;
+    color: red;
+}
 footer {
     padding: var(--para_separar_a_secoes);
     background-color: var(--cor_do_footer);
