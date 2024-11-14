@@ -331,7 +331,7 @@ border-radius: 10px;
 
 
 .banner_chocolate {
-    background-image: url(../img/banner_chocolate.jpg);
+    background-image: url(../img/paralex_chocolate.jpeg);
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
@@ -343,7 +343,6 @@ border-radius: 10px;
 
 
 .livro {
-
     background-image: url(img/background002.jpg);
     background-position: right bottom;
     background-size: cover;
