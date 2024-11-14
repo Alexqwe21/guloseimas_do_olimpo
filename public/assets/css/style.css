@@ -140,7 +140,7 @@ footer .site .lado_a_lado {
 .title {
     display: flex;
     justify-content: center;
-    font-family: "Great Vibes", cursive;
+    font-family: var(--font_titulo);
     font-size: 48pt;
     margin: 5px;
 }
@@ -209,9 +209,8 @@ footer .site .lado_a_lado {
 }
 
 .space {
-    padding: var(--para_separar_a_secoes);
+    padding: 50px;
 }
-
 
 /* Qualidade Especial */
 .qualidade_especial {
@@ -292,7 +291,7 @@ footer .site .lado_a_lado {
 }
 
 
-.sobre_pessoa .site .sobre p {
+.sobre_pessoa .site .sobre p{
     font-size: 18pt;
     font-weight: var(--negrito_normal);
     font-family: var(--para_texto);
@@ -327,16 +326,10 @@ footer .site .lado_a_lado {
 
 .banner_chocolate {
     padding: var(--para_separar_a_secoes);
-
 }
 
-
-
-
-
-
 .banner_chocolate {
-    background-image: url(../img/banner_chocolate.jpg);
+    background-image: url(../img/paralex_chocolate.jpeg);
     background-position: bottom bottom;
     background-size: cover;
     background-attachment: fixed;
@@ -345,6 +338,18 @@ footer .site .lado_a_lado {
     height: 500px;
 }
 
+.box_carousel {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+    height: 400px;
+    color: red;
+    align-items: center;
+}
+.box_carousel div img {
+    width: 320px;
+    height: 320px;
+}
 
 footer {
     padding: var(--para_separar_a_secoes);
