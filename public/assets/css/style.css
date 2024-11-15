@@ -360,22 +360,29 @@ footer .site .lado_a_lado {
 
 .slick-prev {
     left: -90px;
-} 
+}
+
 
 .slick-prev:before, .slick-next:before {
     color: rgb(255, 230, 0);
     font-size: 28pt;
+    
 }
 
-.slick-dots li.slick-active button:before
+.slick-dots li button {
+    font-size: 30pt;
+}
 
 .slick-dots li.slick-active button:before {
-    color: red;
+    color: gold;
+    font-size: 21pt;
+    /* padding: 25px; */
+    /* background-color: red; */
 }
+
 footer {
     padding: var(--para_separar_a_secoes);
     background-color: var(--cor_do_footer);
-
 }
 
 footer .site{
@@ -389,18 +396,14 @@ footer .site .lado_a_lado .logo_footer{
     height: 300px;
 }
 
-
 footer .site .lado_a_lado .contato {
-
     color: white;
     font-family: var(--para_texto);
     display: flex;
     flex-flow: column nowrap;
-   justify-content: start;
-   margin-top: 70px;
-    
+    justify-content: start;
+    margin-top: 70px; 
 }
-
 
 footer .site .lado_a_lado .contato h2 {
     font-size: 34px;
@@ -408,17 +411,14 @@ footer .site .lado_a_lado .contato h2 {
 }
 
 footer .site .lado_a_lado .contato h3{
- font-size: 14pt;
- font-family: var(--para_texto);
- margin-bottom: 22px;
-    
+    font-size: 14pt;
+    font-family: var(--para_texto);
+    margin-bottom: 22px;
 }
 
 footer .site .lado_a_lado .contato img{
     margin-left: 10px;
 }
-
-
 
 footer .site .lado_a_lado .nav_footer{
     display: flex;
@@ -430,24 +430,21 @@ footer .site .lado_a_lado .nav_footer{
     color: white;
 }
 
-
 footer .site .lado_a_lado .nav_footer h2 {
-
-font-size: 32pt;
-margin-bottom: 25px;
+    font-size: 32pt;
+    margin-bottom: 25px;
 }
+
 footer .site .lado_a_lado .nav_footer ul li{
     margin: 17px 0;
 }
+
 footer .site .lado_a_lado .nav_footer ul li a{
     color: white;
     font-size: 18pt;
     font-family: var(--para_texto);
-    font-weight: var(--negrito_normal);
-   
+    font-weight: var(--negrito_normal);   
 }
-
-
 
 footer .site .lado_a_lado .newsletter{
     display: flex;
@@ -460,12 +457,11 @@ footer .site .lado_a_lado .newsletter{
 
 footer .site .lado_a_lado .newsletter h2{
     font-size: 32pt;
-margin-bottom: 25px;
-color: white;
-font-family: var(--para_texto);
-font-weight: normal;
+    margin-bottom: 25px;
+    color: white;
+    font-family: var(--para_texto);
+    font-weight: normal;
 }
-
 
 footer .site .lado_a_lado .newsletter p{
     color: white;
