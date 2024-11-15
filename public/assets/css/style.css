@@ -333,10 +333,14 @@ footer .site .lado_a_lado {
     background-position: bottom bottom;
     background-size: cover;
     background-attachment: fixed;
-    filter: brightness(50%);
-    box-shadow: inset 6px 7px 7px 3px black;
+    filter: brightness(75%);
+    box-shadow: inset 5px 5px 5px 5px black;
     padding: 50px 0;
     height: 500px;
+}
+
+.carousel .title h3{
+    color: gold;
 }
 
 .box_carousel {
@@ -344,18 +348,34 @@ footer .site .lado_a_lado {
     justify-content: space-around;
     margin: 25px;
     height: 400px;
-    color: red;
     align-items: center;
-}
-.box_carousel div img {
-    width: 320px;
-    height: 320px;
+    text-align: center;
 }
 
+.box_carousel div img {
+    width: 330px;
+    height: 330px;
+    display: flex;
+}
+
+.slick-prev {
+    left: -90px;
+} 
+
+.slick-prev:before, .slick-next:before {
+    color: rgb(255, 230, 0);
+    font-size: 28pt;
+}
+
+.slick-dots li.slick-active button:before
+
+.slick-dots li.slick-active button:before {
+    color: red;
+}
 footer {
-    padding: 150px 0;
+    padding: var(--para_separar_a_secoes);
     background-color: var(--cor_do_footer);
-height: 550px;
+
 }
 
 footer .site{
@@ -457,138 +477,13 @@ footer .site .lado_a_lado .newsletter p{
     line-height: 35px;
 }
 
-footer .site .lado_a_lado .newsletter form  input{
+footer .site .lado_a_lado .newsletter input{
     height: 50px;
     width: 220px;
     background-color: var(--cor_do_footer);
     border: 2px solid white;
-    padding-left: 16px;
-    color: white;
-    font-size: 15pt;
-    text-transform: uppercase;
 }
 
-footer .site .lado_a_lado .newsletter form  input::placeholder{
-    font-size: 20px;
-    text-transform: uppercase;
-    color: white;
+footer .site .lado_a_lado .newsletter input::placeholder{
+    padding-left: 20px;
 }
-
-footer .site .lado_a_lado .newsletter form button{
-    width: 105px;
-    height: 54px;
-    background-color: var(--marrom_do_header);
-    border: none;
-    position: relative;
-    right: 10px;
-    bottom: -1px;
-    cursor: pointer;
-    font-size: 18pt;
-    color: white;
-}
-
-footer .site .lado_a_lado .newsletter form button:focus {
-    outline: none;
-}
-
-footer .site .lado_a_lado .newsletter form input:focus {
-    outline: none;
-}
-
-footer .site  .redes_footer{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: end;
-margin-top: 50px;
-}
-
-
-footer .site  .redes_footer img{
-    margin: 0 21px;
-}
-
-footer .site  .hr_footer hr{
-    margin-top:24px ;
-    border: 1px solid white ;
-
-}
-
-footer .site  .hr_footer h2{
-   margin-top: 15pt;
-   color: white;
-   font-family: var(--para_texto);
-   font-size: 16pt;
-   font-weight: var(--negrito_normal);
-}
-
-
-
-
-/* AQUI COMEÇA A GALERIA DO GULOSEIMAS DO OLIMPO */ /* AQUI COMEÇA A GALERIA DO GULOSEIMAS DO OLIMPO */ /* AQUI COMEÇA A GALERIA DO GULOSEIMAS DO OLIMPO */ /* AQUI COMEÇA A GALERIA DO GULOSEIMAS DO OLIMPO */ /* AQUI COMEÇA A GALERIA DO GULOSEIMAS DO OLIMPO */
-
-
-.banner_galeria{
-    background-image: url(../img/banner_galeria.jpg);
-    height: 436px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-   margin-top: 25px;
-  
-}
-
-
-.banner_galeria .site div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 435px;
-    color: white;
-    
-}
-
-.banner_galeria .site div h2{
-    font-size: 120pt;
-    font-weight: var(--negrito_normal);
-    font-family: var(--font_titulo);
-
-}
-
-
-
-
-.fotos_galeria{
-    padding: var(--para_separar_a_secoes);
-}
-
-.fotos_galeria .site .lado_a_lado_galeria {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
-    flex-wrap: wrap;
-    
-}
-
-.fotos_galeria .site .lado_a_lado_galeria .galeria_pd{
-    width: 35%;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-
-}
-
-.fotos_galeria .site .lado_a_lado_galeria .galeria_pd h3{
-    text-align: center;
-    margin-top: 15px;
-    font-family: var(--para_texto);
-    font-size: 25pt;
-    font-weight: var(--negrito_normal);
-    margin-bottom: 114px;
-}
-
-
-
-
-
-
-/* AQUI COMEÇA A GALERIA DO GULOSEIMAS DO OLIMPO */ /* AQUI COMEÇA A GALERIA DO GULOSEIMAS DO OLIMPO */ /* AQUI COMEÇA A GALERIA DO GULOSEIMAS DO OLIMPO */ /* AQUI COMEÇA A GALERIA DO GULOSEIMAS DO OLIMPO */ /* AQUI COMEÇA A GALERIA DO GULOSEIMAS DO OLIMPO */ /* AQUI COMEÇA A GALERIA DO GULOSEIMAS DO OLIMPO */
