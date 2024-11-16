@@ -396,6 +396,10 @@ footer .site .lado_a_lado .logo_footer{
     height: 300px;
 }
 
+footer .site .lado_a_lado .logo_footer img {
+    width: 200px;
+}
+
 footer .site .lado_a_lado .contato {
     color: white;
     font-family: var(--para_texto);
@@ -442,7 +446,7 @@ footer .site .lado_a_lado .nav_footer ul li{
 
 footer .site .lado_a_lado .nav_footer ul li a{
     color: white;
-    font-size: 18pt;
+    font-size: 15pt;
     font-family: var(--para_texto);
     font-weight: var(--negrito_normal);   
 }
@@ -466,7 +470,7 @@ footer .site .lado_a_lado .newsletter h2{
 
 footer .site .lado_a_lado .newsletter p{
     color: white;
-    font-size: 18pt;
+    font-size: 15pt;
     font-family: var(--para_texto);
     font-weight: var(--negrito_normal);
     margin-bottom: 28px;
@@ -487,7 +491,6 @@ footer .site .lado_a_lado .newsletter input{
 footer .site .lado_a_lado .newsletter input::placeholder{
     padding-left: 20px;
 }
-
 
 footer .site .lado_a_lado .newsletter form button{
     background-color: var(--marrom_do_header);
@@ -518,14 +521,15 @@ footer .site .hr_footer {
     font-family: var(--font_links);
 }
 
-
+/* Pag Galeria
+ */
 .banner_galeria{
     background-image: url(../img/banner_galeria.jpg);
     height: 435px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-  margin: 50px 0;
+    margin: 50px 0;
 }
 
 
@@ -562,7 +566,7 @@ footer .site .hr_footer {
     font-weight: var(--negrito_normal);
 }
 
-
+/* Pag Sobre */
 .banner_sobre{
     background-image: url(../img/banner_sobre.jpg);
     height: 500px;
@@ -658,4 +662,30 @@ color: #18764F33;
     font-weight: normal;
     text-align: center;
     line-height: 51px;
+}
+
+.sobre_mim .box_txt .subtitle { 
+    width: 58%;
+    color: #18764F90;
+    display: flex;
+    justify-content: end;
+}
+
+.sobre_mim .txt {
+    font-family: var(--para_texto);
+    font-size: 14pt;
+    padding: 40px;
+}
+
+.sobre_mim .box_txt .subtitle { 
+    width: 58%;
+    color: #18764F90;
+    display: flex;
+    justify-content: end;
+}
+
+.sobre_mim .txt {
+    font-family: var(--para_texto);
+    font-size: 14pt;
+    padding: 40px;
 }
