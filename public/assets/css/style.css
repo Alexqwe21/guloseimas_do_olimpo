@@ -479,12 +479,30 @@ footer .site .lado_a_lado .newsletter input{
     width: 220px;
     background-color: var(--cor_do_footer);
     border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15pt;
 }
 
 footer .site .lado_a_lado .newsletter input::placeholder{
     padding-left: 20px;
 }
+
+
+footer .site .lado_a_lado .newsletter form button{
+    background-color: var(--marrom_do_header);
+    border: none;
+    color: white;
+    height: 54px;
+    position: relative;
+    right: 20px;
+    font-size: 20pt;
+    cursor: pointer;
+    top: 3px;
+}
+
 footer .site .redes_footer {
+    margin-top: 80px;
     display: flex;
     justify-content: end;
 }
@@ -498,4 +516,69 @@ footer .site .hr_footer {
     align-items: center;
     text-align: center;
     font-family: var(--font_links);
+}
+
+
+.banner_galeria{
+    background-image: url(../img/banner_galeria.jpg);
+    height: 435px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  margin: 50px 0;
+}
+
+
+.banner_galeria .site div {
+    display: flex;
+    justify-content: center;
+    height: 435px;
+    align-items: center;
+}
+
+
+.banner_galeria .site div h2{
+    font-size: 80pt;
+    font-family: var(--para_texto);
+    font-weight: var(--negrito_normal);
+    text-align: center;
+    color: white;
+}
+
+
+.fotos_galeria .site .lado_a_lado_galeria{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+
+.fotos_galeria .site .lado_a_lado_galeria .galeria_pd h3{
+    text-align: center;
+    margin-bottom: 115px;
+    margin-top: 15px;
+    font-size: 25pt;
+    font-family: var(--para_texto);
+    font-weight: var(--negrito_normal);
+}
+
+
+.banner_sobre{
+    background-image: url(../img/banner_sobre.jpg);
+    height: 298px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 64px;
+    margin-top: 10px;
+    background-position: bottom center;
+}
+
+.banner_sobre .site .mais_sobre_mim{
+    text-align: center;
+    color: white; font-size: 30pt;
+    
+}
+
+.banner_sobre .site .mais_sobre_mim .sobre{
+    width: 30%;
 }
