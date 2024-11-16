@@ -379,7 +379,7 @@ footer .site .lado_a_lado {
     /* padding: 25px; */
     /* background-color: red; */
 }
-
+/* footer */
 footer {
     padding: var(--para_separar_a_secoes);
     background-color: var(--cor_do_footer);
@@ -403,10 +403,11 @@ footer .site .lado_a_lado .contato {
     flex-flow: column nowrap;
     justify-content: start;
     margin-top: 70px; 
+    
 }
 
 footer .site .lado_a_lado .contato h2 {
-    font-size: 34px;
+    font-size: 28px;
     margin-bottom: 25px;
 }
 
@@ -431,7 +432,7 @@ footer .site .lado_a_lado .nav_footer{
 }
 
 footer .site .lado_a_lado .nav_footer h2 {
-    font-size: 32pt;
+    font-size: 28pt;
     margin-bottom: 25px;
 }
 
@@ -456,7 +457,7 @@ footer .site .lado_a_lado .newsletter{
 
 
 footer .site .lado_a_lado .newsletter h2{
-    font-size: 32pt;
+    font-size: 28pt;
     margin-bottom: 25px;
     color: white;
     font-family: var(--para_texto);
@@ -483,6 +484,18 @@ footer .site .lado_a_lado .newsletter input{
 footer .site .lado_a_lado .newsletter input::placeholder{
     padding-left: 20px;
 }
+footer .site .redes_footer {
+    display: flex;
+    justify-content: end;
+}
 
+footer .site .redes_footer div{
+    margin: 10px;
+}
 
-
+footer .site .hr_footer {
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font_links);
+}
