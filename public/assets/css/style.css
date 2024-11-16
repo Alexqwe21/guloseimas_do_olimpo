@@ -79,7 +79,7 @@ header .site nav ul li a:hover {
 .ben_vindo .site .lado_a_lado,
 .qualidade_especial .site .lado_a_lado,
 .sobre_pessoa .site .lado_a_lado,
-footer .site .lado_a_lado {
+footer .site .lado_a_lado , .quem_sou_eu .site .lado_a_lado {
     display: flex;
     justify-content: space-between;
 }
@@ -565,10 +565,10 @@ footer .site .hr_footer {
 
 .banner_sobre{
     background-image: url(../img/banner_sobre.jpg);
-    height: 298px;
+    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 64px;
+   
     margin-top: 10px;
     background-position: bottom center;
 }
@@ -576,9 +576,86 @@ footer .site .hr_footer {
 .banner_sobre .site .mais_sobre_mim{
     text-align: center;
     color: white; font-size: 30pt;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: center ;
     
 }
 
-.banner_sobre .site .mais_sobre_mim .sobre{
-    width: 30%;
+.banner_sobre .site .mais_sobre_mim  h2{
+    font-size: 100pt;
+    text-transform: uppercase;
+    font-family: var(--para_texto);
+    position: relative;
+    top: 50px;
+}
+
+.banner_sobre .site .mais_sobre_mim  h2::after{
+    content: "Descubra mais";
+    font-size: 50pt;
+    
+    display: block;
+    position: relative;
+    bottom: 185px;
+    right: 162px;
+    font-family: var(--font_titulo);
+    color: #DAA522;
+}
+
+.banner_sobre .site .mais_sobre_mim  h2::before{
+    content: "Mim";
+    font-size: 50pt;
+    position: relative;
+    top: 62px;
+    left: 580px;
+    font-family: var(--font_titulo);
+    color: #DAA522;
+}
+
+
+.quem_sou_eu{
+    padding: var(--para_separar_a_secoes);
+}
+
+
+.quem_sou_eu .site div h3{
+    text-align: center;
+    font-size: 50pt;
+    font-family: var(--para_texto);
+    font-weight: 500;
+}
+
+
+.quem_sou_eu .site div h3::after{
+    content: "SOU EU";
+    position: relative;
+    top:55px;
+    left: -20px;
+color: #18764F33;
+}
+
+
+.quem_sou_eu .site  .lado_a_lado .foto_quem  {
+    margin-top: 90px;
+    background-image: url(../img/cliente_sobre.jpg);
+    height: 600px;
+    width: 500px;
+    background-size: cover;
+    background-color: #FEFBF3;
+    border-radius: 50px;
+}
+
+
+.quem_sou_eu .site  .lado_a_lado div{
+    width: 50%;
+    margin-top: 90px;
+}
+
+.quem_sou_eu .site  .lado_a_lado div p{
+    font-size: 25pt;
+    font-family: var(--para_texto);
+    font-weight: normal;
+    text-align: center;
+    line-height: 51px;
 }
