@@ -277,7 +277,6 @@ footer .site .lado_a_lado , .quem_sou_eu .site .lado_a_lado {
     font-family: var(--para_texto);
 }
 
-
 .sobre_pessoa {
     padding: var(--para_separar_a_secoes);
 }
@@ -289,7 +288,6 @@ footer .site .lado_a_lado , .quem_sou_eu .site .lado_a_lado {
     flex-flow: column nowrap;
     justify-content: center;
 }
-
 
 .sobre_pessoa .site .sobre p{
     font-size: 18pt;
@@ -362,7 +360,6 @@ footer .site .lado_a_lado , .quem_sou_eu .site .lado_a_lado {
     left: -90px;
 }
 
-
 .slick-prev:before, .slick-next:before {
     color: rgb(255, 230, 0);
     font-size: 28pt;
@@ -376,8 +373,6 @@ footer .site .lado_a_lado , .quem_sou_eu .site .lado_a_lado {
 .slick-dots li.slick-active button:before {
     color: gold;
     font-size: 21pt;
-    /* padding: 25px; */
-    /* background-color: red; */
 }
 /* footer */
 footer {
@@ -521,8 +516,7 @@ footer .site .hr_footer {
     font-family: var(--font_links);
 }
 
-/* Pag Galeria
- */
+/* Pag Galeria*/
 .banner_galeria{
     background-image: url(../img/banner_galeria.jpg);
     height: 435px;
@@ -532,14 +526,12 @@ footer .site .hr_footer {
     margin: 50px 0;
 }
 
-
 .banner_galeria .site div {
     display: flex;
     justify-content: center;
     height: 435px;
     align-items: center;
 }
-
 
 .banner_galeria .site div h2{
     font-size: 80pt;
@@ -549,13 +541,11 @@ footer .site .hr_footer {
     color: white;
 }
 
-
 .fotos_galeria .site .lado_a_lado_galeria{
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
 }
-
 
 .fotos_galeria .site .lado_a_lado_galeria .galeria_pd h3{
     text-align: center;
@@ -568,18 +558,18 @@ footer .site .hr_footer {
 
 /* Pag Sobre */
 .banner_sobre{
+    filter: brightness(65%);
     background-image: url(../img/banner_sobre.jpg);
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
-   
     margin-top: 10px;
     background-position: bottom center;
 }
 
 .banner_sobre .site .mais_sobre_mim{
     text-align: center;
-    color: white; font-size: 30pt;
+    color: rgb(255, 255, 255); font-size: 30pt;
     display: flex;
     align-items: center;
     height: 500px;
@@ -598,13 +588,12 @@ footer .site .hr_footer {
 .banner_sobre .site .mais_sobre_mim  h2::after{
     content: "Descubra mais";
     font-size: 50pt;
-    
     display: block;
     position: relative;
     bottom: 185px;
     right: 162px;
     font-family: var(--font_titulo);
-    color: #DAA522;
+    color: #ffbb00;
 }
 
 .banner_sobre .site .mais_sobre_mim  h2::before{
@@ -617,11 +606,9 @@ footer .site .hr_footer {
     color: #DAA522;
 }
 
-
 .quem_sou_eu{
     padding: var(--para_separar_a_secoes);
 }
-
 
 .quem_sou_eu .site div h3{
     text-align: center;
@@ -630,15 +617,13 @@ footer .site .hr_footer {
     font-weight: 500;
 }
 
-
 .quem_sou_eu .site div h3::after{
     content: "SOU EU";
     position: relative;
     top:55px;
     left: -20px;
-color: #18764F33;
+    color: #18764F33;
 }
-
 
 .quem_sou_eu .site  .lado_a_lado .foto_quem  {
     margin-top: 90px;
@@ -650,35 +635,36 @@ color: #18764F33;
     border-radius: 50px;
 }
 
-
 .quem_sou_eu .site  .lado_a_lado div{
     width: 50%;
     margin-top: 90px;
 }
 
 .quem_sou_eu .site  .lado_a_lado div p{
-    font-size: 25pt;
+    font-size: 20pt;
     font-family: var(--para_texto);
     font-weight: normal;
     text-align: center;
     line-height: 51px;
 }
 
-.sobre_mim .box_txt .subtitle { 
-    width: 58%;
-    color: #18764F90;
-    display: flex;
-    justify-content: end;
+.sobre_mim .box_txt .title {
+    font-size: 50pt;
+    font-family: var(--para_texto);
 }
 
 .sobre_mim .txt {
     font-family: var(--para_texto);
-    font-size: 14pt;
     padding: 40px;
 }
 
+.sobre_mim .txt p {
+    font-size: 20pt;
+}
+
 .sobre_mim .box_txt .subtitle { 
-    width: 58%;
+    width: 65%;
+    font-size: 50pt;
     color: #18764F90;
     display: flex;
     justify-content: end;
