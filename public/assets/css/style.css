@@ -79,7 +79,9 @@ header .site nav ul li a:hover {
 .ben_vindo .site .lado_a_lado,
 .qualidade_especial .site .lado_a_lado,
 .sobre_pessoa .site .lado_a_lado,
-footer .site .lado_a_lado , .quem_sou_eu .site .lado_a_lado {
+footer .site .lado_a_lado,
+.quem_sou_eu .site .lado_a_lado,
+.minha_historia .site .lado_a_lado {
     display: flex;
     justify-content: space-between;
 }
@@ -291,7 +293,7 @@ footer .site .lado_a_lado , .quem_sou_eu .site .lado_a_lado {
 }
 
 
-.sobre_pessoa .site .sobre p{
+.sobre_pessoa .site .sobre p {
     font-size: 18pt;
     font-weight: var(--negrito_normal);
     font-family: var(--para_texto);
@@ -339,7 +341,7 @@ footer .site .lado_a_lado , .quem_sou_eu .site .lado_a_lado {
     height: 500px;
 }
 
-.carousel .title h3{
+.carousel .title h3 {
     color: gold;
 }
 
@@ -363,10 +365,11 @@ footer .site .lado_a_lado , .quem_sou_eu .site .lado_a_lado {
 }
 
 
-.slick-prev:before, .slick-next:before {
+.slick-prev:before,
+.slick-next:before {
     color: rgb(255, 230, 0);
     font-size: 28pt;
-    
+
 }
 
 .slick-dots li button {
@@ -379,17 +382,18 @@ footer .site .lado_a_lado , .quem_sou_eu .site .lado_a_lado {
     /* padding: 25px; */
     /* background-color: red; */
 }
+
 /* footer */
 footer {
     padding: var(--para_separar_a_secoes);
     background-color: var(--cor_do_footer);
 }
 
-footer .site{
+footer .site {
     max-width: 1400px;
 }
 
-footer .site .lado_a_lado .logo_footer{
+footer .site .lado_a_lado .logo_footer {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -406,8 +410,8 @@ footer .site .lado_a_lado .contato {
     display: flex;
     flex-flow: column nowrap;
     justify-content: start;
-    margin-top: 70px; 
-    
+    margin-top: 70px;
+
 }
 
 footer .site .lado_a_lado .contato h2 {
@@ -415,17 +419,17 @@ footer .site .lado_a_lado .contato h2 {
     margin-bottom: 25px;
 }
 
-footer .site .lado_a_lado .contato h3{
+footer .site .lado_a_lado .contato h3 {
     font-size: 14pt;
     font-family: var(--para_texto);
     margin-bottom: 22px;
 }
 
-footer .site .lado_a_lado .contato img{
+footer .site .lado_a_lado .contato img {
     margin-left: 10px;
 }
 
-footer .site .lado_a_lado .nav_footer{
+footer .site .lado_a_lado .nav_footer {
     display: flex;
     flex-flow: column nowrap;
     justify-content: start;
@@ -440,18 +444,18 @@ footer .site .lado_a_lado .nav_footer h2 {
     margin-bottom: 25px;
 }
 
-footer .site .lado_a_lado .nav_footer ul li{
+footer .site .lado_a_lado .nav_footer ul li {
     margin: 17px 0;
 }
 
-footer .site .lado_a_lado .nav_footer ul li a{
+footer .site .lado_a_lado .nav_footer ul li a {
     color: white;
     font-size: 15pt;
     font-family: var(--para_texto);
-    font-weight: var(--negrito_normal);   
+    font-weight: var(--negrito_normal);
 }
 
-footer .site .lado_a_lado .newsletter{
+footer .site .lado_a_lado .newsletter {
     display: flex;
     flex-flow: column nowrap;
     justify-content: start;
@@ -460,7 +464,7 @@ footer .site .lado_a_lado .newsletter{
 }
 
 
-footer .site .lado_a_lado .newsletter h2{
+footer .site .lado_a_lado .newsletter h2 {
     font-size: 28pt;
     margin-bottom: 25px;
     color: white;
@@ -468,7 +472,7 @@ footer .site .lado_a_lado .newsletter h2{
     font-weight: normal;
 }
 
-footer .site .lado_a_lado .newsletter p{
+footer .site .lado_a_lado .newsletter p {
     color: white;
     font-size: 15pt;
     font-family: var(--para_texto);
@@ -478,7 +482,7 @@ footer .site .lado_a_lado .newsletter p{
     line-height: 35px;
 }
 
-footer .site .lado_a_lado .newsletter input{
+footer .site .lado_a_lado .newsletter input {
     height: 50px;
     width: 220px;
     background-color: var(--cor_do_footer);
@@ -488,11 +492,11 @@ footer .site .lado_a_lado .newsletter input{
     font-size: 15pt;
 }
 
-footer .site .lado_a_lado .newsletter input::placeholder{
+footer .site .lado_a_lado .newsletter input::placeholder {
     padding-left: 20px;
 }
 
-footer .site .lado_a_lado .newsletter form button{
+footer .site .lado_a_lado .newsletter form button {
     background-color: var(--marrom_do_header);
     border: none;
     color: white;
@@ -510,7 +514,7 @@ footer .site .redes_footer {
     justify-content: end;
 }
 
-footer .site .redes_footer div{
+footer .site .redes_footer div {
     margin: 10px;
 }
 
@@ -523,7 +527,7 @@ footer .site .hr_footer {
 
 /* Pag Galeria
  */
-.banner_galeria{
+.banner_galeria {
     background-image: url(../img/banner_galeria.jpg);
     height: 435px;
     background-repeat: no-repeat;
@@ -541,7 +545,7 @@ footer .site .hr_footer {
 }
 
 
-.banner_galeria .site div h2{
+.banner_galeria .site div h2 {
     font-size: 80pt;
     font-family: var(--para_texto);
     font-weight: var(--negrito_normal);
@@ -550,14 +554,14 @@ footer .site .hr_footer {
 }
 
 
-.fotos_galeria .site .lado_a_lado_galeria{
+.fotos_galeria .site .lado_a_lado_galeria {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
 }
 
 
-.fotos_galeria .site .lado_a_lado_galeria .galeria_pd h3{
+.fotos_galeria .site .lado_a_lado_galeria .galeria_pd h3 {
     text-align: center;
     margin-bottom: 115px;
     margin-top: 15px;
@@ -567,27 +571,28 @@ footer .site .hr_footer {
 }
 
 /* Pag Sobre */
-.banner_sobre{
+.banner_sobre {
     background-image: url(../img/banner_sobre.jpg);
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
-   
+
     margin-top: 10px;
     background-position: bottom center;
 }
 
-.banner_sobre .site .mais_sobre_mim{
+.banner_sobre .site .mais_sobre_mim {
     text-align: center;
-    color: white; font-size: 30pt;
+    color: white;
+    font-size: 30pt;
     display: flex;
     align-items: center;
     height: 500px;
-    justify-content: center ;
-    
+    justify-content: center;
+
 }
 
-.banner_sobre .site .mais_sobre_mim  h2{
+.banner_sobre .site .mais_sobre_mim h2 {
     font-size: 100pt;
     text-transform: uppercase;
     font-family: var(--para_texto);
@@ -595,10 +600,10 @@ footer .site .hr_footer {
     top: 50px;
 }
 
-.banner_sobre .site .mais_sobre_mim  h2::after{
+.banner_sobre .site .mais_sobre_mim h2::after {
     content: "Descubra mais";
     font-size: 50pt;
-    
+
     display: block;
     position: relative;
     bottom: 185px;
@@ -607,7 +612,7 @@ footer .site .hr_footer {
     color: #DAA522;
 }
 
-.banner_sobre .site .mais_sobre_mim  h2::before{
+.banner_sobre .site .mais_sobre_mim h2::before {
     content: "Mim";
     font-size: 50pt;
     position: relative;
@@ -618,12 +623,18 @@ footer .site .hr_footer {
 }
 
 
-.quem_sou_eu{
+.quem_sou_eu,
+.minha_historia,
+.meus_servicos,
+.carrosel_produtos,.especialidades {
     padding: var(--para_separar_a_secoes);
 }
 
 
-.quem_sou_eu .site div h3{
+.quem_sou_eu .site div h3,
+.minha_historia .site div h3,
+.meus_servicos .site h3,
+.carrosel_produtos .site h3 , .especialidades .site h3 {
     text-align: center;
     font-size: 50pt;
     font-family: var(--para_texto);
@@ -631,16 +642,35 @@ footer .site .hr_footer {
 }
 
 
-.quem_sou_eu .site div h3::after{
+.quem_sou_eu .site div h3::after,
+.minha_historia .site div h3::after,
+.meus_servicos .site div h3::after, .carrosel_produtos .site div h3::after,.especialidades .site h3::after {
     content: "SOU EU";
     position: relative;
-    top:55px;
+    top: 55px;
     left: -20px;
-color: #18764F33;
+    color: #18764F33;
 }
 
 
-.quem_sou_eu .site  .lado_a_lado .foto_quem  {
+.minha_historia .site div h3::after {
+    content: "HISTORIA";
+}
+
+.meus_servicos .site div h3::after {
+    content: "SERVIÇOS";
+}
+
+.carrosel_produtos .site div h3::after{
+    content: "PERSONALIZADOS";
+}
+
+.especialidades .site h3::after{
+    content: "ESPECIALIDADES";
+}
+
+.quem_sou_eu .site .lado_a_lado .foto_quem,
+.minha_historia .site .lado_a_lado .foto_quem {
     margin-top: 90px;
     background-image: url(../img/cliente_sobre.jpg);
     height: 600px;
@@ -651,12 +681,19 @@ color: #18764F33;
 }
 
 
-.quem_sou_eu .site  .lado_a_lado div{
+.minha_historia .site .lado_a_lado .foto_quem {
+    background-image: url(../img/produto_sobre.jpg);
+}
+
+
+.quem_sou_eu .site .lado_a_lado div,
+.minha_historia .site .lado_a_lado div {
     width: 50%;
     margin-top: 90px;
 }
 
-.quem_sou_eu .site  .lado_a_lado div p{
+.quem_sou_eu .site .lado_a_lado div p,
+.minha_historia .site .lado_a_lado div p {
     font-size: 25pt;
     font-family: var(--para_texto);
     font-weight: normal;
@@ -664,7 +701,39 @@ color: #18764F33;
     line-height: 51px;
 }
 
-.sobre_mim .box_txt .subtitle { 
+
+.minha_historia .site .lado_a_lado .foto_quem {
+    order: 1;
+}
+
+
+
+.meus_servicos .site .lado_a_lado div {
+    margin-top: 100px;
+}
+
+.meus_servicos .site .lado_a_lado div p {
+    font-size: 24pt;
+    font-family: var(--para_texto);
+    text-align: center;
+    line-height: 50px;
+}
+
+.carrosel_produtos .site .produtos_carrosel{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.carrosel_produtos .site .produtos_carrosel img{
+    margin-left: 250px;
+}
+
+
+
+.sobre_mim .box_txt .subtitle {
     width: 58%;
     color: #18764F90;
     display: flex;
@@ -677,7 +746,7 @@ color: #18764F33;
     padding: 40px;
 }
 
-.sobre_mim .box_txt .subtitle { 
+.sobre_mim .box_txt .subtitle {
     width: 58%;
     color: #18764F90;
     display: flex;
@@ -688,4 +757,9 @@ color: #18764F33;
     font-family: var(--para_texto);
     font-size: 14pt;
     padding: 40px;
+}
+
+
+.especialidades .site  .especialidade_produto{
+    width: 50%;
 }
