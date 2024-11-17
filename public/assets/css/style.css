@@ -37,7 +37,7 @@ body {
     --marrom_do_header: #985C41;
     --para_separar_a_secoes: 100px 0;
     --fundo_verde_secao: rgba(230, 234, 225, 0.5);
-
+    --cor_de_fundo_produto_a_mostra: #F7EDE3;
     --cor_da_fonte: #241810;
     --cor_do_footer: #0B3222;
 }
@@ -81,7 +81,8 @@ header .site nav ul li a:hover {
 .sobre_pessoa .site .lado_a_lado,
 footer .site .lado_a_lado,
 .quem_sou_eu .site .lado_a_lado,
-.minha_historia .site .lado_a_lado,.especialidades .site .lado_a_lado {
+.minha_historia .site .lado_a_lado,
+.especialidades .site .lado_a_lado , .produtos .site .lado_a_lado {
     display: flex;
     justify-content: space-between;
 }
@@ -522,7 +523,8 @@ footer .site .hr_footer {
 
 /* Pag Galeria
  */
-.banner_galeria {
+.banner_galeria,
+.banner_produtos {
     background-image: url(../img/banner_galeria.jpg);
     height: 435px;
     background-repeat: no-repeat;
@@ -531,7 +533,8 @@ footer .site .hr_footer {
     margin: 50px 0;
 }
 
-.banner_galeria .site div {
+.banner_galeria .site div,
+.banner_produtos .site div {
     display: flex;
     justify-content: center;
     height: 435px;
@@ -539,7 +542,8 @@ footer .site .hr_footer {
 }
 
 
-.banner_galeria .site div h2 {
+.banner_galeria .site div h2,
+.banner_produtos .site div h2 {
     font-size: 80pt;
     font-family: var(--para_texto);
     font-weight: var(--negrito_normal);
@@ -547,6 +551,9 @@ footer .site .hr_footer {
     color: white;
 }
 
+.banner_produtos .site div h2 {
+    font-size: 70pt;
+}
 
 .fotos_galeria .site .lado_a_lado_galeria {
     display: flex;
@@ -619,7 +626,8 @@ footer .site .hr_footer {
 .quem_sou_eu,
 .minha_historia,
 .meus_servicos,
-.carrosel_produtos,.especialidades {
+.carrosel_produtos,
+.especialidades {
     padding: var(--para_separar_a_secoes);
 }
 
@@ -627,7 +635,8 @@ footer .site .hr_footer {
 .quem_sou_eu .site div h3,
 .minha_historia .site div h3,
 .meus_servicos .site h3,
-.carrosel_produtos .site h3 , .especialidades .site h3 {
+.carrosel_produtos .site h3,
+.especialidades .site h3 {
     text-align: center;
     font-size: 50pt;
     font-family: var(--para_texto);
@@ -637,7 +646,9 @@ footer .site .hr_footer {
 
 .quem_sou_eu .site div h3::after,
 .minha_historia .site div h3::after,
-.meus_servicos .site div h3::after, .carrosel_produtos .site div h3::after,.especialidades .site h3::after {
+.meus_servicos .site div h3::after,
+.carrosel_produtos .site div h3::after,
+.especialidades .site h3::after {
     content: "SOU EU";
     position: relative;
     top: 55px;
@@ -655,11 +666,11 @@ footer .site .hr_footer {
     content: "SERVIÇOS";
 }
 
-.carrosel_produtos .site div h3::after{
+.carrosel_produtos .site div h3::after {
     content: "PERSONALIZADOS";
 }
 
-.especialidades .site h3::after{
+.especialidades .site h3::after {
     content: "ESPECIALIDADES";
 }
 
@@ -713,15 +724,15 @@ footer .site .hr_footer {
     line-height: 50px;
 }
 
-.carrosel_produtos .site .produtos_carrosel{
+.carrosel_produtos .site .produtos_carrosel {
     margin-top: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.carrosel_produtos .site .produtos_carrosel img{
+.carrosel_produtos .site .produtos_carrosel img {
     margin-left: 250px;
 }
 
@@ -749,7 +760,7 @@ footer .site .hr_footer {
     line-height: 51px;
 }
 
-.sobre_mim .box_txt .subtitle { 
+.sobre_mim .box_txt .subtitle {
     width: 65%;
     font-weight: 500;
     font-size: 50pt;
@@ -775,11 +786,11 @@ footer .site .hr_footer {
     padding: 40px;
 }
 
-.minha_historia  .txt p {
+.minha_historia .txt p {
     font-size: 20pt;
 }
 
-.minha_historia .box_txt .subtitle { 
+.minha_historia .box_txt .subtitle {
     width: 80%;
     font-weight: 500;
     font-size: 50pt;
@@ -794,7 +805,7 @@ footer .site .hr_footer {
     padding: 40px;
 }
 
-.minha_historia .site .lado_a_lado .foto_quem  {
+.minha_historia .site .lado_a_lado .foto_quem {
     margin-top: 90px;
     background-image: url(../img/minha_historia.svg);
     height: 600px;
@@ -806,16 +817,16 @@ footer .site .hr_footer {
 
 .minha_historia .site .lado_a_lado {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
-.minha_historia .site .lado_a_lado div{
+.minha_historia .site .lado_a_lado div {
     width: 50%;
     margin-top: 90px;
-    
+
 }
 
-.minha_historia .site .lado_a_lado div p{
+.minha_historia .site .lado_a_lado div p {
     font-size: 20pt;
     font-family: var(--para_texto);
     font-weight: normal;
@@ -823,17 +834,17 @@ footer .site .hr_footer {
     line-height: 51px;
 }
 
-.especialidades .site .lado_a_lado{
+.especialidades .site .lado_a_lado {
     flex-wrap: wrap;
 }
 
-.especialidades .site  .especialidade_produto{
+.especialidades .site .especialidade_produto {
     width: 50%;
     margin-top: 50px;
 }
 
 
-.especialidades .site  .especialidade_produto .pd{
+.especialidades .site .especialidade_produto .pd {
 
     display: flex;
     flex-flow: column wrap;
@@ -842,7 +853,7 @@ footer .site .hr_footer {
 }
 
 
-.especialidades .site .especialidade_informacoes{
+.especialidades .site .especialidade_informacoes {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -861,9 +872,217 @@ footer .site .hr_footer {
 }
 
 
-.especialidades .site .especialidade_informacoes p{
+.especialidades .site .especialidade_informacoes p {
     text-align: center;
     font-size: 17pt;
     font-family: var(--para_texto);
     line-height: 35px;
 }
+
+
+
+
+
+/* FILTRO DE PREÇO */
+
+
+
+
+.filtro-de-preco ul {
+
+    width: 270px;
+    height: 620px;
+
+    border-radius: 20px;
+}
+
+
+.filtro-de-preco ul div:nth-child(2) {
+
+    position: relative;
+    height: 30px;
+    width: 101%;
+}
+
+
+.filtro-de-preco ul div:nth-child(2)::before,
+.filtro-de-preco ul div:nth-child(2)::after {
+
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #e1c396;
+    border-radius: 50%;
+    top: 3px;
+}
+
+
+.filtro-de-preco ul div:nth-child(2)::after {
+
+    right: 12px;
+}
+
+.filtro-de-preco ul div:nth-child(2) .escolher-valor {
+
+    appearance: none;
+    -webkit-appearance: none;
+    width: 95%;
+    height: 4px;
+    background-color: #e1c396;
+    outline: none;
+    opacity: 0.9;
+    border-radius: 2px;
+
+
+}
+
+.filtro-de-preco ul div:nth-child(2) .escolher-valor::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #e1c396;
+}
+
+.filtro-de-preco ul div:nth-child(2) .escolher-valor::-moz-range-thumb {
+
+
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+
+.filtro-de-preco div:nth-child(1) {
+
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.filtro-de-preco div:nth-child(1) h4 {
+
+    font-size: 19pt;
+    font-family: var(--para_texto);
+    font-weight: var(--negrito_normal);
+
+
+}
+
+
+.filtro-de-preco div:nth-child(2) p {
+
+    font-size: 12pt;
+    font-family: var(--para_texto);
+    font-weight: var(--negrito_normal);
+    margin: 30px 0;
+}
+
+
+.filtro-de-preco div:nth-child(2) button {
+    border: none;
+    background: none;
+
+
+}
+
+
+.filtro-de-preco div:nth-child(2) button img {
+
+    height: 56px;
+    width: 173px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+
+.filtro-de-preco div:nth-child(2) h3 {
+
+    font-size: 25px;
+
+    margin-bottom: 10px;
+
+
+}
+
+.filtro-de-preco div:nth-child(2) li {
+
+
+    margin-left: 30px;
+}
+
+.filtro-de-preco div:nth-child(2) li p {
+
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.filtro-de-preco div:nth-child(2) li p:hover {
+    color: #E1C28C;
+}
+
+.filtro-de-preco div:nth-child(2) hr {
+    margin-left: 10px;
+    width: 95%;
+    border: 1px solid #463C4B;
+}
+
+
+.produtos .site .tamanho_link{
+    width: 260px;
+    height: 300px;
+}
+
+.produtos .site .tamanho_link  a{
+    color: black;
+}
+
+
+.produtos .site .tamanho_link  a .produto_a_mostra {
+    width: 260px;
+    height: 250px;
+    background-color:var(--cor_de_fundo_produto_a_mostra) ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.produtos .site .tamanho_link  a  .preco_produto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.produtos .site .tamanho_link  a  .preco_produto h3{
+    font-size: 19pt;
+    font-family: var(--para_texto);
+    font-weight: var(--negrito_normal);
+   margin: 10px  0 ;
+}
+
+.produtos .site .tamanho_link  a  .preco_produto p{
+    font-size: 15pt;
+    font-family: var(--para_texto);
+    font-weight: var(--negrito_normal);
+}
+ 
+
+
+/* FILTRO DE PREÇO */

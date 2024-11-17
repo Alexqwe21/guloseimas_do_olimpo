@@ -8,8 +8,9 @@
     <meta name="author" content="©SenaCria">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Compatibilidade com o EDGE -->
     <link rel="shortcut icon" href="public/assets/img/logo_header.svg" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="public/assets/css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="public/assets/css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="public/vendors/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="public/vendors/slick/slick-theme.css" />
+
     <link rel="stylesheet" href="public/assets/css/style.css">
     <link rel="stylesheet" href="public/assets/css/reset.css">
 </head>
@@ -39,71 +40,129 @@
 
     <main>
 
-        <section class="banner_galeria">
+        <section class="banner_produtos">
             <article class="site">
                 <div>
-                    <h2>Galleria</h2>
+                    <h2>Encomende seu produto</h2>
                 </div>
             </article>
         </section>
 
-        <section class="fotos_galeria">
+        <section class="produtos">
             <article class="site">
-                <div class="lado_a_lado_galeria">
+                <div class="lado_a_lado">
 
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
+
+                    <div class="filtro-de-preco">
+                        <ul>
+                            <div>
+                                <h4>Filtrar por preço</h4>
+                            </div>
+                            <div>
+                                <input type="range" min="0" max="1000" value="250" class="escolher-valor"
+                                    id="escolher-valor">
+
+                                <p>Preço : R$ 0 - R$ 140</p>
+
+                                <!-- <button><img src="img/filtrar.svg" alt="filtro"></button> -->
+
+
+                                <h3>Filtrar por categoria</h3>
+                                <li>
+                                    <p>Produto-01</p>
+                                </li>
+
+
+                                <li>
+                                    <p>Produto-02</p>
+                                </li>
+
+
+                                <li>
+                                    <p>Produto-03</p>
+                                </li>
+
+
+                                <li>
+                                    <p>Produto-04</p>
+                                </li>
+
+
+                                <li>
+                                    <p>Produto-05</p>
+                                </li>
+
+
+                                <li>
+                                    <p>Produto-06</p>
+                                </li>
+
+
+                                <li>
+                                    <p>Produto-06</p>
+                                </li>
+
+
+                                <li>
+                                    <p>Produto-07</p>
+                                </li>
+
+
+
+                            </div>
+
+
+
+
+
+
+
+
+                        </ul>
+
                     </div>
 
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
+                    <div class="tamanho_link">
+                        <a href="#">
+                            <div class="produto_a_mostra">
+                                <img src="public/assets/img/produto_a_mostra-01.svg" alt="produto">
+                                <button><img src="public/assets/img/adicionar_favoritos.svg"
+                                        alt="adicionar_favoritos"></button>
+                            </div>
+                            <div class="preco_produto">
+                                <h3>Produto-01</h3>
+                                <p>R$30,00 - $80,00</p>
+                            </div>
+                        </a>
                     </div>
 
-                </div>
-
-                <div class="lado_a_lado_galeria">
-
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
+                    <div class="tamanho_link">
+                        <a href="#">
+                            <div class="produto_a_mostra">
+                                <img src="public/assets/img/produto_a_mostra-01.svg" alt="produto">
+                                <button><img src="public/assets/img/adicionar_favoritos.svg"
+                                        alt="adicionar_favoritos"></button>
+                            </div>
+                            <div class="preco_produto">
+                                <h3>Produto-01</h3>
+                                <p>R$30,00 - $80,00</p>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
+                    <div class="tamanho_link">
+                        <a href="#">
+                            <div class="produto_a_mostra">
+                                <img src="public/assets/img/produto_a_mostra-01.svg" alt="produto">
+                                <button><img src="public/assets/img/adicionar_favoritos.svg"
+                                        alt="adicionar_favoritos"></button>
+                            </div>
+                            <div class="preco_produto">
+                                <h3>Produto-01</h3>
+                                <p>R$30,00 - $80,00</p>
+                            </div>
+                        </a>
                     </div>
-
-                </div>
-
-                <div class="lado_a_lado_galeria">
-
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
-                    </div>
-
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
-                    </div>
-
-                </div>
-
-
-                <div class="lado_a_lado_galeria">
-
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
-                    </div>
-
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
-                    </div>
-
                 </div>
 
             </article>
@@ -185,9 +244,9 @@
 
     <script src="https://kit.fontawesome.com/a327b26a99.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-3.4.0.min.js"></script>
-    <script type="text/javascript" src="public/assets/js/slick.min.js"></script>
-
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="public/vendors/slick/slick.min.js"></script>
+    <script type="text/javascript" src="public/assets/js/animacao.js"></script>
 </body>
 
 </html>
