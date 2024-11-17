@@ -763,3 +763,13 @@ footer .site .hr_footer {
 .especialidades .site  .especialidade_produto{
     width: 50%;
 }
+
+
+.especialidades .site .especialidade_informacoes{
+    width: 50%;
+ 
+}
+
+.especialidades .site .especialidade_informacoes h4{
+    text-align: center;
+}
