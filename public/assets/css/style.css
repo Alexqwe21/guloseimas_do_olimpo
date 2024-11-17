@@ -81,7 +81,7 @@ header .site nav ul li a:hover {
 .sobre_pessoa .site .lado_a_lado,
 footer .site .lado_a_lado,
 .quem_sou_eu .site .lado_a_lado,
-.minha_historia .site .lado_a_lado {
+.minha_historia .site .lado_a_lado,.especialidades .site .lado_a_lado {
     display: flex;
     justify-content: space-between;
 }
@@ -823,16 +823,47 @@ footer .site .hr_footer {
     line-height: 51px;
 }
 
+.especialidades .site .lado_a_lado{
+    flex-wrap: wrap;
+}
 
 .especialidades .site  .especialidade_produto{
     width: 50%;
+    margin-top: 50px;
+}
+
+
+.especialidades .site  .especialidade_produto .pd{
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 50px;
 }
 
 
 .especialidades .site .especialidade_informacoes{
-    width: 50%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .especialidades .site .especialidade_informacoes h4 {
     text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-family: var(--para_texto);
+    font-weight: bold;
+}
+
+
+.especialidades .site .especialidade_informacoes p{
+    text-align: center;
+    font-size: 17pt;
+    font-family: var(--para_texto);
+    line-height: 35px;
 }
