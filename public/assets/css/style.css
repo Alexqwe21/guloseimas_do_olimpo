@@ -279,7 +279,6 @@ footer .site .lado_a_lado,
     font-family: var(--para_texto);
 }
 
-
 .sobre_pessoa {
     padding: var(--para_separar_a_secoes);
 }
@@ -291,7 +290,6 @@ footer .site .lado_a_lado,
     flex-flow: column nowrap;
     justify-content: center;
 }
-
 
 .sobre_pessoa .site .sobre p {
     font-size: 18pt;
@@ -364,7 +362,6 @@ footer .site .lado_a_lado,
     left: -90px;
 }
 
-
 .slick-prev:before,
 .slick-next:before {
     color: rgb(255, 230, 0);
@@ -379,8 +376,6 @@ footer .site .lado_a_lado,
 .slick-dots li.slick-active button:before {
     color: gold;
     font-size: 21pt;
-    /* padding: 25px; */
-    /* background-color: red; */
 }
 
 /* footer */
@@ -536,7 +531,6 @@ footer .site .hr_footer {
     margin: 50px 0;
 }
 
-
 .banner_galeria .site div {
     display: flex;
     justify-content: center;
@@ -609,7 +603,7 @@ footer .site .hr_footer {
     bottom: 185px;
     right: 162px;
     font-family: var(--font_titulo);
-    color: #DAA522;
+    color: #ffbb00;
 }
 
 .banner_sobre .site .mais_sobre_mim h2::before {
@@ -650,6 +644,7 @@ footer .site .hr_footer {
     top: 55px;
     left: -20px;
     color: #18764F33;
+    color: #18764F33;
 }
 
 
@@ -679,7 +674,6 @@ footer .site .hr_footer {
     background-color: #FEFBF3;
     border-radius: 50px;
 }
-
 
 .minha_historia .site .lado_a_lado .foto_quem {
     background-image: url(../img/produto_sobre.jpg);
@@ -742,8 +736,11 @@ footer .site .hr_footer {
 
 .sobre_mim .txt {
     font-family: var(--para_texto);
-    font-size: 14pt;
     padding: 40px;
+}
+
+.sobre_mim .txt p {
+    font-size: 20pt;
 }
 
 .sobre_mim .box_txt .subtitle {
