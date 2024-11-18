@@ -964,7 +964,7 @@ footer .site .hr_footer {
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    
 
 }
 
@@ -1029,7 +1029,7 @@ footer .site .hr_footer {
     font-weight: 500;
     cursor: pointer;
     margin-bottom: 10px;
-    text-align: center;
+   
 }
 
 .filtro-de-preco div:nth-child(2) li p:hover {
@@ -1043,9 +1043,19 @@ footer .site .hr_footer {
 }
 
 
+
+
+
+.produtos .site .lado_a_lado .wrap{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
 .produtos .site .tamanho_link{
     width: 260px;
     height: 300px;
+    margin-bottom: 50px;
 }
 
 .produtos .site .tamanho_link  a{
@@ -1081,6 +1091,25 @@ footer .site .hr_footer {
     font-size: 15pt;
     font-family: var(--para_texto);
     font-weight: var(--negrito_normal);
+}
+
+.produtos .site .tamanho_link  a  .preco_produto button{
+    position: relative;
+    bottom: 290px;
+    left: 80px;
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.produtos .site .tamanho_link  a  .preco_produto button:hover{
+    transform: scale(1.5);
+}
+
+.produtos .site .tamanho_link  a  .preco_produto button img{
+    
 }
  
 
