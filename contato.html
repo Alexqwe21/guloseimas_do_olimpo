@@ -8,8 +8,9 @@
     <meta name="author" content="©SenaCria">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Compatibilidade com o EDGE -->
     <link rel="shortcut icon" href="public/assets/img/logo_header.svg" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="public/assets/css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="public/assets/css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="public/vendors/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="public/vendors/slick/slick-theme.css" />
+
     <link rel="stylesheet" href="public/assets/css/style.css">
     <link rel="stylesheet" href="public/assets/css/reset.css">
 </head>
@@ -40,75 +41,92 @@
 
     <main>
 
-        <section class="banner_galeria">
+        <section class="banner_contato">
             <article class="site">
                 <div>
-                    <h2>Galleria</h2>
+                    <h2>Contato</h2>
                 </div>
             </article>
         </section>
 
-        <section class="fotos_galeria">
+        <section class="contato">
             <article class="site">
-                <div class="lado_a_lado_galeria">
+                <div class=" lado_a_lado">
 
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
+
+                    <div class="detalhes_de_contato">
+                        <h2>Detalhes de contato</h2>
+                        <p>Rua 785 15h, Escritór Berlim, De 81566</p>
+                        <p>info@email.com</p>
+                        <p>+1 800 555 25 69</p>
+
+
+                        <div class="redes_contato">
+                            <a href="#" target="_blank"><img src="public/assets/img/facebook_contato.svg" alt="img"></a>
+                            <a href="#" target="_blank"> <img src="public/assets/img/twiter_contato.svg" alt="img"></a>
+                            <a href="#" target="_blank"> <img src="public/assets/img/instagram_contato.svg"
+                                    alt="img"></a>
+                        </div>
+
                     </div>
 
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
-                    </div>
+                    <div class="forms_contato">
+                        <form action="" method="post">
+                            <div class="nome">
+                                <label for="nome"> <img src="public/assets/img/user_forms.svg" alt="user"></label>
+                                <input type="tex" name="nome" id="nome" placeholder="NOME" required>
 
+                                <div class="email">
+                                    <label for="email"> <img src="public/assets/img/email_forms.svg"
+                                            alt="telefone"></label>
+                                    <input type="email" name="email" id="email" placeholder="EMAIL" required>
+                                </div>
+
+                            </div>
+
+                            <div class="telefone">
+                                <label for="tel"> <img src="public/assets/img/telefone_forms.svg"
+                                        alt="telefone"></label>
+                                <input type="tel" name="tel" id="tel" placeholder="TELEFONE" required>
+
+
+                                <div class="assunto">
+                                    <label for="assunto"> <img src="public/assets/img/assunto_forms.svg"
+                                            alt="assunto"></label>
+                                    <input type="text" name="assunto" id="assunto" placeholder="ASSUNTO" required>
+
+                                </div>
+
+                            </div>
+
+                            <div class="textarea_forms">
+                                <label for="ajudar"></label>
+                                <div class="como_ajudar">
+                                    <img src="public/assets/img/lapis_forms.svg" alt="lapis">
+                                    <p>Como podemos ajudar voce ? Sinta-se a vontade para entrar em contato!</p>
+                                </div>
+                                <textarea name="ajudar" id="ajudar" cols="30" rows="10">
+
+                           </textarea>
+
+                            </div>
+
+
+                            <div class="button_forms">
+
+                                <button type="submit"><img src="public/assets/img/enviar_froms.svg" alt="enviar">Entre em contato</button>
+                            </div>
+
+                        </form>
+
+
+                    </div>
                 </div>
-
-                <div class="lado_a_lado_galeria">
-
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
-                    </div>
-
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
-                    </div>
-
-                </div>
-
-                <div class="lado_a_lado_galeria">
-
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
-                    </div>
-
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
-                    </div>
-
-                </div>
-
-
-                <div class="lado_a_lado_galeria">
-
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
-                    </div>
-
-                    <div class="galeria_pd">
-                        <a href="#"><img src="public/assets/img/produto_galeria_1.jpg" alt="foto_galeria"></a>
-                        <h3>Brigadeiro</h3>
-                    </div>
-
-                </div>
-
             </article>
         </section>
+
+
+
 
 
     </main>
@@ -186,9 +204,9 @@
 
     <script src="https://kit.fontawesome.com/a327b26a99.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-3.4.0.min.js"></script>
-    <script type="text/javascript" src="public/assets/js/slick.min.js"></script>
-
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="public/vendors/slick/slick.min.js"></script>
+    <script type="text/javascript" src="public/assets/js/animacao.js"></script>
 </body>
 
 </html>
