@@ -1343,7 +1343,19 @@ footer .site .hr_footer {
     height: 40px;
     border: none;
     margin: 5px;
+    cursor: pointer;
 }
+
+.tipos_personalizacoes button:hover{
+    transition: 0.5s ease;
+    transform: scale(1.2);
+}
+
+.tipos_personalizacoes button::after{
+    transition: 0.5s ease;
+    transform: scale(1.2);
+}
+
 
 .tipos_personalizacoes :nth-child(1){
     background-color: #976E6E;
@@ -1361,3 +1373,20 @@ footer .site .hr_footer {
 .reserva_title div:nth-child(4) {
     color: red;
 }
+
+.reserva_acoes :nth-child(1){
+    background-color: red;
+    width: 200px;    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.reserva_acoes button{
+    
+    justify-content: space-between;
+    align-items: end;
+    text-align: center;
+    height: 50px;
+}
+
