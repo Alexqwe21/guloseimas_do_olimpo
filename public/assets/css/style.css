@@ -1044,7 +1044,9 @@ footer .site .hr_footer {
 
 
 
-
+.produtos .site{
+    max-width: 1400px;
+}
 
 .produtos .site .lado_a_lado .wrap{
     display: flex;
@@ -1108,10 +1110,25 @@ footer .site .hr_footer {
     transform: scale(1.5);
 }
 
-.produtos .site .tamanho_link  a  .preco_produto button img{
-    
-}
- 
+
+
 
 
 /* FILTRO DE PREÇO */
+
+.veja_mais{
+    padding: var(--para_separar_a_secoes);
+}
+
+
+
+.veja_mais .site div{
+   display: flex;
+   justify-content: center;
+}
+
+.veja_mais .site div button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;    
+}
