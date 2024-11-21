@@ -1494,6 +1494,10 @@ footer .site .hr_footer {
     align-items: center;
 }
 
+.login_contato .site .forms_contato .nome .email input:focus{
+    outline: none;
+}
+
 
 
 .login_contato .site .forms_contato .nome .email label img {
@@ -1534,6 +1538,10 @@ footer .site .hr_footer {
     margin-right: 50px;
 }
 
+.email_entrar input:focus{
+    outline: none;
+}
+
 
 .forms_contato form .nome_entrar a{
     color: #985C41;
@@ -1567,6 +1575,18 @@ footer .site .hr_footer {
    margin-right: 25px;
    
 }
+
+
+.forms_contato form .nome_entrar  .lembrar input:focus{
+    outline: none;
+  
+}
+
+
+
+
+
+
 
 /* tela login */
 /* tela login */
