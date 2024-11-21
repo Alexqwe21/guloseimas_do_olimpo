@@ -1361,3 +1361,63 @@ footer .site .hr_footer {
 .reserva_title div:nth-child(4) {
     color: red;
 }
+
+
+
+.localizacao_contato iframe{
+   width: 100%;
+   
+}
+
+.fotos_contato  {
+    display: flex; /* Alinha os itens lado a lado */
+    flex-wrap: nowrap; /* Impede quebra de linha */
+    justify-content: space-between; /* Ajusta o espaço entre as imagens */
+  
+    background-color: transparent; /* Certifica que não há fundo */
+    padding: 0;
+    margin: 0;
+}
+
+.fotos_contato  .site{
+    max-width: 1400px;
+}
+
+
+.produtos_contato {
+    display: flex; 
+    gap: 0; /* Remove o espaçamento entre as imagens */
+   
+    flex-wrap: nowrap; /* Impede quebra de linha */
+    justify-content: space-between; /* Ajusta o espaço entre as imagens */
+}
+
+.produtos_contato img {
+    width: calc(100% / 6); 
+    height: auto; /* Ajusta conforme necessário */
+    margin: 0; /* Remove margens externas */
+    border: 0; /* Remove bordas (se houver) */
+    box-sizing: border-box; /* Garante que bordas/margens sejam incluídas no tamanho */
+}
+
+
+
+.instagram_contato{
+    width: 300px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #0B3222;
+    position: relative;
+    right: 670px;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.instagram_contato img{
+    width: 35px;
+   margin-top: 3px;
+}
