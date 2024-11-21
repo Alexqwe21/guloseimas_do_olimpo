@@ -1055,7 +1055,9 @@ footer .site .hr_footer {
 
 
 
-
+.produtos .site{
+    max-width: 1400px;
+}
 
 .produtos .site .lado_a_lado .wrap {
     display: flex;
