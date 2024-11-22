@@ -1250,7 +1250,6 @@ footer .site .hr_footer {
     /* Mantém a cor da borda original */
 }
 
-
 .contato .site .forms_contato .telefone {
     margin-top: 50px;
 }
@@ -1330,8 +1329,6 @@ footer .site .hr_footer {
     justify-content: space-between;
 }
 
-
-
 .tipos_personalizacoes {
     margin: 20px;
 }
@@ -1353,7 +1350,6 @@ footer .site .hr_footer {
     transition: 0.5s ease;
     transform: scale(1.2);
 }
-
 
 .tipos_personalizacoes :nth-child(1){
     background-color: #976E6E;
@@ -1381,45 +1377,26 @@ footer .site .hr_footer {
     width: 200px;    
     display: flex;
     justify-content: space-between;
-    
 }
 
 .reserva_acoes button{
-    
     justify-content: space-between;
     align-items: end;
     text-align: center;
     height: 50px;
 }
 
-
-
-
-
 .localizacao_contato iframe{
-   width: 100%;
-   
+    width: 100%;
 }
 
 .fotos_contato .site  {
     max-width: 2000px;
-  
-   
 }
-
-
 
 .produtos_contato {
     display: flex; 
-   
-   
-   
-    
 }
-
-
-
-
 
 .instagram_contato{
     width: 50px;
@@ -1435,25 +1412,16 @@ footer .site .hr_footer {
     justify-content: center;
 }
 
-
 .instagram_contato img{
     width: 35px;
-   margin-top: 3px;
+    margin-top: 3px;
 }
 
 
 
-
-
-
-
-
-
-
 /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */
 /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */
 /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */
-
 
 
 .brigadeiros{
@@ -1465,9 +1433,7 @@ footer .site .hr_footer {
     font-family: var(--para_texto);
     font-size: 48pt; 
     text-align: center;
-   
 }
-
 
 .brigadeiros .site  div:nth-child(2){
     display: flex;
@@ -1475,11 +1441,9 @@ footer .site .hr_footer {
     align-items: center;
 }
 
-
 .login_contato .site .detalhes_de_contato{
     width: 100%;
 }
-
 
 .login_contato .site .forms_contato{
     padding: 0;
@@ -1491,8 +1455,6 @@ footer .site .hr_footer {
     display: flex;
     align-items: center;
 }
-
-
 
 .login_contato .site .forms_contato .nome .email label img{
     margin-right: 20px;
@@ -1510,9 +1472,6 @@ footer .site .hr_footer {
     letter-spacing: 3px;
     font-weight: 600;
 }
-
-
-
 
 /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */
 /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */
