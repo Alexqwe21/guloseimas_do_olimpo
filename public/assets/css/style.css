@@ -414,7 +414,7 @@ footer .site .lado_a_lado .contato {
     display: flex;
     flex-flow: column nowrap;
     justify-content: start;
-    margin-top: 70px;
+
 
 }
 
@@ -509,7 +509,7 @@ footer .site .lado_a_lado .newsletter form button {
     right: 20px;
     font-size: 20pt;
     cursor: pointer;
-    top: 3px;
+    top: 2px;
 }
 
 footer .site .redes_footer {
@@ -1392,13 +1392,13 @@ footer .site .hr_footer {
 
 .produtos_contato {
     display: flex;
-
+    justify-content: center;
 
 
 
 }
 
-
+.produtos_contato img {}
 
 
 
@@ -1414,6 +1414,7 @@ footer .site .hr_footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 
@@ -1494,7 +1495,7 @@ footer .site .hr_footer {
     align-items: center;
 }
 
-.login_contato .site .forms_contato .nome .email input:focus{
+.login_contato .site .forms_contato .nome .email input:focus {
     outline: none;
 }
 
@@ -1538,48 +1539,48 @@ footer .site .hr_footer {
     margin-right: 50px;
 }
 
-.email_entrar input:focus{
+.email_entrar input:focus {
     outline: none;
 }
 
 
-.forms_contato form .nome_entrar a{
+.forms_contato form .nome_entrar a {
     color: #985C41;
-    font-family: var(--para_texto)  ;
+    font-family: var(--para_texto);
     font-weight: bold;
-   
+
 }
 
 
-.forms_contato form .nome_entrar  .lembrar{
+.forms_contato form .nome_entrar .lembrar {
     display: flex;
-   
+
     flex-flow: column nowrap;
 }
 
-.forms_contato form .nome_entrar  .lembrar .checkbox{
+.forms_contato form .nome_entrar .lembrar .checkbox {
     display: flex;
     align-items: center;
     margin-top: 25px;
 }
 
-.forms_contato form .nome_entrar  .lembrar .checkbox p{
+.forms_contato form .nome_entrar .lembrar .checkbox p {
     font-size: 13pt;
     font-weight: bold;
     font-family: var(--para_texto);
     color: #985C41;
 }
 
-.forms_contato form .nome_entrar  .lembrar input{
+.forms_contato form .nome_entrar .lembrar input {
     width: 20px;
-   margin-right: 25px;
-   
+    margin-right: 25px;
+
 }
 
 
-.forms_contato form .nome_entrar  .lembrar input:focus{
+.forms_contato form .nome_entrar .lembrar input:focus {
     outline: none;
-  
+
 }
 
 
@@ -1600,15 +1601,60 @@ footer .site .hr_footer {
 /* tela login */
 /* tela login */
 /* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
+
+
+@media (min-width: 1024px) {
+
+    .ben_vindo .site .lado_a_lado .img_01 img,
+    .ben_vindo .site .lado_a_lado .img_02 img {
+        width: 300px;
+    }
+
+
+
+    .ben_vindo .guloseimas h2,
+    .qualidade_especial .site h2 {
+        font-size: 30pt;
+        margin-left: 20px;
+    }
+
+
+    .ben_vindo .guloseimas h3 {
+        font-size: 20pt;
+        margin-left: 20px;
+    }
+
+    .ben_vindo .guloseimas a {
+        padding: 20px 40px;
+    }
+
+    .qualidade_especial .site .alta_qualidade {
+
+        margin-left: 35px;
+    }
+
+    .qualidade_especial .site .alta_qualidade .verde {
+
+        left: 220px;
+
+    }
+
+    .qualidade_especial .site .lado_a_lado .encomenda .hr_doces h4,
+    .qualidade_especial .site .lado_a_lado .encomenda .hr_doces strong {
+        text-align: center;
+    }
+
+    .destaques .site .highlights img {
+        width: 250px;
+    }
+
+    .sobre_pessoa .site .lado_a_lado {
+        justify-content: space-evenly;
+    }
+
+    .sobre_pessoa .site .sobre h2 {
+        font-size: 50pt;
+    }
+
+
+}
