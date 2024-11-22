@@ -52,7 +52,7 @@ header .site {
 
 header .site nav ul {
     display: flex;
-    width: 700px;
+   
     justify-content: space-around;
 }
 
@@ -1119,7 +1119,7 @@ footer .site .hr_footer {
     transform: scale(1.5);
 }
 
-.produtos .site .tamanho_link a .preco_produto button img {}
+
 
 
 
@@ -1161,11 +1161,11 @@ footer .site .hr_footer {
     padding: var(--para_separar_a_secoes);
 }
 
-.contato .site .detalhes_de_contato {
+.contato .site .detalhes_de_contato, .login_contato .site .detalhes_de_contato{
     width: 40%;
 }
 
-.contato .site .detalhes_de_contato h2 {
+.contato .site .detalhes_de_contato h2  {
     font-size: 32pt;
     font-weight: var(--negrito_normal);
     font-family: var(--para_texto);
@@ -1181,7 +1181,7 @@ footer .site .hr_footer {
 
 
 
-.contato .site .redes_contato {
+.contato .site .redes_contato ,.login_contato .site .redes_contato{
     display: flex;
     margin-top: 30px;
     flex-flow: row wrap;
@@ -1189,7 +1189,7 @@ footer .site .hr_footer {
     justify-content: space-between;
 }
 
-.contato .site .forms_contato {
+.contato .site .forms_contato , .login_contato .site .forms_contato {
     padding: var(--para_separar_a_secoes);
    
 }
@@ -1200,7 +1200,7 @@ footer .site .hr_footer {
     justify-content: center;
 }
 
-.contato .site .forms_contato input {
+.contato .site .forms_contato input,.login_contato .site .forms_contato input{
     border-top: none;
     border-left: none;
     border-right: none;
@@ -1238,7 +1238,7 @@ footer .site .hr_footer {
 
 
 
-.contato .site .forms_contato input::placeholder {
+.contato .site .forms_contato input::placeholder , .login_contato .site .forms_contato input::placeholder {
     color: #CCAEA0;
     font-size: 12pt;
 }
@@ -1298,15 +1298,15 @@ footer .site .hr_footer {
     align-items: center;
 }
 
-.contato .site .forms_contato .button_forms {
+.contato .site .forms_contato .button_forms, .login_contato .site .forms_contato .button_forms {
     margin-top: 50px;
 }
 
-.contato .site .forms_contato .button_forms button img {
+.contato .site .forms_contato .button_forms button img  {
     margin-right: 15px;
 }
 
-.contato .site .forms_contato .button_forms button {
+.contato .site .forms_contato .button_forms button  ,.login_contato .site .forms_contato .button_forms button {
     width: 220px;
     height: 55px;
     background-color: #985C41;
@@ -1330,9 +1330,7 @@ footer .site .hr_footer {
     justify-content: space-between;
 }
 
-.reserva_title h3 {
-    font-weight: bold;
-}
+
 
 .tipos_personalizacoes {
     margin: 20px;
@@ -1373,6 +1371,10 @@ footer .site .hr_footer {
 .reserva_title div:nth-child(4) {
     color: red;
 }
+.reserva_title h3 {
+    font-weight: bold;
+}
+
 
 .reserva_acoes :nth-child(1){
     background-color: red;
@@ -1390,3 +1392,128 @@ footer .site .hr_footer {
     height: 50px;
 }
 
+
+
+
+
+.localizacao_contato iframe{
+   width: 100%;
+   
+}
+
+.fotos_contato .site  {
+    max-width: 2000px;
+  
+   
+}
+
+
+
+.produtos_contato {
+    display: flex; 
+   
+   
+   
+    
+}
+
+
+
+
+
+.instagram_contato{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #0B3222;
+    position: relative;
+    right: 880px;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.instagram_contato img{
+    width: 35px;
+   margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+/* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */
+/* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */
+/* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */
+
+
+
+.brigadeiros{
+    padding: var(--para_separar_a_secoes);
+}
+
+.brigadeiros .site  div:nth-child(1) h2 {
+    color: #985C41;
+    font-family: var(--para_texto);
+    font-size: 48pt; 
+    text-align: center;
+   
+}
+
+
+.brigadeiros .site  div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.login_contato .site .detalhes_de_contato{
+    width: 100%;
+}
+
+
+.login_contato .site .forms_contato{
+    padding: 0;
+    justify-content: center;
+    display: flex;
+}
+
+.login_contato .site .forms_contato .nome .email{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.login_contato .site .forms_contato .nome .email label img{
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.login_contato .site .forms_contato .button_forms{
+    display: flex;
+    justify-content: center;
+}
+
+.login_contato .site .forms_contato .button_forms button {
+    background-color: #9BE79E;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+
+
+
+/* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */
+/* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */
+/* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */
