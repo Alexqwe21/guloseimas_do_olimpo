@@ -19,6 +19,7 @@
 
 body {
     background-color: var(--cor_de_funco);
+   
 }
 
 .site {
@@ -1603,7 +1604,34 @@ footer .site .hr_footer {
 /* tela login */
 
 
-@media (min-width: 1024px) {
+
+/* menu hambuguer */
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin: 8px;
+}
+
+
+
+/* menu hambuguer */
+
+
+@media (max-width: 1024px) {
+
+
+    body {
+        overflow-x: hidden !important;
+        overflow: hidden;
+    }
+
 
     .ben_vindo .site .lado_a_lado .img_01 img,
     .ben_vindo .site .lado_a_lado .img_02 img {
@@ -1654,7 +1682,76 @@ footer .site .hr_footer {
 
     .sobre_pessoa .site .sobre h2 {
         font-size: 50pt;
+        margin-bottom: 20px;
     }
 
+
+    .sobre_pessoa .site .foto_pessoa {
+        display: flex;
+        align-items: center;
+    }
+
+    .box_carousel div img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .banner_chocolate .slick-next,
+    .banner_chocolate .slick-prev {
+        display: none !important;
+    }
+
+    footer .site .lado_a_lado .logo_footer img {
+        width: 100px;
+    }
+
+
+    footer .site .lado_a_lado .contato h3 {
+        font-size: 10pt;
+    }
+
+    footer .site .lado_a_lado .nav_footer ul li a {
+        font-size: 12pt;
+
+    }
+
+
+    footer .site .lado_a_lado .newsletter input {
+        width: 196px;
+        font-size: 13pt;
+    }
+
+
+    footer .site .lado_a_lado .newsletter form button {
+        top: 3px;
+    }
+
+
+    header nav .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 800px;
+        background-color: #241810;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+    }
+
+    header nav .nav-list li {
+        margin-left: 0;
+        /* opacity: 0; */
+    }
+
+    .mobile-menu {
+        display: block;
+        z-index: 999;
+        position: relative;
+    }
+
+    .nav-list.active{
+        transform: translateY(0);
+    }
 
 }
