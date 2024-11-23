@@ -8,22 +8,48 @@ class MobileNavbar {
         this.navlinks = document.querySelectorAll(navlinks);
         this.activeClass = "active";
 
+
+
+        this.handleClick = this.handleClick.bind(this);
     }
 
-    addClickEvent() {
-        this.mobileMenu.addEventListener("click", () => {
-            console.log("hey !!!!");
+
+
+    animateLinks() {
+        this.navlinks.forEach((link, index) => {
+            console.log(index / 7);
+            link.style.animation
+                ? (link.style.animation = "")
+                : (link.style.animation = `navLinkFade 0.5s ease forwards ${index * 0.1}s`);
+
         });
     }
 
+    handleClick() {
+        this.navlist.classList.toggle(this.activeClass);
+        this.mobileMenu.classList.toggle(this.activeClass);
+        this.animateLinks();
+    
+        // Controla o overflow do corpo
+     
+    }
+    
 
-    init(){
+
+    addClickEvent() {
+        this.mobileMenu.addEventListener("click", this.handleClick); 
+
+        
+    }
 
 
-if(this.mobileMenu){
-    this.addClickEvent();
-}
-return this
+    init() {
+
+
+        if (this.mobileMenu) {
+            this.addClickEvent();
+        }
+        return this
 
     }
 
