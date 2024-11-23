@@ -19,7 +19,6 @@
 
 body {
     background-color: var(--cor_de_funco);
-   
 }
 
 .site {
@@ -53,15 +52,12 @@ header .site {
 
 header .site nav ul {
     display: flex;
-
     justify-content: space-around;
 }
-
 
 header .site nav ul li {
     margin: 0 25px;
 }
-
 
 header .site nav ul li a {
     color: black;
@@ -331,7 +327,6 @@ footer .site .lado_a_lado,
     width: 20px;
     height: 20px;
     margin-left: 30px;
-
 }
 
 .banner_chocolate {
@@ -376,7 +371,6 @@ footer .site .lado_a_lado,
 .slick-next:before {
     color: rgb(255, 230, 0);
     font-size: 28pt;
-
 }
 
 .slick-dots li button {
@@ -415,8 +409,6 @@ footer .site .lado_a_lado .contato {
     display: flex;
     flex-flow: column nowrap;
     justify-content: start;
-
-
 }
 
 footer .site .lado_a_lado .contato h2 {
@@ -467,7 +459,6 @@ footer .site .lado_a_lado .newsletter {
     margin-top: 70px;
     width: 30%;
 }
-
 
 footer .site .lado_a_lado .newsletter h2 {
     font-size: 28pt;
@@ -530,8 +521,7 @@ footer .site .hr_footer {
     font-family: var(--font_links);
 }
 
-/* Pag Galeria
- */
+/* Pag Galeria */
 .banner_galeria,
 .banner_produtos,
 .banner_contato {
@@ -573,7 +563,6 @@ footer .site .hr_footer {
     flex-flow: row wrap;
 }
 
-
 .fotos_galeria .site .lado_a_lado_galeria .galeria_pd h3 {
     text-align: center;
     margin-bottom: 115px;
@@ -589,7 +578,6 @@ footer .site .hr_footer {
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
-
     margin-top: 10px;
     background-position: bottom center;
 }
@@ -615,7 +603,6 @@ footer .site .hr_footer {
 .banner_sobre .site .mais_sobre_mim h2::after {
     content: "Descubra mais";
     font-size: 50pt;
-
     display: block;
     position: relative;
     bottom: 185px;
@@ -633,7 +620,6 @@ footer .site .hr_footer {
     font-family: var(--font_titulo);
     color: #DAA522;
 }
-
 
 .quem_sou_eu,
 .minha_historia,
@@ -655,7 +641,6 @@ footer .site .hr_footer {
     font-weight: 500;
 }
 
-
 .quem_sou_eu .site div h3::after,
 .minha_historia .site div h3::after,
 .meus_servicos .site div h3::after,
@@ -668,7 +653,6 @@ footer .site .hr_footer {
     color: #18764F33;
     color: #18764F33;
 }
-
 
 .minha_historia .site div h3::after {
     content: "HISTORIA";
@@ -835,7 +819,6 @@ footer .site .hr_footer {
 .minha_historia .site .lado_a_lado div {
     width: 50%;
     margin-top: 90px;
-
 }
 
 .minha_historia .site .lado_a_lado div p {
@@ -855,15 +838,12 @@ footer .site .hr_footer {
     margin-top: 50px;
 }
 
-
 .especialidades .site .especialidade_produto .pd {
-
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     margin-top: 50px;
 }
-
 
 .especialidades .site .especialidade_informacoes {
     width: 60%;
@@ -883,7 +863,6 @@ footer .site .hr_footer {
     font-weight: bold;
 }
 
-
 .especialidades .site .especialidade_informacoes p {
     text-align: center;
     font-size: 17pt;
@@ -891,35 +870,21 @@ footer .site .hr_footer {
     line-height: 35px;
 }
 
-
-
-
-
 /* FILTRO DE PREÇO */
-
-
-
-
 .filtro-de-preco ul {
-
     width: 270px;
     height: 620px;
-
     border-radius: 20px;
 }
 
-
 .filtro-de-preco ul div:nth-child(2) {
-
     position: relative;
     height: 30px;
     width: 101%;
 }
 
-
 .filtro-de-preco ul div:nth-child(2)::before,
 .filtro-de-preco ul div:nth-child(2)::after {
-
     content: '';
     position: absolute;
     width: 16px;
@@ -929,14 +894,11 @@ footer .site .hr_footer {
     top: 3px;
 }
 
-
 .filtro-de-preco ul div:nth-child(2)::after {
-
     right: 12px;
 }
 
 .filtro-de-preco ul div:nth-child(2) .escolher-valor {
-
     appearance: none;
     -webkit-appearance: none;
     width: 95%;
@@ -945,8 +907,6 @@ footer .site .hr_footer {
     outline: none;
     opacity: 0.9;
     border-radius: 2px;
-
-
 }
 
 .filtro-de-preco ul div:nth-child(2) .escolher-valor::-webkit-slider-thumb {
@@ -960,56 +920,37 @@ footer .site .hr_footer {
 }
 
 .filtro-de-preco ul div:nth-child(2) .escolher-valor::-moz-range-thumb {
-
-
     width: 20px;
     height: 20px;
-
     border-radius: 50%;
     cursor: pointer;
-
 }
 
-
 .filtro-de-preco div:nth-child(1) {
-
     height: 50px;
     display: flex;
     align-items: center;
-
-
 }
 
-
 .filtro-de-preco div:nth-child(1) h4 {
-
     font-size: 19pt;
     font-family: var(--para_texto);
     font-weight: var(--negrito_normal);
-
-
 }
 
-
 .filtro-de-preco div:nth-child(2) p {
-
     font-size: 12pt;
     font-family: var(--para_texto);
     font-weight: var(--negrito_normal);
     margin: 30px 0;
 }
 
-
 .filtro-de-preco div:nth-child(2) button {
     border: none;
     background: none;
-
-
 }
 
-
 .filtro-de-preco div:nth-child(2) button img {
-
     height: 56px;
     width: 173px;
     margin-bottom: 15px;
@@ -1018,30 +959,20 @@ footer .site .hr_footer {
     cursor: pointer;
 }
 
-
-
 .filtro-de-preco div:nth-child(2) h3 {
-
     font-size: 25px;
-
     margin-bottom: 10px;
-
-
 }
 
 .filtro-de-preco div:nth-child(2) li {
-
-
     margin-left: 30px;
 }
 
 .filtro-de-preco div:nth-child(2) li p {
-
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
     margin-bottom: 10px;
-
 }
 
 .filtro-de-preco div:nth-child(2) li p:hover {
@@ -1053,8 +984,6 @@ footer .site .hr_footer {
     width: 95%;
     border: 1px solid #463C4B;
 }
-
-
 
 .produtos .site {
     max-width: 1400px;
@@ -1076,7 +1005,6 @@ footer .site .hr_footer {
     color: black;
 }
 
-
 .produtos .site .tamanho_link a .produto_a_mostra {
     width: 260px;
     height: 250px;
@@ -1092,7 +1020,6 @@ footer .site .hr_footer {
     align-items: center;
     flex-direction: column;
 }
-
 
 .produtos .site .tamanho_link a .preco_produto h3 {
     font-size: 19pt;
@@ -1122,14 +1049,6 @@ footer .site .hr_footer {
     transform: scale(1.5);
 }
 
-
-
-
-
-/* FILTRO DE PREÇO */
-
-
-
 .ver_mais {
     padding: var(--para_separar_a_secoes);
 }
@@ -1137,7 +1056,6 @@ footer .site .hr_footer {
 .ver_mais .site div {
     display: flex;
     justify-content: center;
-
 }
 
 .ver_mais .site div button {
@@ -1147,11 +1065,8 @@ footer .site .hr_footer {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-
     margin-left: 100px;
-
 }
-
 
 .ver_mais .site div button h3 {
     font-size: 19pt;
@@ -1182,8 +1097,6 @@ footer .site .hr_footer {
     font-weight: var(--negrito_normal);
     margin-bottom: 30px;
 }
-
-
 
 .contato .site .redes_contato,
 .login_contato .site .redes_contato {
@@ -1220,14 +1133,11 @@ footer .site .hr_footer {
     font-size: 13pt;
 }
 
-
 .contato .site .forms_contato .nome,
 .contato .site .forms_contato .telefone,
 .contato .site .forms_contato .nome_entrar {
     display: flex;
     align-items: center;
-
-
 }
 
 .contato .site .forms_contato .email,
@@ -1237,16 +1147,12 @@ footer .site .hr_footer {
     align-items: center;
 }
 
-
-
 .contato .site .forms_contato .nome label img,
 .contato .site .forms_contato .telefone label img {
     margin-right: 20px;
     width: 30px;
     height: 30px;
 }
-
-
 
 .contato .site .forms_contato input::placeholder,
 .login_contato .site .forms_contato input::placeholder {
@@ -1299,7 +1205,6 @@ footer .site .hr_footer {
     outline: none;
 }
 
-
 .contato .site {
     max-width: 1400px;
 }
@@ -1343,11 +1248,54 @@ footer .site .hr_footer {
     justify-content: space-between;
 }
 
-.tipos_personalizacoes {
+.inf_produto, .reserva_title {
+    display: flex;
+    flex-direction: column;
+}
+
+.inf_produto .reserva_title h3 {
+    font-weight: bold;
+}
+
+.reseva_personalizao .inf_txt {
+    display: flex; 
+    align-items: center; 
+    gap: 5px; 
+    padding: 10px;
+}
+
+.reseva_personalizao .inf_txt p {
+    margin: 0; 
+    font-size: 14pt;
+}
+
+.reseva_personalizao .inf_txt .pers {
+    color: red; 
+    font-weight: bold; 
+}
+
+.inf_produto .inf_txt {
+    display: block; 
+    margin: 10px 0; 
+    padding: 10px; 
+}
+
+.inf_produto .inf_txt p {
+    padding: 5px 0; 
+    font-size: 14pt; 
+}
+
+.inf_produto .inf_txt .wtz {
+    color: red; 
+    font-weight: bold; 
+    text-align: center; 
+}
+
+.inf_produto .tipos_personalizacoes {
     margin: 20px;
 }
 
-.tipos_personalizacoes button {
+.inf_produto .tipos_personalizacoes button {
     width: 45px;
     height: 40px;
     border: none;
@@ -1355,72 +1303,159 @@ footer .site .hr_footer {
     cursor: pointer;
 }
 
-.tipos_personalizacoes button:hover{
+.desc h3 {
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: var(--font_links);
+    margin:5px;
+    padding: 5px;
+    
+}
+.desc p {
+    font-family: var(--para_texto);
+    font-size: 16pt;
+    padding: 20px;
+    margin: 5px;
+    height: 60px;
+}
+
+.desc hr {
+    height: 1px;
+    color: black;
+    background-color: black;
+}
+
+.desc .pers {
+    color: red; 
+    font-weight: bold; 
+}
+
+
+.descricao_produto .space {
+    padding: 10px;
+}
+.inf_produto .tipos_personalizacoes button:hover {
     transition: 0.5s ease;
     transform: scale(1.2);
-}
-
-.tipos_personalizacoes button::after{
-    transition: 0.5s ease;
-    transform: scale(1.2);
-}
-
-.tipos_personalizacoes :nth-child(1) {
-    background-color: #976E6E;
-}
-
-.tipos_personalizacoes :nth-child(2) {
-    background-color: #E2D19C;
     box-shadow: black 1px 3px 3px 1px;
 }
 
-.tipos_personalizacoes :nth-child(3) {
+.inf_produto .tipos_personalizacoes :nth-child(1) {
+    background-color: #976E6E;
+}
+
+.inf_produto .tipos_personalizacoes :nth-child(2) {
+    background-color: #E2D19C;
+}
+
+.inf_produto .tipos_personalizacoes :nth-child(3) {
     background-color: #9BE79E;
 }
 
-.reserva_title div:nth-child(4) {
+.inf_produto .reserva_preco:nth-child(3) {
     color: red;
-}
-.reserva_title h3 {
     font-weight: bold;
 }
 
-
-.reserva_acoes :nth-child(1){
-    background-color: red;
-    width: 200px;    
+.inf_produto .reserva_acoes {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.reserva_acoes button{
-    justify-content: space-between;
+.inf_produto .reserva_acoes .qtd_produto {
+    display: flex;
+    justify-content: space-around;
+    width: 165px;
+    align-items: center;
+    height: 55px;
+    background-color: #0B3222;
+    border-radius: 10px;
+    margin:10px;
+}
+
+.inf_produto .reserva_acoes .arrows {
+    display: flex;
+    flex-direction: column;
     align-items: end;
-    text-align: center;
-    height: 50px;
 }
 
-.localizacao_contato iframe{
+.inf_produto .reserva_acoes .arrows button {
+    font-size: 12pt;
+    border: none;
+    width: 25px;
+    background-color: transparent;
+    margin: 2px;
+    padding: 4px;
+    color: white;
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+.inf_produto .reserva_acoes .arrows button:hover{
+    transition: 0.5s ease;
+    transform: scale(2);
+}
+
+.inf_produto .reserva_acoes .number p {
+    font-size: 24pt;
+    color: white;
+}
+
+.inf_produto .carrinho_produto {
+    width:250px;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0B3222;
+    border-radius: 10px;
+}
+
+.inf_produto .carrinho_produto p {
+    color: white;
+    font-family: var(--para_texto);
+    cursor: pointer;
+}
+
+.car .fa-solid {
+    color:white;
+    font-size: 21pt;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fav_produto {
+    margin: 10px;
+}
+
+.fav_produto .fa-heart{
+    font-size: 32pt;
+    cursor: pointer;
+    transition: color 0.3s ease,transform 0.3s ease;
+    color: #a37e02d3;
+}
+
+.fav_produto .fa-heart.favorited {
+    color: red; 
+    transform: scale(1.2);
+}
+
+.localizacao_contato iframe {
     width: 100%;
 }
 
 .fotos_contato .site {
     max-width: 2000px;
-
-
 }
 
 .produtos_contato {
     display: flex;
     justify-content: center;
-
-
-
 }
 
-.produtos_contato img {}
-
-
+/* .produtos_contato img {} */
 
 .instagram_contato {
     width: 50px;
@@ -1437,18 +1472,12 @@ footer .site .hr_footer {
     cursor: pointer;
 }
 
-
 .instagram_contato img {
     width: 35px;
     margin-top: 3px;
 }
 
-
-
-/* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */
-/* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */
-/* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */ /* tela login */
-
+/* tela login */
 
 .brigadeiros {
     padding: var(--para_separar_a_secoes);
@@ -1482,8 +1511,9 @@ footer .site .hr_footer {
     align-items: center;
 }
 
-
-
+.login_contato .site .forms_contato .nome .email input:focus {
+    outline: none;
+}
 
 .login_contato .site .forms_contato .nome .email label img {
     margin-right: 20px;
@@ -1527,18 +1557,14 @@ footer .site .hr_footer {
     outline: none;
 }
 
-
 .forms_contato form .nome_entrar a {
     color: #985C41;
     font-family: var(--para_texto);
     font-weight: bold;
-
 }
-
 
 .forms_contato form .nome_entrar .lembrar {
     display: flex;
-
     flex-flow: column nowrap;
 }
 
@@ -1558,42 +1584,17 @@ footer .site .hr_footer {
 .forms_contato form .nome_entrar .lembrar input {
     width: 20px;
     margin-right: 25px;
-
 }
-
 
 .forms_contato form .nome_entrar .lembrar input:focus {
     outline: none;
-
 }
 
-
-
-
-
-
-
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-/* tela login */
-
-
-
-/* menu hambuguer */
+/* MENU HAMBURGUER */
 .mobile-menu {
     cursor: pointer;
     display: none;
 }
-
 
 .mobile-menu div {
     width: 32px;
@@ -1602,33 +1603,23 @@ footer .site .hr_footer {
     margin: 8px;
 }
 
-
-
-/* menu hambuguer */
-
-
+/* MENU HAMBURGUER */
 @media (max-width: 1024px) {
-
-
     body {
         overflow-x: hidden !important;
         overflow: hidden;
     }
-
 
     .ben_vindo .site .lado_a_lado .img_01 img,
     .ben_vindo .site .lado_a_lado .img_02 img {
         width: 300px;
     }
 
-
-
     .ben_vindo .guloseimas h2,
     .qualidade_especial .site h2 {
         font-size: 30pt;
         margin-left: 20px;
     }
-
 
     .ben_vindo .guloseimas h3 {
         font-size: 20pt;
@@ -1640,14 +1631,11 @@ footer .site .hr_footer {
     }
 
     .qualidade_especial .site .alta_qualidade {
-
         margin-left: 35px;
     }
 
     .qualidade_especial .site .alta_qualidade .verde {
-
         left: 220px;
-
     }
 
     .qualidade_especial .site .lado_a_lado .encomenda .hr_doces h4,
@@ -1668,7 +1656,6 @@ footer .site .hr_footer {
         margin-bottom: 20px;
     }
 
-
     .sobre_pessoa .site .foto_pessoa {
         display: flex;
         align-items: center;
@@ -1688,27 +1675,22 @@ footer .site .hr_footer {
         width: 100px;
     }
 
-
     footer .site .lado_a_lado .contato h3 {
         font-size: 10pt;
     }
 
     footer .site .lado_a_lado .nav_footer ul li a {
         font-size: 12pt;
-
     }
-
 
     footer .site .lado_a_lado .newsletter input {
         width: 196px;
         font-size: 13pt;
     }
 
-
     footer .site .lado_a_lado .newsletter form button {
         top: 3px;
     }
-
 
     header nav .nav-list {
         position: absolute;
@@ -1733,8 +1715,7 @@ footer .site .hr_footer {
         position: relative;
     }
 
-    .nav-list.active{
+    .nav-list.active {
         transform: translateY(0);
     }
-
 }
