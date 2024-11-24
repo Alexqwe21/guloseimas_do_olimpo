@@ -2388,6 +2388,15 @@ footer .site .lado_a_lado .newsletter form button {
     margin:  0 0 0 55px;
 }
 
+footer .site .lado_a_lado .newsletter form button{
+    height: 55px;
+}
+
+.brigadeiros .site div img{
+    width: 100px;
+    height: 100px;
+}
+
 }
 
 
