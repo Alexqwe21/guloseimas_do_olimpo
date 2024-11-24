@@ -2426,4 +2426,67 @@ footer .site .hr_footer {
     top: 5px;
 }
 
+.sobre_mim .box_txt .title h3{
+    font-size: 35pt;
+}
+
+.sobre_mim .txt{
+    padding: 0;
+    text-align: start;
+}
+
+
+.sobre_mim .txt p{
+    text-align:center;
+   
+}
+
+
+.sobre_mim .box_txt .subtitle{
+    width: 92%;
+}
+
+
+.quem_sou_eu .site div h3{
+font-size: 35pt;
+}
+
+
+.quem_sou_eu .site .lado_a_lado .foto_quem,.minha_historia .site .lado_a_lado .foto_quem {
+  
+    width: 250px;
+    height: 250px;
+}
+
+.minha_historia{
+    padding: 0;
+}
+
+
+.carrosel_produtos .site h3 {
+    font-size: 24px;
+}
+
+.carrosel_produtos .site .produtos_carrosel img {
+   
+     margin-left: 65px; 
+}
+
+
+.especialidades .site h3::after{
+    content:"";
+}
+
+
+.especialidades .site .especialidade_produto{
+    margin-top: 20px;
+}
+
+
+.banner_sobre .site .mais_sobre_mim h2::after {
+      font-size: 22pt;
+      top: -110px;
+}
+
+
 }
