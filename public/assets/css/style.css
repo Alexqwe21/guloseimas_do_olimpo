@@ -2385,7 +2385,7 @@ footer .site .lado_a_lado .newsletter form button {
   
 
 .box_carousel{
-    margin:  0 0 0 100px;
+    margin:  0 0 0 55px;
 }
 
 }
@@ -2445,7 +2445,7 @@ footer .site .lado_a_lado .newsletter form button {
 
 
   footer .site .lado_a_lado .newsletter form button {
-    top: 4px;
+    top: 5px;
 }
 
 .sobre_mim .box_txt .title h3{
@@ -2491,7 +2491,7 @@ font-size: 35pt;
 
 .carrosel_produtos .site .produtos_carrosel img {
    
-     margin-left: 110px; 
+     margin-left: 86px; 
 }
 
 
@@ -2580,6 +2580,13 @@ justify-content: space-evenly;
     }
 
 
-   
+    footer .site .lado_a_lado .newsletter form button{
+        height: 55px;
+    }
+
+    .brigadeiros .site div img{
+        width: 100px;
+        height: 100px;
+    }
 
 }
