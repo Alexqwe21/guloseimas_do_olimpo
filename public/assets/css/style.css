@@ -1888,7 +1888,9 @@ footer .site .hr_footer {
     }
 
 
-
+    .brigadeiros{
+        padding: 0;
+    }
 
 }
 
@@ -2373,6 +2375,17 @@ footer .site .hr_footer {
 }
 
 
+.brigadeiros .site div:nth-child(2){
+    margin-bottom: 40px;
+}
+
+footer .site .lado_a_lado .newsletter form button {
+    top: 4px;
+}
+  
+
+
+
 }
 
 
@@ -2430,7 +2443,7 @@ footer .site .hr_footer {
 
 
   footer .site .lado_a_lado .newsletter form button {
-    top: 5px;
+    top: 4px;
 }
 
 .sobre_mim .box_txt .title h3{
@@ -2564,7 +2577,7 @@ justify-content: space-evenly;
         margin-bottom: 20px;
     }
 
-    
+
    
 
 }
