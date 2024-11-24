@@ -1809,6 +1809,7 @@ footer .site .hr_footer {
 
     .carrosel_produtos .slick-prev {
         left: 20px;
+        z-index: 999;
     }
 
     .especialidades .site h3 {
@@ -2464,7 +2465,7 @@ font-size: 35pt;
 
 
 .carrosel_produtos .site h3 {
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .carrosel_produtos .site .produtos_carrosel img {
@@ -2546,6 +2547,16 @@ justify-content: space-evenly;
 .contato{
     padding: 0;
 }
+
+
+.contato .site .forms_contato .email, .contato .site .forms_contato .assunto {
+    margin-left: 30px;
+    }
+
+
+    .contato .site .forms_contato .button_forms button{
+        margin-bottom: 20px;
+    }
    
 
 }
