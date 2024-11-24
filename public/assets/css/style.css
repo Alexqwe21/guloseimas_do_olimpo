@@ -2166,7 +2166,7 @@ footer .site .hr_footer {
 
 
 
-    
+
 
 }
 
@@ -2368,7 +2368,9 @@ footer .site .hr_footer {
         margin-left: 19px;
     }
 
-
+.login_contato .site .forms_contato .nome .email{
+    align-items: start;
+}
 
 
 }
@@ -2561,6 +2563,8 @@ justify-content: space-evenly;
     .contato .site .forms_contato .button_forms button{
         margin-bottom: 20px;
     }
+
+    
    
 
 }
