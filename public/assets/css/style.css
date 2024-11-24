@@ -2220,33 +2220,39 @@ footer .site .hr_footer {
         left: 180px;
         font-size: 30pt;
     }
-     
-    .quem_sou_eu .site .lado_a_lado .foto_quem, .minha_historia .site .lado_a_lado .foto_quem{
+
+    .quem_sou_eu .site .lado_a_lado .foto_quem,
+    .minha_historia .site .lado_a_lado .foto_quem {
         width: 400px;
         height: 500px;
     }
 
-    .quem_sou_eu .site .lado_a_lado div, .minha_historia .site  .lado_a_lado div  {
+    .quem_sou_eu .site .lado_a_lado div,
+    .minha_historia .site .lado_a_lado div {
         width: 100%;
     }
 
 
-    .quem_sou_eu .site .lado_a_lado div p ,.minha_historia .site div  p , .meus_servicos .site .lado_a_lado div p {
+    .quem_sou_eu .site .lado_a_lado div p,
+    .minha_historia .site div p,
+    .meus_servicos .site .lado_a_lado div p {
         margin: 0 20px;
     }
 
 
-    .minha_historia .site div h3 , .minha_historia .site .lado_a_lado .foto_quem, .meus_servicos .site h3{
+    .minha_historia .site div h3,
+    .minha_historia .site .lado_a_lado .foto_quem,
+    .meus_servicos .site h3 {
         font-size: 30pt;
     }
 
 
-    .carrosel_produtos{
+    .carrosel_produtos {
         padding: 0;
     }
 
 
-    .carrosel_produtos .site .produtos_carrosel img{
+    .carrosel_produtos .site .produtos_carrosel img {
         width: 250px;
         height: 310px;
         margin-left: 125px;
@@ -2254,7 +2260,7 @@ footer .site .hr_footer {
 
 
     .carrosel_produtos .site h3 {
-        
+
         font-size: 35px;
     }
 
@@ -2266,11 +2272,11 @@ footer .site .hr_footer {
     .especialidades .site h3 {
         font-size: 30px;
         text-align: center;
-  
+
     }
 
 
-    .especialidades .site .lado_a_lado{
+    .especialidades .site .lado_a_lado {
         flex-flow: column wrap;
         align-items: center;
     }
@@ -2287,60 +2293,67 @@ footer .site .hr_footer {
 
 
     .produtos .site .lado_a_lado .wrap {
-        
+
         margin-top: 50px;
     }
 
 
 
-    .inf_produto .reserva_acoes{
+    .inf_produto .reserva_acoes {
         flex-flow: column wrap;
     }
 
-    .inf_produto .carrinho_produto{
+    .inf_produto .carrinho_produto {
         margin: 20px 0;
     }
 
 
-    .desc p{
+    .desc p {
         height: auto;
     }
 
-    .contato .site .lado_a_lado{
+    .contato .site .lado_a_lado {
         align-items: flex-start;
     }
 
 
-    .contato .site .forms_contato .nome, .contato .site .forms_contato .telefone, .contato .site .forms_contato .nome_entrar {
-       
+    .contato .site .forms_contato .nome,
+    .contato .site .forms_contato .telefone,
+    .contato .site .forms_contato .nome_entrar {
+
         flex-direction: column;
     }
 
 
-    .contato .site .forms_contato .nome label img, .contato .site .forms_contato .telefone label img {
+    .contato .site .forms_contato .nome label img,
+    .contato .site .forms_contato .telefone label img {
         display: none;
     }
 
 
-    .contato .site .forms_contato .nome, .contato .site .forms_contato .telefone, .contato .site .forms_contato .nome_entrar {
+    .contato .site .forms_contato .nome,
+    .contato .site .forms_contato .telefone,
+    .contato .site .forms_contato .nome_entrar {
         flex-direction: column;
         align-items: baseline;
     }
 
 
-    .contato .site .forms_contato input, .login_contato .site .forms_contato input{
+    .contato .site .forms_contato input,
+    .login_contato .site .forms_contato input {
         margin-bottom: 50px;
     }
 
-    .contato .site .forms_contato .telefone, .contato .site .forms_contato .textarea_forms{
+    .contato .site .forms_contato .telefone,
+    .contato .site .forms_contato .textarea_forms {
         margin-top: 0;
     }
 
-    .como_ajudar{
-margin: 0 30px;
+    .como_ajudar {
+        margin: 0 30px;
     }
 
-    .contato .site .forms_contato textarea{
+    .contato .site .forms_contato textarea {
         height: 70px;
     }
 
@@ -2350,7 +2363,67 @@ margin: 0 30px;
         margin-left: 19px;
     }
 
-    
 
 
+
+}
+
+
+
+@media (max-width: 460px) {
+
+
+    .subtitle{
+        text-align: center;
+        margin-top: 20px;
     }
+
+    .qualidade_especial .site .lado_a_lado .encomenda h3 {
+        font-size: 15pt;
+        text-align: start;
+    }
+
+
+
+    .qualidade_especial .site .lado_a_lado .encomenda p {
+        font-size: 15pt;
+        text-align: start;
+    }
+
+
+    .qualidade_especial .site .lado_a_lado .alta_qualidade {
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .qualidade_especial .site .alta_qualidade .verde {
+        left: 83px;
+        top: 250px;
+    }
+
+
+    .sobre_pessoa .site .sobre{
+        width: 100%;
+    }
+
+
+    .carousel .title h3{
+        text-align: center;
+    }
+
+  .banner_chocolate  .slick-dots{
+    bottom: 40px;
+  }
+
+
+  footer .site .lado_a_lado .contato h3{
+    font-size: 14pt;
+  }
+
+
+  footer .site .lado_a_lado .newsletter form button {
+    top: 5px;
+}
+
+}
