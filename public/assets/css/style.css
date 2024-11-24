@@ -2527,4 +2527,25 @@ font-size: 60pt;
     margin-bottom: 50px;
 }
 
+
+.banner_contato .site div h2{
+    font-size: 60pt;
+}
+
+
+.contato .site .detalhes_de_contato h2 {
+    font-size: 24pt;
+}
+
+.contato .site .redes_contato{
+font-size: 24pt;
+width: 100%;
+justify-content: space-evenly;
+}
+
+.contato{
+    padding: 0;
+}
+   
+
 }
