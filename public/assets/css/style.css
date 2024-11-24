@@ -131,9 +131,9 @@ footer .site .lado_a_lado,
     color: var(--cor_dourado);
 }
 
-.ben_vindo .site .lado_a_lado .lado_a_lado_img{
+.ben_vindo .site .lado_a_lado .lado_a_lado_img {
     display: flex;
-    
+
 }
 
 
@@ -1628,6 +1628,7 @@ footer .site .hr_footer {
 
     header .site .mobile-menu {
         margin-right: 30px;
+        z-index: 1000;
     }
 
     header .site nav {
@@ -1847,19 +1848,20 @@ footer .site .hr_footer {
     }
 
 
-    .contato .site .lado_a_lado{
-        flex-flow: column wrap ;
+    .contato .site .lado_a_lado {
+        flex-flow: column wrap;
     }
 
 
-    .contato .site .detalhes_de_contato, .login_contato .site .detalhes_de_contato {
+    .contato .site .detalhes_de_contato,
+    .login_contato .site .detalhes_de_contato {
         width: 100%;
         display: flex;
         align-items: center;
         flex-flow: column wrap;
     }
 
-    .fotos_contato .site  .produtos_contato{
+    .fotos_contato .site .produtos_contato {
         display: none;
     }
 
@@ -1891,267 +1893,464 @@ footer .site .hr_footer {
 
 
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
-.ben_vindo .site  .lado_a_lado{
-    flex-flow: column wrap;
+    .ben_vindo .site .lado_a_lado {
+        flex-flow: column wrap;
+    }
+
+
+    .ben_vindo .site .lado_a_lado .guloseimas {
+        width: 100%;
+        /* background-image: url(../img/banner_galeria.jpg); */
+    }
+
+
+    .ben_vindo .site .lado_a_lado .lado_a_lado_img {
+        justify-content: space-evenly;
+        margin-top: 70px;
+    }
+
+    .destaques .site .highlights {
+        flex-flow: column wrap;
+        align-items: center;
+
+    }
+
+
+    .qualidade_especial .site .lado_a_lado {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .qualidade_especial .site .lado_a_lado .alta_qualidade {
+        order: 1;
+    }
+
+    .qualidade_especial .site h2 {
+        font-size: 55pt;
+    }
+
+
+    .qualidade_especial .site .lado_a_lado .encomenda {
+        width: 100%;
+    }
+
+    .qualidade_especial .site .lado_a_lado .encomenda h3 {
+        text-align: center;
+    }
+
+    .qualidade_especial .site .lado_a_lado .encomenda p {
+        text-align: center;
+    }
+
+    .qualidade_especial .site .alta_qualidade {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+
+    .box_carousel div img {
+        width: 200px;
+        height: 200px;
+    }
+
+
+    footer .site .lado_a_lado {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+
+    footer .site .lado_a_lado .logo_footer {
+        margin-top: 50px;
+    }
+
+    footer .site .lado_a_lado .logo_footer img {
+        width: 350px;
+        height: 350px;
+
+    }
+
+
+
+    footer .site .lado_a_lado .contato {
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    footer .site .lado_a_lado .contato h2,
+    footer .site .lado_a_lado .nav_footer h2 {
+        text-align: center;
+        font-size: 40pt;
+    }
+
+
+    footer .site .lado_a_lado .contato h3,
+    footer .site .lado_a_lado .nav_footer ul li a {
+        font-size: 18pt;
+        margin-bottom: 30px;
+    }
+
+
+    footer .site nav ul li {
+        margin: 17px 0 30px 0 !important;
+    }
+
+    footer .site .lado_a_lado .newsletter {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    footer .site .lado_a_lado .newsletter p {
+        text-align: center;
+    }
+
+
+    footer .site .lado_a_lado .newsletter form button {
+        top: 4px;
+    }
+
+
+
+    .banner_sobre .site .mais_sobre_mim h2::after {
+        right: 100px;
+    }
+
+
+    .banner_sobre .site .mais_sobre_mim h2 {
+        font-size: 70pt;
+
+    }
+
+
+    .banner_sobre .site .mais_sobre_mim h2::before {
+        left: 360px;
+    }
+
+    .carrosel_produtos .site .produtos_carrosel img {
+        margin-left: 75px;
+        width: 600px;
+    }
+
+
+
+
+
+    .carrosel_produtos .site h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+    .carrosel_produtos .site div h3::after {
+        left: -90px;
+    }
+
+    .especialidades .site h3 {
+        font-size: 45px;
+    }
+
+    .produtos .site .lado_a_lado {
+        flex-flow: column wrap;
+    }
+
+
+    .produtos .site .lado_a_lado .filtro-de-preco {
+
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .produtos .site .lado_a_lado .filtro-de-preco ul {
+        width: 100%;
+        height: 350px;
+    }
+
+
+    .filtro-de-preco div:nth-child(1) {
+        justify-content: center;
+    }
+
+    .filtro-de-preco div:nth-child(1) h4 {
+        font-size: 30pt;
+        margin-bottom: 20px;
+    }
+
+    .filtro-de-preco ul div:nth-child(2)::after {
+        right: 1px;
+    }
+
+
+    .filtro-de-preco ul div:nth-child(2) {
+        width: 100%;
+
+    }
+
+    .filtro-de-preco ul div:nth-child(2) .escolher-valor {
+        width: 99%;
+    }
+
+
+    .filtro-de-preco div:nth-child(2) p {
+        text-align: center;
+        font-size: 17pt;
+    }
+
+
+    .filtro-de-preco div:nth-child(2) h3 {
+        text-align: center;
+    }
+
+    .lado_a_lado_lista {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+
+
+    .produtos .site .lado_a_lado .wrap {
+        width: 100%;
+    }
+
+
+    .reserva_produto .lado_a_lado {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .inf_produto .reserva_title {
+        width: 91%;
+        margin-top: 20px;
+    }
+
+    .inf_produto .reserva_title h3 {
+
+        text-align: center;
+    }
+
+
+    .inf_produto .inf_txt {
+        text-align: center;
+    }
+
+
+    .inf_produto .tipos_personalizacoes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .desc h3 {
+        text-align: center;
+    }
+
+
+    .contato .site .forms_contato .button_forms {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .contato .site .forms_contato {
+        padding: 50px 0 0 0;
+    }
+
+
+    .ver_mais .site div button {
+        margin-left: 29px;
+    }
+
 }
 
 
-.ben_vindo .site  .lado_a_lado .guloseimas{
-    width: 100%;
-    /* background-image: url(../img/banner_galeria.jpg); */
-}
+
+@media (max-width: 480px) {
+
+    .ben_vindo .site .lado_a_lado .lado_a_lado_img {
+        flex-flow: column wrap;
+        align-items: center;
+    }
 
 
-.ben_vindo .site .lado_a_lado .lado_a_lado_img{
-    justify-content: space-evenly;
-    margin-top: 70px;
-}
-
-.destaques .site   .highlights{
-    flex-flow: column wrap;
-    align-items: center;
-
-}
+    .ben_vindo .site .lado_a_lado .img_01 {
+        margin: 0;
+    }
 
 
-.qualidade_especial .site  .lado_a_lado{
-    flex-flow: column wrap;
-    align-items: center;
-}
+    .ben_vindo .site .lado_a_lado .img_02 {
+        height: 300px;
+    }
 
-.qualidade_especial .site  .lado_a_lado .alta_qualidade{
-order: 1 ;
-}
+    .sobre_pessoa .site .lado_a_lado {
+        flex-flow: column wrap;
+        align-items: center;
+    }
 
-.qualidade_especial .site h2{
-font-size: 55pt;
-}
+    .sobre_pessoa .site .foto_pessoa {
+        margin-top: 30px;
+    }
 
+    .box_carousel div img {
+        width: 130px;
+        height: 130px;
+    }
 
-.qualidade_especial .site .lado_a_lado .encomenda{
-    width: 100%;
-}
+    footer .site .lado_a_lado .contato {
+        text-align: center;
+    }
 
-.qualidade_especial .site .lado_a_lado .encomenda h3{
-    text-align: center;
-}
+    footer .site .lado_a_lado .newsletter form button {
+        top: 3px;
+    }
 
-.qualidade_especial .site .lado_a_lado .encomenda p{
-    text-align: center;
-}
+    .banner_sobre .site .mais_sobre_mim h2::after {
+        right: -88px;
+        font-size: 25pt;
+    }
 
-.qualidade_especial .site .alta_qualidade{
-    margin-left: 0;
-    margin-top: 25px;
-}
+    .banner_sobre .site .mais_sobre_mim h2 {
+        font-size: 50pt;
+        right: 86px;
+    }
 
+    .banner_sobre .site .mais_sobre_mim h2::before {
+        left: 180px;
+        font-size: 30pt;
+    }
+     
+    .quem_sou_eu .site .lado_a_lado .foto_quem, .minha_historia .site .lado_a_lado .foto_quem{
+        width: 400px;
+        height: 500px;
+    }
 
-.box_carousel div img{
-    width: 200px;
-    height: 200px;
-}
-
-
-footer .site .lado_a_lado{
-    flex-flow: column wrap;
-    align-items: center;
-}
-
-
-footer .site .lado_a_lado .logo_footer{
-    margin-top: 50px;
-}
-
-footer .site .lado_a_lado .logo_footer img{
-    width: 350px;
-    height: 350px;
-   
-}
+    .quem_sou_eu .site .lado_a_lado div, .minha_historia .site  .lado_a_lado div  {
+        width: 100%;
+    }
 
 
-
-footer .site .lado_a_lado .contato{
-    padding: 0;
-    margin-top: 50px;
-}
-
-footer .site .lado_a_lado .contato h2,footer .site .lado_a_lado .nav_footer h2{
-    text-align: center;
-    font-size: 40pt;
-}
+    .quem_sou_eu .site .lado_a_lado div p ,.minha_historia .site div  p , .meus_servicos .site .lado_a_lado div p {
+        margin: 0 20px;
+    }
 
 
-footer .site .lado_a_lado .contato h3,footer .site .lado_a_lado .nav_footer ul li a{
-    font-size: 18pt;
-    margin-bottom: 30px;
-}
+    .minha_historia .site div h3 , .minha_historia .site .lado_a_lado .foto_quem, .meus_servicos .site h3{
+        font-size: 30pt;
+    }
 
 
-footer .site nav ul li{
-   margin: 17px 0 30px 0 !important;
-}
-
-footer .site .lado_a_lado .newsletter{
-    width: 100%;
-    text-align: center;
-}
+    .carrosel_produtos{
+        padding: 0;
+    }
 
 
-footer .site .lado_a_lado .newsletter p{
-    text-align: center;
-}
+    .carrosel_produtos .site .produtos_carrosel img{
+        width: 250px;
+        height: 310px;
+        margin-left: 125px;
+    }
 
 
-footer .site .lado_a_lado .newsletter form button{
-    top: 4px;
-}
+    .carrosel_produtos .site h3 {
+        
+        font-size: 35px;
+    }
+
+    .carrosel_produtos .site div h3::after {
+        left: -17px;
+    }
 
 
-
-.banner_sobre .site .mais_sobre_mim h2::after{
-    right: 100px;
-}
-
-
-.banner_sobre .site .mais_sobre_mim h2{
-    font-size: 70pt;
-
-}
+    .especialidades .site h3 {
+        font-size: 30px;
+        text-align: center;
+  
+    }
 
 
-.banner_sobre .site .mais_sobre_mim h2::before{
-    left: 360px;
-}
+    .especialidades .site .lado_a_lado{
+        flex-flow: column wrap;
+        align-items: center;
+    }
 
-.carrosel_produtos .site .produtos_carrosel img{
-    margin-left:75px;
-    width: 600px;
-}
+
+    .especialidades .site .especialidade_produto {
+        width: 100%;
+    }
+
+
+    .banner_produtos .site div h2 {
+        font-size: 50pt;
+    }
+
+
+    .produtos .site .lado_a_lado .wrap {
+        
+        margin-top: 50px;
+    }
 
 
 
+    .inf_produto .reserva_acoes{
+        flex-flow: column wrap;
+    }
+
+    .inf_produto .carrinho_produto{
+        margin: 20px 0;
+    }
 
 
-.carrosel_produtos .site h3{
-    text-align: center;
-    font-size: 30px;
-}
+    .desc p{
+        height: auto;
+    }
+
+    .contato .site .lado_a_lado{
+        align-items: flex-start;
+    }
 
 
-.carrosel_produtos .site div h3::after{
-    left: -90px;
-}
-
-.especialidades .site h3 {
-    font-size: 45px;
-}
-
-.produtos .site .lado_a_lado{
-    flex-flow: column wrap;
-}
+    .contato .site .forms_contato .nome, .contato .site .forms_contato .telefone, .contato .site .forms_contato .nome_entrar {
+       
+        flex-direction: column;
+    }
 
 
-.produtos .site .lado_a_lado .filtro-de-preco{
-
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.produtos .site .lado_a_lado .filtro-de-preco ul{
-    width: 100%;
-    height: 350px;
-}
+    .contato .site .forms_contato .nome label img, .contato .site .forms_contato .telefone label img {
+        display: none;
+    }
 
 
-.filtro-de-preco div:nth-child(1){
-    justify-content: center;
-}
-
-.filtro-de-preco div:nth-child(1) h4{
-    font-size: 30pt;
-    margin-bottom: 20px;
-}
-
-.filtro-de-preco ul div:nth-child(2)::after {
-    right: 1px;
-}
+    .contato .site .forms_contato .nome, .contato .site .forms_contato .telefone, .contato .site .forms_contato .nome_entrar {
+        flex-direction: column;
+        align-items: baseline;
+    }
 
 
-.filtro-de-preco ul div:nth-child(2){
-    width: 100%;
+    .contato .site .forms_contato input, .login_contato .site .forms_contato input{
+        margin-bottom: 50px;
+    }
+
+    .contato .site .forms_contato .telefone, .contato .site .forms_contato .textarea_forms{
+        margin-top: 0;
+    }
+
+    .como_ajudar{
+margin: 0 30px;
+    }
+
+    .contato .site .forms_contato textarea{
+        height: 70px;
+    }
+
+    .contato .site .forms_contato textarea {
+        border: 2px solid #985C4150;
+        width: 90%;
+        margin-left: 19px;
+    }
+
     
-}
-
-.filtro-de-preco ul div:nth-child(2) .escolher-valor{
-    width: 99%;
-}
 
 
-.filtro-de-preco div:nth-child(2) p{
-    text-align: center;
-    font-size: 17pt;
-}
-
-
-.filtro-de-preco div:nth-child(2) h3{
-    text-align: center;
-}
-
- .lado_a_lado_lista{
-    display: flex;
-    flex-flow: row wrap;
-}
-
-
-
-.produtos .site .lado_a_lado .wrap{
-    width: 100%;
-}
-
-
-.reserva_produto .lado_a_lado{
-    flex-flow: column wrap;
-    align-items: center;
-}
-
-.inf_produto .reserva_title  {
-  width: 91%;
-  margin-top: 20px;
-}
-
-.inf_produto .reserva_title h3 {
-   
-    text-align: center;
-}
-
-
-.inf_produto .inf_txt{
-    text-align: center;
-}
-
-
-.inf_produto .tipos_personalizacoes{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.desc h3{
-    text-align: center;
-}
-
-
-.contato .site .forms_contato .button_forms{
-    display: flex;
-    justify-content: center;
-}
-
-
-.contato .site .forms_contato{
-    padding: 50px 0 0 0  ;
-}
-
-}
+    }
