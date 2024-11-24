@@ -1954,8 +1954,8 @@ footer .site .hr_footer {
 
 
     .box_carousel div img {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
 
 
@@ -2043,7 +2043,7 @@ footer .site .hr_footer {
 
     .carrosel_produtos .site h3 {
         text-align: center;
-        font-size: 30px;
+        font-size: 60px;
     }
 
 
@@ -2384,7 +2384,9 @@ footer .site .lado_a_lado .newsletter form button {
 }
   
 
-
+.box_carousel{
+    margin:  0 0 0 100px;
+}
 
 }
 
@@ -2489,7 +2491,7 @@ font-size: 35pt;
 
 .carrosel_produtos .site .produtos_carrosel img {
    
-     margin-left: 65px; 
+     margin-left: 110px; 
 }
 
 
