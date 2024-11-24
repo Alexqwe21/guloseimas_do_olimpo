@@ -19,7 +19,7 @@
 
 body {
     background-color: var(--cor_de_funco);
-   
+
 }
 
 .site {
@@ -41,6 +41,8 @@ body {
     --cor_de_fundo_produto_a_mostra: #F7EDE3;
     --cor_da_fonte: #241810;
     --cor_do_footer: #0B3222;
+    --cor_menu_hambuger: #241810;
+    --cor_nav_list: #ccaea0ee;
 }
 
 /* Header */
@@ -129,12 +131,19 @@ footer .site .lado_a_lado,
     color: var(--cor_dourado);
 }
 
+.ben_vindo .site .lado_a_lado .lado_a_lado_img{
+    display: flex;
+    
+}
+
+
 .ben_vindo .site .lado_a_lado .img_01 {
     height: 500px;
     align-self: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 20px;
 }
 
 .ben_vindo .site .lado_a_lado .img_02 {
@@ -1249,7 +1258,8 @@ footer .site .hr_footer {
     justify-content: space-between;
 }
 
-.inf_produto, .reserva_title {
+.inf_produto,
+.reserva_title {
     display: flex;
     flex-direction: column;
 }
@@ -1259,37 +1269,37 @@ footer .site .hr_footer {
 }
 
 .reseva_personalizao .inf_txt {
-    display: flex; 
-    align-items: center; 
-    gap: 5px; 
+    display: flex;
+    align-items: center;
+    gap: 5px;
     padding: 10px;
 }
 
 .reseva_personalizao .inf_txt p {
-    margin: 0; 
+    margin: 0;
     font-size: 14pt;
 }
 
 .reseva_personalizao .inf_txt .pers {
-    color: red; 
-    font-weight: bold; 
+    color: red;
+    font-weight: bold;
 }
 
 .inf_produto .inf_txt {
-    display: block; 
-    margin: 10px 0; 
-    padding: 10px; 
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
 }
 
 .inf_produto .inf_txt p {
-    padding: 5px 0; 
-    font-size: 14pt; 
+    padding: 5px 0;
+    font-size: 14pt;
 }
 
 .inf_produto .inf_txt .wtz {
-    color: red; 
-    font-weight: bold; 
-    text-align: center; 
+    color: red;
+    font-weight: bold;
+    text-align: center;
 }
 
 .inf_produto .tipos_personalizacoes {
@@ -1308,10 +1318,11 @@ footer .site .hr_footer {
     font-size: 18pt;
     font-weight: bold;
     font-family: var(--font_links);
-    margin:5px;
+    margin: 5px;
     padding: 5px;
-    
+
 }
+
 .desc p {
     font-family: var(--para_texto);
     font-size: 16pt;
@@ -1327,14 +1338,15 @@ footer .site .hr_footer {
 }
 
 .desc .pers {
-    color: red; 
-    font-weight: bold; 
+    color: red;
+    font-weight: bold;
 }
 
 
 .descricao_produto .space {
     padding: 10px;
 }
+
 .inf_produto .tipos_personalizacoes button:hover {
     transition: 0.5s ease;
     transform: scale(1.2);
@@ -1372,7 +1384,7 @@ footer .site .hr_footer {
     height: 55px;
     background-color: #0B3222;
     border-radius: 10px;
-    margin:10px;
+    margin: 10px;
 }
 
 .inf_produto .reserva_acoes .arrows {
@@ -1393,7 +1405,7 @@ footer .site .hr_footer {
     cursor: pointer;
 }
 
-.inf_produto .reserva_acoes .arrows button:hover{
+.inf_produto .reserva_acoes .arrows button:hover {
     transition: 0.5s ease;
     transform: scale(2);
 }
@@ -1404,7 +1416,7 @@ footer .site .hr_footer {
 }
 
 .inf_produto .carrinho_produto {
-    width:250px;
+    width: 250px;
     height: 55px;
     display: flex;
     justify-content: space-around;
@@ -1420,7 +1432,7 @@ footer .site .hr_footer {
 }
 
 .car .fa-solid {
-    color:white;
+    color: white;
     font-size: 21pt;
     align-items: center;
     text-align: center;
@@ -1431,15 +1443,15 @@ footer .site .hr_footer {
     margin: 10px;
 }
 
-.fav_produto .fa-heart{
+.fav_produto .fa-heart {
     font-size: 32pt;
     cursor: pointer;
-    transition: color 0.3s ease,transform 0.3s ease;
+    transition: color 0.3s ease, transform 0.3s ease;
     color: #a37e02d3;
 }
 
 .fav_produto .fa-heart.favorited {
-    color: red; 
+    color: red;
     transform: scale(1.2);
 }
 
@@ -1600,7 +1612,7 @@ footer .site .hr_footer {
 .mobile-menu div {
     width: 32px;
     height: 2px;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--cor_menu_hambuger);
     margin: 8px;
     transition: 0.3s;
 }
@@ -1608,6 +1620,70 @@ footer .site .hr_footer {
 /* MENU HAMBURGUER */
 @media (max-width: 1024px) {
 
+
+    header .site .logo_header {
+        margin-left: 30px;
+    }
+
+
+    header .site .mobile-menu {
+        margin-right: 30px;
+    }
+
+    header .site nav {
+        order: 3;
+    }
+
+    header .site nav ul li a {
+        color: white;
+    }
+
+    header nav .nav-list {
+        position: fixed;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 100vh;
+        /* Ajuste automático ao tamanho da tela */
+        justify-content: space-evenly !important;
+        background-color: var(--cor_nav_list);
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        z-index: 999;
+    }
+
+    header nav .nav-list li {
+        margin-left: 0;
+        /* opacity: 0; */
+    }
+
+
+
+
+    .mobile-menu {
+        display: block;
+
+        position: relative;
+    }
+
+    .nav-list.active {
+        transform: translateX(0);
+    }
+
+
+    @keyframes navLinkFade {
+        form {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate(0);
+        }
+    }
 
 
     .ben_vindo .site .lado_a_lado .img_01 img,
@@ -1671,6 +1747,122 @@ footer .site .hr_footer {
         display: none !important;
     }
 
+
+    .mobile-menu.active .line1 {
+        transform: rotate(-45deg) translate(-8px, 8px);
+    }
+
+    .mobile-menu.active .line2 {
+        opacity: 0;
+    }
+
+
+    .mobile-menu.active .line3 {
+        transform: rotate(45deg) translate(-5px, -7px);
+    }
+
+
+
+    .close-btn {
+        text-align: right;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .close-btn a {
+        color: #ff0000;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+
+    .banner_sobre .site .mais_sobre_mim h2 {
+        font-size: 80pt;
+
+    }
+
+    .banner_sobre .site .mais_sobre_mim h2::after {
+        font-size: 45px;
+        bottom: 150px;
+    }
+
+
+
+    .banner_sobre .site .mais_sobre_mim h2::before {
+        font-size: 45pt;
+        left: 480px;
+
+    }
+
+
+    .quem_sou_eu .site .lado_a_lado,
+    .minha_historia .site .lado_a_lado {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .carrosel_produtos .slick-next {
+        right: 20px;
+    }
+
+
+    .carrosel_produtos .slick-prev {
+        left: 20px;
+    }
+
+    .especialidades .site h3 {
+        font-size: 50px;
+    }
+
+
+    .produtos .site .lado_a_lado {
+        justify-content: center;
+    }
+
+
+    .reserva_produto .site .lado_a_lado .inf_produto {
+
+        margin-left: 40px;
+    }
+
+    .reserva_produto .site .lado_a_lado div a img {
+        width: 400px;
+    }
+
+
+    .reserva_produto .lado_a_lado {
+        justify-content: center;
+    }
+
+
+
+
+    .produtos .site .lado_a_lado .wrap {
+        justify-content: space-evenly;
+        width: 620px;
+    }
+
+    .especialidades .site h3::after {
+        left: -60px;
+    }
+
+
+    .contato .site .lado_a_lado{
+        flex-flow: column wrap ;
+    }
+
+
+    .contato .site .detalhes_de_contato, .login_contato .site .detalhes_de_contato {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-flow: column wrap;
+    }
+
+    .fotos_contato .site  .produtos_contato{
+        display: none;
+    }
+
     footer .site .lado_a_lado .logo_footer img {
         width: 100px;
     }
@@ -1692,63 +1884,274 @@ footer .site .hr_footer {
         top: 3px;
     }
 
-    header nav .nav-list {
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 50vw;
-        height: 100vh; /* Ajuste automático ao tamanho da tela */
-       justify-content: space-evenly !important;
-        background-color: #241810;
-        flex-direction: column;
-        align-items: center;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in;
-     
-    }
-
-    header nav .nav-list li {
-        margin-left: 0;
-        /* opacity: 0; */
-    }
-
-    .mobile-menu {
-        display: block;
-        z-index: 999;
-        position: relative;
-    }
-
-    .nav-list.active {
-        transform: translateX(0);
-    }
 
 
-    @keyframes navLinkFade{
-        form{
-            opacity: 0;
-            transform: translateX(50px);
-        }
 
-        to{
-            opacity: 1;
-            transform: translate(0);
-        }
-    }
-
-
-.mobile-menu.active .line1{
-transform: rotate(-45deg) translate(-8px ,8px);
-}
-
-.mobile-menu.active .line2{
-opacity: 0;
 }
 
 
-.mobile-menu.active .line3{
-    transform: rotate(45deg) translate(-5px ,-7px);
+
+@media (max-width: 768px){
+
+.ben_vindo .site  .lado_a_lado{
+    flex-flow: column wrap;
 }
 
 
+.ben_vindo .site  .lado_a_lado .guloseimas{
+    width: 100%;
+    /* background-image: url(../img/banner_galeria.jpg); */
+}
+
+
+.ben_vindo .site .lado_a_lado .lado_a_lado_img{
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.destaques .site   .highlights{
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+
+
+.qualidade_especial .site  .lado_a_lado{
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.qualidade_especial .site  .lado_a_lado .alta_qualidade{
+order: 1 ;
+}
+
+.qualidade_especial .site h2{
+font-size: 55pt;
+}
+
+
+.qualidade_especial .site .lado_a_lado .encomenda{
+    width: 100%;
+}
+
+.qualidade_especial .site .lado_a_lado .encomenda h3{
+    text-align: center;
+}
+
+.qualidade_especial .site .lado_a_lado .encomenda p{
+    text-align: center;
+}
+
+.qualidade_especial .site .alta_qualidade{
+    margin-left: 0;
+    margin-top: 25px;
+}
+
+
+.box_carousel div img{
+    width: 200px;
+    height: 200px;
+}
+
+
+footer .site .lado_a_lado{
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
+footer .site .lado_a_lado .logo_footer{
+    margin-top: 50px;
+}
+
+footer .site .lado_a_lado .logo_footer img{
+    width: 350px;
+    height: 350px;
+   
+}
+
+
+
+footer .site .lado_a_lado .contato{
+    padding: 0;
+    margin-top: 50px;
+}
+
+footer .site .lado_a_lado .contato h2,footer .site .lado_a_lado .nav_footer h2{
+    text-align: center;
+    font-size: 40pt;
+}
+
+
+footer .site .lado_a_lado .contato h3,footer .site .lado_a_lado .nav_footer ul li a{
+    font-size: 18pt;
+    margin-bottom: 30px;
+}
+
+
+footer .site nav ul li{
+   margin: 17px 0 30px 0 !important;
+}
+
+footer .site .lado_a_lado .newsletter{
+    width: 100%;
+    text-align: center;
+}
+
+
+footer .site .lado_a_lado .newsletter p{
+    text-align: center;
+}
+
+
+footer .site .lado_a_lado .newsletter form button{
+    top: 4px;
+}
+
+
+
+.banner_sobre .site .mais_sobre_mim h2::after{
+    right: 100px;
+}
+
+
+.banner_sobre .site .mais_sobre_mim h2{
+    font-size: 70pt;
+
+}
+
+
+.banner_sobre .site .mais_sobre_mim h2::before{
+    left: 360px;
+}
+
+.carrosel_produtos .site .produtos_carrosel img{
+    margin-left:75px;
+    width: 600px;
+}
+
+
+
+
+
+.carrosel_produtos .site h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.carrosel_produtos .site div h3::after{
+    left: -90px;
+}
+
+.especialidades .site h3 {
+    font-size: 45px;
+}
+
+.produtos .site .lado_a_lado{
+    flex-flow: column wrap;
+}
+
+
+.produtos .site .lado_a_lado .filtro-de-preco{
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.produtos .site .lado_a_lado .filtro-de-preco ul{
+    width: 100%;
+    height: 350px;
+}
+
+
+.filtro-de-preco div:nth-child(1){
+    justify-content: center;
+}
+
+.filtro-de-preco div:nth-child(1) h4{
+    font-size: 30pt;
+    margin-bottom: 20px;
+}
+
+.filtro-de-preco ul div:nth-child(2)::after {
+    right: 1px;
+}
+
+
+.filtro-de-preco ul div:nth-child(2){
+    width: 100%;
+    
+}
+
+.filtro-de-preco ul div:nth-child(2) .escolher-valor{
+    width: 99%;
+}
+
+
+.filtro-de-preco div:nth-child(2) p{
+    text-align: center;
+    font-size: 17pt;
+}
+
+
+.filtro-de-preco div:nth-child(2) h3{
+    text-align: center;
+}
+
+ .lado_a_lado_lista{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
+.produtos .site .lado_a_lado .wrap{
+    width: 100%;
+}
+
+
+.reserva_produto .lado_a_lado{
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.inf_produto .reserva_title  {
+  width: 91%;
+  margin-top: 20px;
+}
+
+.inf_produto .reserva_title h3 {
+   
+    text-align: center;
+}
+
+
+.inf_produto .inf_txt{
+    text-align: center;
+}
+
+
+.inf_produto .tipos_personalizacoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc h3{
+    text-align: center;
+}
+
+
+.contato .site .forms_contato .button_forms{
+    display: flex;
+    justify-content: center;
+}
+
+
+.contato .site .forms_contato{
+    padding: 50px 0 0 0  ;
+}
 
 }
