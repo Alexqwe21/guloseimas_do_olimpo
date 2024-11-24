@@ -18,7 +18,7 @@ $(document).ready(function () {
             {
                 breakpoint: 600, // Quando a tela for menor que 600px
                 settings: {
-                    slidesToShow: 2, // Mostra 1 imagem
+                    slidesToShow: 1, // Mostra 1 imagem
                     slidesToScroll: 1
                 }
             }
