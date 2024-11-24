@@ -2502,4 +2502,14 @@ font-size: 35pt;
 }
 
 
+.reserva_produto .site .lado_a_lado div a img {
+    width: 250px;
+}
+
+
+.reserva_produto h3, .reserva_produto p{
+    text-align: center;
+}
+
+
 }
