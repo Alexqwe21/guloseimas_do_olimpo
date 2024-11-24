@@ -3,10 +3,26 @@ $(document).ready(function () {
     $('.box_carousel').slick({
         dots: true,
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 3, // Número padrão de imagens exibidas
         slidesToScroll: 3,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1024, // Quando a tela for menor que 1024px
+                settings: {
+                    slidesToShow: 2, // Mostra 2 imagens
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 600, // Quando a tela for menor que 600px
+                settings: {
+                    slidesToShow: 2, // Mostra 1 imagem
+                    slidesToScroll: 1
+                }
+            }
+        ]
     });
 
     // Carrosel pag Sobre
