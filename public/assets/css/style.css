@@ -2399,7 +2399,11 @@ footer .site .lado_a_lado .newsletter form button{
 
 
 .carrosel_produtos .site .produtos_carrosel img{
-    margin-left: 70px;
+    margin-left: 59px;
+}
+
+footer .site .lado_a_lado .newsletter form button{
+    height: 60px;
 }
 
 }
@@ -2500,12 +2504,12 @@ font-size: 35pt;
 
 
 .carrosel_produtos .site h3 {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .carrosel_produtos .site .produtos_carrosel img {
    
-     margin-left: 70px; 
+     margin-left: 59px; 
 }
 
 
@@ -2595,7 +2599,7 @@ justify-content: space-evenly;
 
 
     footer .site .lado_a_lado .newsletter form button{
-        height: 55px;
+        height: 60px;
     }
 
     .brigadeiros .site div img{
