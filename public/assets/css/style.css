@@ -2512,4 +2512,19 @@ font-size: 35pt;
 }
 
 
+.banner_galeria .site div h2 {
+font-size: 60pt;
+}
+
+
+.galeria_pd img {
+    width: 300px;
+    height: 270px;
+}
+
+
+.fotos_galeria .site .lado_a_lado_galeria .galeria_pd h3{
+    margin-bottom: 50px;
+}
+
 }
