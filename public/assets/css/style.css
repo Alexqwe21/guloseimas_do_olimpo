@@ -2385,7 +2385,7 @@ footer .site .lado_a_lado .newsletter form button {
   
 
 .box_carousel{
-    margin:  0 0 0 55px;
+    margin:  0 0 0 36px;
 }
 
 footer .site .lado_a_lado .newsletter form button{
@@ -2395,6 +2395,11 @@ footer .site .lado_a_lado .newsletter form button{
 .brigadeiros .site div img{
     width: 100px;
     height: 100px;
+}
+
+
+.carrosel_produtos .site .produtos_carrosel img{
+    margin-left: 70px;
 }
 
 }
@@ -2500,7 +2505,7 @@ font-size: 35pt;
 
 .carrosel_produtos .site .produtos_carrosel img {
    
-     margin-left: 86px; 
+     margin-left: 70px; 
 }
 
 
