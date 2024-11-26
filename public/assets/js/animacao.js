@@ -1,31 +1,15 @@
 // Carrosel Pag Home
-$(document).ready(function () {
+$(document).ready(function(){
     $('.box_carousel').slick({
         dots: true,
         infinite: true,
-        slidesToShow: 3, // Número padrão de imagens exibidas
+        slidesToShow: 3,
         slidesToScroll: 3,
         autoplay: true,
-        autoplaySpeed: 2000,
-        responsive: [
-            {
-                breakpoint: 1024, // Quando a tela for menor que 1024px
-                settings: {
-                    slidesToShow: 2, // Mostra 2 imagens
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 600, // Quando a tela for menor que 600px
-                settings: {
-                    slidesToShow: 1, // Mostra 1 imagem
-                    slidesToScroll: 1
-                }
-            }
-        ]
+        autoplaySpeed: 2000
     });
 
-    // Carrosel pag Sobre
+
     $('.produtos_carrosel').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -33,13 +17,7 @@ $(document).ready(function () {
         autoplaySpeed: 2000,
     });
 
-    // Funções para aumentar e diminuir
-    incrementButton.addEventListener('click', () => {
-        number++;
-        numberElement.textContent = number;
-    });
 });
-
 // Contator da tela "reserva"
 document.addEventListener("DOMContentLoaded", () => {
     const numberDisplay = document.getElementById("number-display");
