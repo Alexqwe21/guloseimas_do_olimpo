@@ -73,6 +73,17 @@ header .site nav ul li a:hover {
     color: var(--cor_dourado);
 }
 
+.login_header{
+    display: block;
+}
+
+.nav-list .login_header{
+    display: none;
+}
+
+
+
+
 .close-btn{
     display: none;
 }
@@ -2185,6 +2196,14 @@ footer .site .hr_footer {
 
 
 @media (max-width: 480px) {
+    .login_header{
+        display: none;
+    }
+
+    .nav-list .login_header{
+        display: block;
+    }
+
 
     .ben_vindo .site .lado_a_lado .lado_a_lado_img {
         flex-flow: column wrap;
