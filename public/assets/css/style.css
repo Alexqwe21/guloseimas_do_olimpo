@@ -1053,8 +1053,6 @@ footer .site .hr_footer {
     border: 1px solid #463C4B;
 }
 
-
-
 .produtos .site {
     max-width: 1400px;
 }
@@ -1375,7 +1373,29 @@ footer .site .hr_footer {
     color: red;
 }
 
+.reserva_acoes {
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #0B3222;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
 
+.reserva_acoes .arrow p{
+    justify-content: end;
+    color: red;
+    font-size: 12pt;
+    font-weight: bolder;
+}
+
+.reserva_acoes .fa-arrow-left {
+    color: red;
+    rotate: 20°;
+}
 
 .localizacao_contato iframe {
     width: 100%;
@@ -1553,7 +1573,6 @@ footer .site .hr_footer {
 
 .forms_contato form .nome_entrar  .lembrar{
     display: flex;
-   
     flex-flow: column nowrap;
 }
 
@@ -1572,14 +1591,11 @@ footer .site .hr_footer {
 
 .forms_contato form .nome_entrar  .lembrar input{
     width: 20px;
-   margin-right: 25px;
-   
+    margin-right: 25px;
 }
-
 
 .forms_contato form .nome_entrar  .lembrar input:focus{
     outline: none;
-  
 }
 
 

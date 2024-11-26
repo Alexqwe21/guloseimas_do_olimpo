@@ -15,6 +15,6 @@ $(document).ready(function(){
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-      });
+    });
 
 });
