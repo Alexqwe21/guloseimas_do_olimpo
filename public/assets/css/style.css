@@ -1358,7 +1358,6 @@ footer .site .hr_footer {
     font-weight: bold;
 }
 
-
 .descricao_produto .space {
     padding: 10px;
 }
@@ -1386,16 +1385,15 @@ footer .site .hr_footer {
     font-weight: bold;
 }
 
+
 .reserva_acoes {
-    width: 200px;
+    width: 550px;
     height: 50px;
     margin: 5px;
     border-radius: 10px;
-    background-color: #0B3222;
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .reserva_acoes .arrow p{
@@ -1415,11 +1413,7 @@ footer .site .hr_footer {
 
 }
 
-.inf_produto .reserva_acoes {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .inf_produto .reserva_acoes .qtd_produto {
     display: flex;
@@ -1513,8 +1507,8 @@ footer .site .hr_footer {
     justify-content: center;
 }
 
-/* .produtos_contato img {} */
 
+/* .produtos_contato img {} */
 .instagram_contato {
     width: 50px;
     height: 50px;
@@ -2024,10 +2018,7 @@ footer .site .hr_footer {
     footer .site .lado_a_lado .logo_footer img {
         width: 350px;
         height: 350px;
-
     }
-
-
 
     footer .site .lado_a_lado .contato {
         padding: 0;
@@ -2039,7 +2030,6 @@ footer .site .hr_footer {
         text-align: center;
         font-size: 40pt;
     }
-
 
     footer .site .lado_a_lado .contato h3,
     footer .site .lado_a_lado .nav_footer ul li a {
@@ -2089,15 +2079,10 @@ footer .site .hr_footer {
         width: 600px;
     }
 
-
-
-
-
     .carrosel_produtos .site h3 {
         text-align: center;
         font-size: 60px;
     }
-
 
     .carrosel_produtos .site div h3::after {
         left: -90px;
@@ -2217,10 +2202,6 @@ footer .site .hr_footer {
     .ver_mais .site div button {
         margin-left: 29px;
     }
-
-
-
-
 
 }
 
