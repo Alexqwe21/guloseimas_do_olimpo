@@ -25,7 +25,16 @@
                             alt="Logo da Empresa - Guloseimas do olimpo"></a></h1>
             </div>
             <nav>
-                <ul>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+
+                <ul class="nav-list">
+                    <div class="login_header">
+                        <a href="login.html"><img src="public/assets/img/login.svg" alt="Login"></a>
+                    </div>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="sobre.html">SOBRE</a></li>
                     <li><a href="produtos.html">PRODUTOS</a></li>
@@ -66,16 +75,42 @@
                         <div class="reserva_preco">
                             <p>R$35</p>
                         </div>
-                        <div class="reserva_acoes">
-                            <div class="arrow">
-                                <i class="fa-solid fa-arrow-left"></i>
-                                <p>&darr;</p>
+                    </div>
+                    <div class="reserva_acoes">
+                        <div class="qtd_produto">
+                            <div class="number">
+                                <p id="number-display">1</p>
+                            </div>
+                            <div class="arrows">
+                                <button id="increment-button"><i class="fa-solid fa-arrow-up"></i> </button>
+                                <button id="decrement-button"><i class="fa-solid fa-arrow-down"></i></button>
+                            </div>
+                        </div>
+                        <div class="carrinho_produto">
+                            <div class="car">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <div>
+                                <a href="login.html">
+                                    <p>RESERVE AGORA</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="fav_produto">
+                            <div>
+                                <i id="heart-icon" class="fa-solid fa-heart"></i>
                             </div>
                         </div>
                     </div>
 
-                </div>
+                    <div class="inf_txt">
+                        <p>Todas as reservas são feitas excluisavamente pelo</p>
+                        <p class="wtz">WHATSAPP</p>
+                    </div>
+                    <div class="space">
 
+                    </div>
+                </div>
             </article>
         </section>
     </main>
