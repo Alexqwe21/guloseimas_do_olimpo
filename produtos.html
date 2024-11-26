@@ -23,15 +23,24 @@
                             alt="Logo da Empresa - Guloseimas do olimpo"></a></h1>
             </div>
             <nav>
-                <ul>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+
+                <ul class="nav-list">
+
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="sobre.html">SOBRE</a></li>
                     <li><a href="produtos.html">PRODUTOS</a></li>
                     <li><a href="reserva.html">RESERVA</a></li>
                     <li><a href="galeria.html">GALERIA</a></li>
                     <li><a href="contato.html">CONTATO</a></li>
+                    <li class="close-btn"><a href="#">FECHAR</a></li>
                 </ul>
             </nav>
+
 
             <div class="login_header">
                 <a href="login.html"><img src="public/assets/img/login.svg" alt="Login"></a>
@@ -68,38 +77,41 @@
 
 
                                 <h3>Filtrar por categoria</h3>
-                                <li>
-                                    <p>Produto-01</p>
-                                </li>
+                                <div class="lado_a_lado_lista">
 
-                                <li>
-                                    <p>Produto-02</p>
-                                </li>
 
-                                <li>
-                                    <p>Produto-03</p>
-                                </li>
+                                    <li>
+                                        <p>Produto-01</p>
+                                    </li>
 
-                                <li>
-                                    <p>Produto-04</p>
-                                </li>
+                                    <li>
+                                        <p>Produto-02</p>
+                                    </li>
 
-                                <li>
-                                    <p>Produto-05</p>
-                                </li>
+                                    <li>
+                                        <p>Produto-03</p>
+                                    </li>
 
-                                <li>
-                                    <p>Produto-06</p>
-                                </li>
+                                    <li>
+                                        <p>Produto-04</p>
+                                    </li>
 
-                                <li>
-                                    <p>Produto-06</p>
-                                </li>
+                                    <li>
+                                        <p>Produto-05</p>
+                                    </li>
 
-                                <li>
-                                    <p>Produto-07</p>
-                                </li>
+                                    <li>
+                                        <p>Produto-06</p>
+                                    </li>
 
+                                    <li>
+                                        <p>Produto-06</p>
+                                    </li>
+
+                                    <li>
+                                        <p>Produto-07</p>
+                                    </li>
+                                </div>
                             </div>
                         </ul>
 
@@ -241,6 +253,53 @@
                             </a>
                         </div>
 
+
+                        <div class="tamanho_link">
+                            <a href="#">
+                                <div class="produto_a_mostra">
+                                    <img src="public/assets/img/produto_a_mostra-01.svg" alt="produto">
+
+                                </div>
+                                <div class="preco_produto">
+                                    <h3>Produto-01</h3>
+                                    <p>R$30,00 - $80,00</p>
+                                    <button><img src="public/assets/img/adicionar_favoritos.svg"
+                                            alt="adicionar_favoritos"></button>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="tamanho_link">
+                            <a href="#">
+                                <div class="produto_a_mostra">
+                                    <img src="public/assets/img/produto_a_mostra-01.svg" alt="produto">
+
+                                </div>
+                                <div class="preco_produto">
+                                    <h3>Produto-01</h3>
+                                    <p>R$30,00 - $80,00</p>
+                                    <button><img src="public/assets/img/adicionar_favoritos.svg"
+                                            alt="adicionar_favoritos"></button>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="tamanho_link">
+                            <a href="#">
+                                <div class="produto_a_mostra">
+                                    <img src="public/assets/img/produto_a_mostra-01.svg" alt="produto">
+
+                                </div>
+                                <div class="preco_produto">
+                                    <h3>Produto-01</h3>
+                                    <p>R$30,00 - $80,00</p>
+                                    <button><img src="public/assets/img/adicionar_favoritos.svg"
+                                            alt="adicionar_favoritos"></button>
+                                </div>
+                            </a>
+                        </div>
+
+
                     </div>
                 </div>
             </article>
@@ -249,7 +308,9 @@
         <section class="ver_mais">
             <article class="site">
                 <div>
-                    <button><h3>Ver mais produtos</h3></button>
+                    <button>
+                        <h3>Ver mais produtos</h3>
+                    </button>
                 </div>
             </article>
         </section>
@@ -333,6 +394,7 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="public/vendors/slick/slick.min.js"></script>
     <script type="text/javascript" src="public/assets/js/animacao.js"></script>
+    <script src="public/assets/js/mobile-navbar.js"></script>
 </body>
 
 </html>
