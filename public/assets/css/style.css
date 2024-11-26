@@ -1328,6 +1328,8 @@ footer .site .hr_footer {
     font-family: var(--para_texto);
 }
 
+
+
 /* STYLE PAGINA RESERVA */
 .reserva_produto h3,
 .reserva_produto p {
@@ -1341,61 +1343,204 @@ footer .site .hr_footer {
     justify-content: space-between;
 }
 
-.reserva_title h3 {
+.inf_produto,
+.reserva_title {
+    display: flex;
+    flex-direction: column;
+}
+
+.inf_produto .reserva_title h3 {
     font-weight: bold;
 }
 
-.tipos_personalizacoes {
+.reseva_personalizao .inf_txt {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+}
+
+.reseva_personalizao .inf_txt p {
+    margin: 0;
+    font-size: 14pt;
+}
+
+.reseva_personalizao .inf_txt .pers {
+    color: red;
+    font-weight: bold;
+}
+
+.inf_produto .inf_txt {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.inf_produto .inf_txt p {
+    padding: 5px 0;
+    font-size: 14pt;
+}
+
+.inf_produto .inf_txt .wtz {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.inf_produto .tipos_personalizacoes {
     margin: 20px;
 }
 
-.tipos_personalizacoes button {
+.inf_produto .tipos_personalizacoes button {
     width: 45px;
     height: 40px;
     border: none;
     margin: 5px;
+    cursor: pointer;
 }
 
-.tipos_personalizacoes :nth-child(1) {
-    background-color: #976E6E;
+.desc h3 {
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: var(--font_links);
+    margin: 5px;
+    padding: 5px;
+
 }
 
-.tipos_personalizacoes :nth-child(2) {
-    background-color: #E2D19C;
+.desc p {
+    font-family: var(--para_texto);
+    font-size: 16pt;
+    padding: 20px;
+    margin: 5px;
+    height: 60px;
+}
+
+.desc hr {
+    height: 1px;
+    color: black;
+    background-color: black;
+}
+
+.desc .pers {
+    color: red;
+    font-weight: bold;
+}
+
+
+.descricao_produto .space {
+    padding: 10px;
+}
+
+.inf_produto .tipos_personalizacoes button:hover {
+    transition: 0.5s ease;
+    transform: scale(1.2);
     box-shadow: black 1px 3px 3px 1px;
 }
 
-.tipos_personalizacoes :nth-child(3) {
+.inf_produto .tipos_personalizacoes :nth-child(1) {
+    background-color: #976E6E;
+}
+
+.inf_produto .tipos_personalizacoes :nth-child(2) {
+    background-color: #E2D19C;
+}
+
+.inf_produto .tipos_personalizacoes :nth-child(3) {
     background-color: #9BE79E;
 }
 
-.reserva_title div:nth-child(4) {
+.inf_produto .reserva_preco:nth-child(3) {
     color: red;
+    font-weight: bold;
 }
 
-.reserva_acoes {
-    width: 200px;
-    height: 50px;
-    margin: 5px;
-    border-radius: 10px;
+.inf_produto .reserva_acoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inf_produto .reserva_acoes .qtd_produto {
+    display: flex;
+    justify-content: space-around;
+    width: 165px;
+    align-items: center;
+    height: 55px;
     background-color: #0B3222;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.inf_produto .reserva_acoes .arrows {
     display: flex;
     flex-direction: column;
-    justify-content: end;
     align-items: end;
 }
 
-.reserva_acoes .arrow p{
-    justify-content: end;
-    color: red;
+.inf_produto .reserva_acoes .arrows button {
     font-size: 12pt;
-    font-weight: bolder;
+    border: none;
+    width: 25px;
+    background-color: transparent;
+    margin: 2px;
+    padding: 4px;
+    color: white;
+    font-size: 10pt;
+    cursor: pointer;
 }
 
-.reserva_acoes .fa-arrow-left {
-    color: red;
-    rotate: 20°;
+.inf_produto .reserva_acoes .arrows button:hover {
+    transition: 0.5s ease;
+    transform: scale(2);
 }
+
+.inf_produto .reserva_acoes .number p {
+    font-size: 24pt;
+    color: white;
+}
+
+.inf_produto .carrinho_produto {
+    width: 250px;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0B3222;
+    border-radius: 10px;
+}
+
+.inf_produto .carrinho_produto p {
+    color: white;
+    font-family: var(--para_texto);
+    cursor: pointer;
+}
+
+.car .fa-solid {
+    color: white;
+    font-size: 21pt;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fav_produto {
+    margin: 10px;
+}
+
+.fav_produto .fa-heart {
+    font-size: 32pt;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+    color: #a37e02d3;
+}
+
+.fav_produto .fa-heart.favorited {
+    color: red;
+    transform: scale(1.2);
+}
+
+
 
 .localizacao_contato iframe {
     width: 100%;
