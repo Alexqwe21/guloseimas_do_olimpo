@@ -1386,6 +1386,35 @@ footer .site .hr_footer {
     font-weight: bold;
 }
 
+.reserva_acoes {
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #0B3222;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.reserva_acoes .arrow p{
+    justify-content: end;
+    color: red;
+    font-size: 12pt;
+    font-weight: bolder;
+}
+
+.reserva_acoes .fa-arrow-left {
+    color: red;
+    rotate: 20°;
+}
+
+.localizacao_contato iframe {
+    width: 100%;
+
+}
+
 .inf_produto .reserva_acoes {
     display: flex;
     justify-content: space-between;
@@ -1612,8 +1641,10 @@ footer .site .hr_footer {
 
 .forms_contato form .nome_entrar .lembrar input {
     width: 20px;
-    margin-right: 25px;
+   margin-right: 25px;
+   
 }
+
 
 .forms_contato form .nome_entrar .lembrar input:focus {
     outline: none;
