@@ -73,6 +73,11 @@ header .site nav ul li a:hover {
     color: var(--cor_dourado);
 }
 
+.close-btn{
+    display: none;
+}
+
+
 /* Ben Vindo */
 .ben_vindo {
     padding: var(--para_separar_a_secoes);
@@ -1658,6 +1663,11 @@ footer .site .hr_footer {
     header nav .nav-list li {
         margin-left: 0;
         /* opacity: 0; */
+    }
+
+
+    .close-btn{
+        display: block;
     }
 
 
