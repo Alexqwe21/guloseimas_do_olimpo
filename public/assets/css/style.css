@@ -552,6 +552,10 @@ footer .site .hr_footer {
     font-family: var(--font_links);
 }
 
+footer .contato{
+    padding: 80px 0 0 0;
+}
+
 /* Pag Galeria */
 .banner_galeria,
 .banner_produtos,
