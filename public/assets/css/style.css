@@ -2534,7 +2534,13 @@ footer .contato {
 
     .ben_vindo .guloseimas h2,
     .qualidade_especial .site h2 {
-        font-size: 64px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .ben_vindo .guloseimas h3{
+        font-size: 16pt;
+        margin: 0 10px;
     }
 
     .qualidade_especial .site .lado_a_lado .encomenda p {
@@ -2560,7 +2566,7 @@ footer .contato {
         height: 300px;
     }
 
-
+a
     .qualidade_especial .site .alta_qualidade .verde {
         left: 83px;
         top: 250px;
@@ -2584,9 +2590,7 @@ footer .contato {
         font-size: 12pt;
     }
 
-    footer .site .lado_a_lado .newsletter form button {
-        top: 2px;
-    }
+    
 
     .sobre_mim .box_txt .title h3 {
         font-size: 35pt;
@@ -2699,7 +2703,9 @@ footer .contato {
     }
 
     footer .site .lado_a_lado .newsletter form button {
-        height: 50px;
+        height: 60px;
+        top: -2px;
+
     }
 
     footer .site .lado_a_lado .logo_footer {
