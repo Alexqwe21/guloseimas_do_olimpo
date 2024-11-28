@@ -43,6 +43,7 @@ body {
     --cor_do_footer: #0B3222;
     --cor_menu_hambuger: #241810;
     --cor_nav_list: #ccaea0ee;
+    --separar_secao_mobilie:   50px 0  ;
 }
 
 /* Header */
@@ -2188,6 +2189,30 @@ footer .contato{
 
 
 @media (max-width: 480px) {
+
+
+    .ben_vindo{
+       padding: var(--separar_secao_mobilie);
+    }
+
+    .ben_vindo .site .guloseimas{
+        justify-content: space-around;
+    }
+
+
+    .ben_vindo .site .lado_a_lado .lado_a_lado_img{
+        margin-top: 0;
+    }
+
+    .ben_vindo .site .lado_a_lado .img_01{
+        height: 350px;
+    }
+
+    .ben_vindo .site .lado_a_lado .img_02{
+        margin-bottom: 32px;
+    }
+
+
     .login_header{
         display: none;
     }
@@ -2249,10 +2274,19 @@ footer .contato{
         font-size: 30pt;
     }
 
+    .sobre_mim .box_txt .title h3{
+        font-size: 35pt;
+    }
+
+
     .quem_sou_eu .site .lado_a_lado .foto_quem,
     .minha_historia .site .lado_a_lado .foto_quem {
         width: 400px;
         height: 500px;
+    }
+
+    .quem_sou_eu, .minha_historia, .meus_servicos, .carrosel_produtos, .especialidades{
+        padding: var(--separar_secao_mobilie);
     }
 
     .quem_sou_eu .site .lado_a_lado div,
