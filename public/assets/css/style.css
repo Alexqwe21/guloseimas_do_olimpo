@@ -2506,6 +2506,12 @@ footer .contato {
     footer .site .lado_a_lado .nav_footer h2 {
         font-size: 31pt;
     }
+
+    footer .site .redes_footer {
+        display: flex;
+        padding: 5px;
+        justify-content: end;
+    }
 }
 
 
