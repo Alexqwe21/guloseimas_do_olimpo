@@ -399,8 +399,9 @@ footer .site .lado_a_lado,
     font-size: 28pt;
 }
 
-.slick-dots li button {
-    font-size: 30pt;
+.slick-dots li button:before {
+    color: white;
+    font-size: 14pt; 
 }
 
 .slick-dots li.slick-active button:before {
@@ -426,7 +427,7 @@ footer .site .lado_a_lado .logo_footer {
 }
 
 footer .site .lado_a_lado .logo_footer img {
-    width: 200px;
+    width: 150px;
 }
 
 footer .site .lado_a_lado .contato {
@@ -496,7 +497,7 @@ footer .site .lado_a_lado .newsletter h2 {
 
 footer .site .lado_a_lado .newsletter p {
     color: white;
-    font-size: 15pt;
+    font-size: 12pt;
     font-family: var(--para_texto);
     font-weight: var(--negrito_normal);
     margin-bottom: 28px;
@@ -511,7 +512,9 @@ footer .site .lado_a_lado .newsletter input {
     border: 2px solid white;
     color: white;
     text-transform: uppercase;
-    font-size: 15pt;
+    font-size: 14pt;
+    align-items: center;
+    text-align: start;
 }
 
 footer .site .lado_a_lado .newsletter input::placeholder {
@@ -522,17 +525,19 @@ footer .site .lado_a_lado .newsletter form button {
     background-color: var(--marrom_do_header);
     border: none;
     color: white;
-    height: 54px;
+    height: 50px;
     position: relative;
     right: 20px;
     font-size: 20pt;
+    padding: 11px;
     cursor: pointer;
     top: 2px;
+  
 }
 
 footer .site .redes_footer {
-    margin-top: 80px;
     display: flex;
+    padding: 5px;
     justify-content: end;
 }
 
@@ -1723,9 +1728,12 @@ footer .site .hr_footer {
         }
     }
 
+    
+
     .ben_vindo .site .lado_a_lado .img_01 img,
     .ben_vindo .site .lado_a_lado .img_02 img {
         width: 300px;
+        margin: 20px;
     }
 
     .ben_vindo .guloseimas h2,
