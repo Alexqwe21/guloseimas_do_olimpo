@@ -1928,6 +1928,10 @@ footer .contato {
     .brigadeiros {
         padding: 0;
     }
+
+    .ver_mais{
+        padding: var(--separar_secao_mobilie);
+    }
 }
 
 
@@ -2197,6 +2201,13 @@ footer .contato {
         justify-content: space-around;
     }
 
+    .ben_vindo .guloseimas h2,
+    .qualidade_especial .site h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+
 
     .ben_vindo .site .lado_a_lado .lado_a_lado_img {
         margin-top: 0;
@@ -2328,7 +2339,7 @@ footer .contato {
     }
 
     .sobre_pessoa .site .sobre {
-        width: 90%;
+        width: 90% !important;
         margin: 0px 10px;
     }
 
@@ -2512,6 +2523,8 @@ footer .contato {
         padding: 5px;
         justify-content: end;
     }
+
+
 }
 
 
@@ -2534,7 +2547,7 @@ footer .contato {
 
     .ben_vindo .guloseimas h2,
     .qualidade_especial .site h2 {
-        font-size: 50px;
+        font-size: 40px;
         line-height: 50px;
     }
 
@@ -2566,7 +2579,7 @@ footer .contato {
         height: 300px;
     }
 
-a
+
     .qualidade_especial .site .alta_qualidade .verde {
         left: 83px;
         top: 250px;
@@ -2574,7 +2587,7 @@ a
 
 
     .sobre_pessoa .site .sobre {
-        width: 100%;
+        width: 90% !important;
     }
 
 
