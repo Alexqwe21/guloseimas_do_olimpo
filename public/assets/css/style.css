@@ -1928,6 +1928,10 @@ footer .contato {
     .brigadeiros {
         padding: 0;
     }
+
+    .ver_mais{
+        padding: var(--separar_secao_mobilie);
+    }
 }
 
 
@@ -2328,7 +2332,7 @@ footer .contato {
     }
 
     .sobre_pessoa .site .sobre {
-        width: 90%;
+        width: 90% !important;
         margin: 0px 10px;
     }
 
@@ -2574,7 +2578,7 @@ footer .contato {
 
 
     .sobre_pessoa .site .sobre {
-        width: 100%;
+        width: 90% !important;
     }
 
 
