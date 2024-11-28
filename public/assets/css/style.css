@@ -1671,6 +1671,74 @@ footer .contato {
     transition: 0.3s;
 }
 
+/* Pagina Compras */
+.compras .site div {
+    margin: 50px 0;
+    font-family: var(--font_links);
+    font-size: 21pt;
+}
+
+.compras .site .lado_a_lado {
+    display: flex;
+}
+
+.compras .compras_box {
+    height: 400px;
+    display: flex;
+    background-color: lightgrey;
+}
+
+.compras .compras_box .desc_compras p {
+    padding:10px 20px;
+    margin: 0 10px;
+    border: black;
+    font-family: var(--para_texto);
+}
+
+.compras .compras_box img {
+    width: 250px;
+    height: 250px;
+}
+
+.compras .compras_box .desc_compras a  {
+    text-decoration: none;
+    margin: 20px;
+    font-family: var(--para_texto);
+}
+
+
+.compras .compras_box .desc_compras h6 { 
+    margin: 0 20px;
+    color: #985C41;
+    font-family: var(--para_texto);
+    font-size: 16pt;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.compras .compras_box .desc_compras .fa-solid, .fas {
+    color: rgb(179, 16, 16);
+    margin: 0 20px;
+    padding: 5px;
+}
+
+.compras .compras_box .compras_preco p, .qtd_compras p{
+    padding:10px 20px;
+    margin: 0 10px;
+    color: gray;
+    font-size: 14pt;
+    font-family: var(--para_texto);
+}
+
+.compras .compras_box .compras_preco h6{
+    padding:10px 20px;
+    margin: 0 10px;
+    color: black;
+    font-size: 18pt;
+    font-family: var(--para_texto);
+}
+
+
 /* MENU HAMBURGUER */
 @media (max-width: 1024px) {
 
