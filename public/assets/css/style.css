@@ -1673,31 +1673,35 @@ footer .contato {
 
 /* Pagina Compras */
 .compras .site div {
-    margin: 50px 0;
+    margin: 20px 0;
     font-family: var(--font_links);
     font-size: 21pt;
 }
 
 .compras .site .lado_a_lado {
     display: flex;
+    justify-content: space-between;
 }
 
 .compras .compras_box {
-    height: 400px;
+    height: 250px;
     display: flex;
-    background-color: lightgrey;
+    background-color: #F2F2EA;
+    border-radius: 20px;
 }
 
 .compras .compras_box .desc_compras p {
     padding:10px 20px;
+    font-size: 16pt;
     margin: 0 10px;
     border: black;
     font-family: var(--para_texto);
 }
 
 .compras .compras_box img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+    margin: 0 20px;
 }
 
 .compras .compras_box .desc_compras a  {
@@ -1706,23 +1710,23 @@ footer .contato {
     font-family: var(--para_texto);
 }
 
-
 .compras .compras_box .desc_compras h6 { 
     margin: 0 20px;
-    color: #985C41;
+    color: #0B3222;
     font-family: var(--para_texto);
-    font-size: 16pt;
+    font-size: 14pt;
     font-weight: bold;
     padding: 5px;
+    cursor: pointer;
 }
 
 .compras .compras_box .desc_compras .fa-solid, .fas {
     color: rgb(179, 16, 16);
-    margin: 0 20px;
     padding: 5px;
+    cursor: pointer;
 }
 
-.compras .compras_box .compras_preco p, .qtd_compras p{
+.compras .compras_box .compras_preco p, .qtd_compras p, .subtotal p {
     padding:10px 20px;
     margin: 0 10px;
     color: gray;
@@ -1730,14 +1734,165 @@ footer .contato {
     font-family: var(--para_texto);
 }
 
-.compras .compras_box .compras_preco h6{
+.compras .compras_box .compras_preco h6, .subtotal h6{
     padding:10px 20px;
     margin: 0 10px;
     color: black;
-    font-size: 18pt;
+    font-size: 16pt;
     font-family: var(--para_texto);
 }
 
+.compras .qtd_compras {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+}
+
+.qtd_compras .qtd_box {
+    background-color: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.qtd_compras .qtd_box button {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 24pt;
+    border: none;
+}
+
+.qtd_compras .qtd_box .increment-button {
+    color: #0B3222;
+    cursor: pointer;
+}
+
+.qtd_compras .qtd_box .decrement-button {
+    color: rgb(179, 16, 16);
+    cursor: pointer;
+}
+
+.qtd_compras .qtd_box .number p {
+    font-size: 21pt;
+    padding: 1px;
+    color: black;
+    cursor: pointer;
+}
+
+.qtd_compras .qtd_box .increment-button:hover, 
+.qtd_compras .qtd_box .decrement-button:hover{
+    transition: 0.5s ease;
+    transform: scale(1.9);
+}
+
+.acoes_compras {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 20px;
+}
+
+.acoes_compras p {
+    margin: 0 10px;
+    font-family: var(--font_links);
+    font-size: 14pt;
+    color: #0B3222;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.acoes_compras div {
+    font-size: 18pt;
+    background-color: var(--marrom_do_header);
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    
+}
+
+.acoes_compras div a {
+    height: 50px;
+    font-size: 14pt;
+    color: var(--cor_de_funco);
+    font-family: var(--font_links);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 10px;
+}
+
+.resumo_compras{
+    background-color: #F2F2EA;
+    height: 300px;
+    width: 800px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.resumo_compras p{
+    font-size: 14pt;
+}
+
+.resumo_compras > div p{
+    font-size: 14pt;
+}
+
+.resumo_compras h3 {
+    font-family: var(--font_links);
+    font-size: 14pt;
+    margin: 20px;
+}
+
+.resumo_compras .resumo_pedido {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.total_compras{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.resumo_compras .finalizar {
+    align-items:center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center
+    
+    
+    
+}
+
+.finalizar a{
+    width: 250px;
+    border-radius: 20px;
+    background-color: #0B3222;
+    height: 50px;
+    font-size: 14pt;
+    color: var(--cor_de_funco);
+    font-family: var(--font_links);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 10px;
+}
 
 /* MENU HAMBURGUER */
 @media (max-width: 1024px) {
