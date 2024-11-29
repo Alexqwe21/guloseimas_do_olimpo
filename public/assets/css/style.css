@@ -2566,7 +2566,7 @@ footer .contato {
 
 
     .carrosel_produtos .site .produtos_carrosel img {
-        margin-left: 59px;
+        margin-left: 59px !important    ;
     }
 
     footer .site .lado_a_lado .newsletter form button {
