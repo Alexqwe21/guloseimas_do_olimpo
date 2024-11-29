@@ -1672,17 +1672,8 @@ footer .contato {
 }
 
 /* Pagina Compras */
-
-.compras{
-    height: 500px;
-}
-
-.compras .site{
-    max-width: 1400px;
-}
-
 .compras .site div {
-    margin: 20px 0 0 20px;
+    margin: 20px 0;
     font-family: var(--font_links);
     font-size: 21pt;
 }
@@ -1697,7 +1688,6 @@ footer .contato {
     display: flex;
     background-color: #F2F2EA;
     border-radius: 20px;
-    width: 80%;
 }
 
 .compras .compras_box .desc_compras p {
@@ -1847,7 +1837,7 @@ footer .contato {
 .resumo_compras {
     background-color: #F2F2EA;
     height: 300px;
-    width: 500px !important;
+    width: 800px;
     margin: 20px 0;
     border-radius: 20px;
 }
@@ -2454,20 +2444,6 @@ footer .contato {
         justify-content: space-around;
     }
 
-
-    .compras{
-        height: 900px;
-    }
-
-    .compras .compras_box{
-        display: flex;
-        flex-direction: column;
-        height: 700px;
-    }
-
-
-    
-
 }
 
 
@@ -2829,20 +2805,6 @@ footer .contato {
     footer .site .lado_a_lado .newsletter form {
         width: 100%;
         justify-content: center;
-    }
-
-
-.compras{
-    height: 1200px;
-}
-
-    .compras .site .lado_a_lado{
-        flex-direction: column;
-    }
-
-
-    .resumo_compras{
-width: 90% !important;
     }
 
 
