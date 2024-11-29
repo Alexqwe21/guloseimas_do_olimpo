@@ -2306,6 +2306,7 @@ footer .contato {
     .box .img_02,
     .box .img_03 {
         justify-content: center;
+        display: flex;
     }
 
     .space {
@@ -2326,11 +2327,21 @@ footer .contato {
         margin: 0;
     }
 
-
     .ben_vindo .site .lado_a_lado .img_02 {
         height: 300px;
     }
 
+    .ben_vindo .site .lado_a_lado .img_01 img, .ben_vindo .site .lado_a_lado .img_02 img{
+        margin: 0;
+    }
+
+    .box{
+        margin: 0;
+        width: 100%;
+    }
+
+
+    
     .sobre_pessoa .site .lado_a_lado {
         flex-flow: column wrap;
         align-items: center;
@@ -2349,13 +2360,11 @@ footer .contato {
         text-align: center;
     }
 
-    footer .site .lado_a_lado .newsletter form button {
-        top: 3px;
-    }
-
+    
     .banner_sobre .site .mais_sobre_mim h2::after {
         right: -88px;
         font-size: 25pt;
+        width: 80%;
     }
 
     .banner_sobre .site .mais_sobre_mim h2 {
@@ -2454,6 +2463,15 @@ footer .contato {
         width: 100%;
     }
 
+    .especialidades .site .especialidade_produto .pd{
+        width: 100%;
+    }
+
+
+    .especialidades .site .especialidade_produto .pd img{
+        width: 100%;
+    }
+
 
     .banner_produtos .site div h2 {
         font-size: 50pt;
@@ -2478,6 +2496,10 @@ footer .contato {
     .contato .site .lado_a_lado {
         align-items: flex-start;
     }
+
+    /* .contato .site .forms_contato form{
+        width: 95%;
+    } */
 
     .contato .site .forms_contato .nome,
     .contato .site .forms_contato .telefone,
@@ -2529,17 +2551,13 @@ footer .contato {
         margin-bottom: 40px;
     }
 
-    footer .site .lado_a_lado .newsletter form button {
-        top: 2px;
-    }
+   
 
     .box_carousel {
         margin: 0 0 0 36px;
     }
 
-    footer .site .lado_a_lado .newsletter form button {
-        height: 55px;
-    }
+   
 
     .brigadeiros .site div img {
         width: 100px;
@@ -2553,6 +2571,8 @@ footer .contato {
 
     footer .site .lado_a_lado .newsletter form button {
         height: 60px;
+        top: -1px !important;
+        
     }
 
     .reserva_produto .site .lado_a_lado .inf_produto {
@@ -2572,10 +2592,7 @@ footer .contato {
         font-size: 14pt;
     }
 
-    footer .site .lado_a_lado .newsletter form button {
-
-        height: 50px;
-    }
+   
 
     footer .site .lado_a_lado .logo_footer {
         height: 215px;
@@ -2590,6 +2607,11 @@ footer .contato {
         display: flex;
         padding: 5px;
         justify-content: end;
+    }
+
+    footer .site .lado_a_lado .newsletter form{
+        width: 100%;
+        justify-content: center;
     }
 
 
@@ -2705,12 +2727,13 @@ footer .contato {
     }
 
     .carrosel_produtos .site h3 {
-        font-size: 28px;
+        font-size: 26px;
+        width: 70%;
     }
 
     .carrosel_produtos .site .produtos_carrosel img {
 
-        margin-left: 59px;
+        margin-left: 45px;
     }
 
     .especialidades .site h3::after {
@@ -2723,7 +2746,8 @@ footer .contato {
 
     .banner_sobre .site .mais_sobre_mim h2::after {
         font-size: 22pt;
-        top: -110px;
+        top: -150px;
+        right: -107px;
     }
 
     .banner_produtos .site div h2 {
@@ -2736,6 +2760,7 @@ footer .contato {
 
     .reserva_produto .site .lado_a_lado div a img {
         width: 250px;
+        margin-top: 20px;
     }
 
     .reserva_produto h3,
@@ -2757,7 +2782,7 @@ footer .contato {
     }
 
     .banner_contato .site div h2 {
-        font-size: 60pt;
+        font-size: 50pt;
     }
 
     .contato .site .detalhes_de_contato h2 {
