@@ -1691,7 +1691,7 @@ footer .contato {
 }
 
 .compras .compras_box .desc_compras p {
-    padding:10px 20px;
+    padding: 10px 20px;
     font-size: 16pt;
     margin: 0 10px;
     border: black;
@@ -1704,13 +1704,13 @@ footer .contato {
     margin: 0 20px;
 }
 
-.compras .compras_box .desc_compras a  {
+.compras .compras_box .desc_compras a {
     text-decoration: none;
     margin: 20px;
     font-family: var(--para_texto);
 }
 
-.compras .compras_box .desc_compras h6 { 
+.compras .compras_box .desc_compras h6 {
     margin: 0 20px;
     color: #0B3222;
     font-family: var(--para_texto);
@@ -1720,22 +1720,26 @@ footer .contato {
     cursor: pointer;
 }
 
-.compras .compras_box .desc_compras .fa-solid, .fas {
+.compras .compras_box .desc_compras .fa-solid,
+.fas {
     color: rgb(179, 16, 16);
     padding: 5px;
     cursor: pointer;
 }
 
-.compras .compras_box .compras_preco p, .qtd_compras p, .subtotal p {
-    padding:10px 20px;
+.compras .compras_box .compras_preco p,
+.qtd_compras p,
+.subtotal p {
+    padding: 10px 20px;
     margin: 0 10px;
     color: gray;
     font-size: 14pt;
     font-family: var(--para_texto);
 }
 
-.compras .compras_box .compras_preco h6, .subtotal h6{
-    padding:10px 20px;
+.compras .compras_box .compras_preco h6,
+.subtotal h6 {
+    padding: 10px 20px;
     margin: 0 10px;
     color: black;
     font-size: 16pt;
@@ -1786,8 +1790,8 @@ footer .contato {
     cursor: pointer;
 }
 
-.qtd_compras .qtd_box .increment-button:hover, 
-.qtd_compras .qtd_box .decrement-button:hover{
+.qtd_compras .qtd_box .increment-button:hover,
+.qtd_compras .qtd_box .decrement-button:hover {
     transition: 0.5s ease;
     transform: scale(1.9);
 }
@@ -1815,7 +1819,7 @@ footer .contato {
     border-radius: 20px;
     width: 250px;
     height: 50px;
-    
+
 }
 
 .acoes_compras div a {
@@ -1830,7 +1834,7 @@ footer .contato {
     font-weight: 10px;
 }
 
-.resumo_compras{
+.resumo_compras {
     background-color: #F2F2EA;
     height: 300px;
     width: 800px;
@@ -1838,11 +1842,11 @@ footer .contato {
     border-radius: 20px;
 }
 
-.resumo_compras p{
+.resumo_compras p {
     font-size: 14pt;
 }
 
-.resumo_compras > div p{
+.resumo_compras>div p {
     font-size: 14pt;
 }
 
@@ -1860,7 +1864,7 @@ footer .contato {
     text-align: center;
 }
 
-.total_compras{
+.total_compras {
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -1869,17 +1873,14 @@ footer .contato {
 
 
 .resumo_compras .finalizar {
-    align-items:center;
+    align-items: center;
     height: 50px;
     display: flex;
     justify-content: center;
     text-align: center
-    
-    
-    
 }
 
-.finalizar a{
+.finalizar a {
     width: 250px;
     border-radius: 20px;
     background-color: #0B3222;
@@ -2152,15 +2153,42 @@ footer .contato {
         padding: 0;
     }
 
-    .ver_mais{
+    .ver_mais {
         padding: var(--separar_secao_mobilie);
     }
 
     .compras .site .lado_a_lado {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .lado_a_lado .resumo_compras{
+    .lado_a_lado .resumo_compras {
+        align-items: center;
+        text-align: center;
+    }
+
+    .compras .compras_box {
+        width: 845px;
+    }
+
+    .compras_box .compras_preco p,
+    .qtd_compras p,
+    .subtotal p {
+        padding: 5px;
+    }
+
+    .compras .compras_box .desc_compras p {
+        padding: 5px;
+    }
+
+    .compras .site>div {
+        padding: 5px;
+    }
+
+    .compras .acoes_compras {
+        display: flex;
+        justify-content: space-around;
         align-items: center;
         text-align: center;
     }
@@ -2495,17 +2523,18 @@ footer .contato {
         height: 300px;
     }
 
-    .ben_vindo .site .lado_a_lado .img_01 img, .ben_vindo .site .lado_a_lado .img_02 img{
+    .ben_vindo .site .lado_a_lado .img_01 img,
+    .ben_vindo .site .lado_a_lado .img_02 img {
         margin: 0;
     }
 
-    .box{
+    .box {
         margin: 0;
         width: 100%;
     }
 
 
-    
+
     .sobre_pessoa .site .lado_a_lado {
         flex-flow: column wrap;
         align-items: center;
@@ -2524,7 +2553,7 @@ footer .contato {
         text-align: center;
     }
 
-    
+
     .banner_sobre .site .mais_sobre_mim h2::after {
         right: -88px;
         font-size: 25pt;
@@ -2627,12 +2656,12 @@ footer .contato {
         width: 100%;
     }
 
-    .especialidades .site .especialidade_produto .pd{
+    .especialidades .site .especialidade_produto .pd {
         width: 100%;
     }
 
 
-    .especialidades .site .especialidade_produto .pd img{
+    .especialidades .site .especialidade_produto .pd img {
         width: 100%;
     }
 
@@ -2715,13 +2744,13 @@ footer .contato {
         margin-bottom: 40px;
     }
 
-   
+
 
     .box_carousel {
         margin: 0 0 0 36px;
     }
 
-   
+
 
     .brigadeiros .site div img {
         width: 100px;
@@ -2730,13 +2759,13 @@ footer .contato {
 
 
     .carrosel_produtos .site .produtos_carrosel img {
-        margin-left: 59px !important    ;
+        margin-left: 59px !important;
     }
 
     footer .site .lado_a_lado .newsletter form button {
         height: 60px;
         top: -1px !important;
-        
+
     }
 
     .reserva_produto .site .lado_a_lado .inf_produto {
@@ -2756,7 +2785,7 @@ footer .contato {
         font-size: 14pt;
     }
 
-   
+
 
     footer .site .lado_a_lado .logo_footer {
         height: 215px;
@@ -2773,7 +2802,7 @@ footer .contato {
         justify-content: end;
     }
 
-    footer .site .lado_a_lado .newsletter form{
+    footer .site .lado_a_lado .newsletter form {
         width: 100%;
         justify-content: center;
     }
@@ -2805,7 +2834,7 @@ footer .contato {
         line-height: 50px;
     }
 
-    .ben_vindo .guloseimas h3{
+    .ben_vindo .guloseimas h3 {
         font-size: 16pt;
         margin: 0 10px;
     }
@@ -2857,7 +2886,7 @@ footer .contato {
         font-size: 12pt;
     }
 
-    
+
 
     .sobre_mim .box_txt .title h3 {
         font-size: 35pt;
