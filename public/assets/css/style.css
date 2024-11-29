@@ -2155,6 +2155,15 @@ footer .contato {
     .ver_mais{
         padding: var(--separar_secao_mobilie);
     }
+
+    .compras .site .lado_a_lado {
+        flex-direction: column;
+    }
+
+    .lado_a_lado .resumo_compras{
+        align-items: center;
+        text-align: center;
+    }
 }
 
 
