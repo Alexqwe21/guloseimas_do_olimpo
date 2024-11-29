@@ -1672,6 +1672,17 @@ footer .contato {
 }
 
 /* Pagina Compras */
+
+.compras{
+    height: 500px;
+}
+
+
+
+.compras .site{
+    max-width: 1400px;
+}
+ 
 .compras .site div {
     margin: 20px 0;
     font-family: var(--font_links);
@@ -1838,7 +1849,7 @@ footer .contato {
     background-color: #F2F2EA;
     height: 300px;
     width: 800px;
-    margin: 20px 0;
+    margin: 20px 0 0 20px !important;
     border-radius: 20px;
 }
 
@@ -2444,6 +2455,22 @@ footer .contato {
         justify-content: space-around;
     }
 
+
+    .compras{
+        height: 1300px;
+    }
+
+
+    .compras .compras_box{
+        width: 50%;
+        flex-direction: column;
+        height: 800px;
+    }
+
+    .resumo_compras{
+        width: 50% !important;
+    }
+
 }
 
 
@@ -2805,6 +2832,15 @@ footer .contato {
     footer .site .lado_a_lado .newsletter form {
         width: 100%;
         justify-content: center;
+    }
+
+
+    .compras .compras_box{
+        width: 80% !important;
+    }
+
+    .resumo_compras{
+        width: 80% !important;
     }
 
 
