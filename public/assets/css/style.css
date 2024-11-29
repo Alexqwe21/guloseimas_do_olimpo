@@ -2203,6 +2203,14 @@ footer .contato {
         align-items: center;
         text-align: center;
     }
+
+    .compras{
+        height: 800px;
+    }
+
+    .compras .site div h3{
+text-align: center;
+    }
 }
 
 
