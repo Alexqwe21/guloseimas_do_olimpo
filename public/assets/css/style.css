@@ -2482,6 +2482,19 @@ text-align: center;
 
     .qtd_box{
         margin-bottom: 60px !important;
+    }   
+
+    .compras .compras_box .desc_compras p{
+        text-align: center;
+    }
+
+    .compras .compras_box .compras_preco h6, .subtotal h6{
+        text-align: center;
+    }
+
+    .compras .compras_box .desc_compras h6{
+        text-align: center;
+        margin-top: 10px;
     }
     
 }
