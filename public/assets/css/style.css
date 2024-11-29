@@ -2473,12 +2473,17 @@ text-align: center;
         width: 50%;
         flex-direction: column;
         height: 800px;
+        align-items: center;
     }
 
     .resumo_compras{
         width: 50% !important;
     }
 
+    .qtd_box{
+        margin-bottom: 60px !important;
+    }
+    
 }
 
 
