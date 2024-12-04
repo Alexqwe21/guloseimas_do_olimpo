@@ -15,18 +15,24 @@
     <link rel="stylesheet" href="public/assets/css/reset.css">
 
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CB1WZZ9KRY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CB1WZZ9KRY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-CB1WZZ9KRY');
-</script>
+        gtag('config', 'G-CB1WZZ9KRY');
+    </script>
 
 </head>
 
 <body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
     <header>
         <div class="site">
             <div class="logo_header">
@@ -100,7 +106,7 @@
                                 <div class="email_entrar">
                                     <div class="entrar_email">
                                         <label for="email">
-                                             </label>
+                                        </label>
                                         <input type="email" name="email" id="email" placeholder="Endereço de email"
                                             required>
                                     </div>
@@ -115,9 +121,11 @@
                                     <div class="checkbox">
 
 
-                                     
-                                        <input type="checkbox" id="lembrar" name="lembrar" >  
-                                        <label for="lembrar"><p>lembrar email/senha</p></label>
+
+                                        <input type="checkbox" id="lembrar" name="lembrar">
+                                        <label for="lembrar">
+                                            <p>lembrar email/senha</p>
+                                        </label>
                                     </div>
                                 </div>
                             </div>
@@ -229,6 +237,11 @@
         </div>
     </footer>
 
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    
     <script src="https://kit.fontawesome.com/a327b26a99.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-3.7.1.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

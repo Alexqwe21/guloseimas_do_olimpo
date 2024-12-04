@@ -15,18 +15,24 @@
     <link rel="stylesheet" href="public/assets/css/reset.css">
 
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CB1WZZ9KRY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CB1WZZ9KRY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-CB1WZZ9KRY');
-</script>
+        gtag('config', 'G-CB1WZZ9KRY');
+    </script>
 
 </head>
 
 <body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
     <header>
         <div class="site">
             <div class="logo_header">
@@ -70,7 +76,6 @@
             </article>
         </section>
 
-
         <section class="brigadeiros">
             <article class="site">
                 <div>
@@ -84,18 +89,13 @@
             </article>
         </section>
 
-
-
         <section class="login_contato">
             <article class="site">
                 <div class=" lado_a_lado">
 
-
-
                     <div class="forms_contato">
                         <form action="" method="post">
                             <div class="nome_entrar">
-
 
                                 <div class="email_entrar">
                                     <div class="entrar_email">
@@ -114,7 +114,6 @@
                                         <input type="date" id="data_nascimento" name="data_nascimento" required
                                             placeholder="DATA DE NASCIMENTO">
                                     </div>
-
 
                                     <div class="email_entrar">
                                         <label for="telefone"></label>
@@ -138,7 +137,6 @@
                                         <input type="text" id="cidade" name="cidade" required placeholder="CIDADE">
                                     </div>
 
-
                                     <div class="email_entrar">
                                         <label for="estado"></label>
                                         <input type="text" id="estado" name="estado" required placeholder="ESTADO"
@@ -151,36 +149,25 @@
                                         <input type="password" id="senha" name="senha" required placeholder="SENHA">
                                     </div>
 
-
                                     <div class="email_entrar">
                                         <label for="confirmar_senha"></label>
                                         <input type="password" id="confirmar_senha" name="confirmar_senha" required
                                             placeholder="CONFIRMAR SENHA">
                                     </div>
 
-
                                 </div>
-
                             </div>
-
 
                             <div class="button_forms">
 
                                 <button type="submit">Criar Conta</button>
                             </div>
-
-
-
-
-
                         </form>
-
 
                     </div>
                 </div>
             </article>
         </section>
-
 
         <section class="brigadeiros">
             <article class="site">
@@ -194,8 +181,6 @@
                 </div>
             </article>
         </section>
-
-
 
     </main>
 
@@ -243,7 +228,6 @@
                     </form>
                 </div>
 
-
             </div>
             <div class="redes_footer">
                 <div>
@@ -260,7 +244,6 @@
                     <a href="#"><img src="public/assets/img/wpp_footer.svg" alt="whatsapp"></a>
                 </div>
 
-
             </div>
 
             <div class="hr_footer">
@@ -269,6 +252,11 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 
     <script src="https://kit.fontawesome.com/a327b26a99.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-3.7.1.min.js"></script>

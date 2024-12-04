@@ -1673,16 +1673,16 @@ footer .contato {
 
 /* Pagina Compras */
 
-.compras{
+.compras {
     height: 500px;
 }
 
 
 
-.compras .site{
+.compras .site {
     max-width: 1400px;
 }
- 
+
 .compras .site div {
     margin: 20px 0;
     font-family: var(--font_links);
@@ -2204,16 +2204,18 @@ footer .contato {
         text-align: center;
     }
 
-    .compras{
+    .compras {
         height: 800px;
     }
 
-    .compras .site div h3{
-text-align: center;
+    .compras .site div h3 {
+        text-align: center;
+    }
+
+    [vw] [vw-access-button] {
+        left: 0px;
     }
 }
-
-
 
 @media (max-width: 768px) {
 
@@ -2464,39 +2466,43 @@ text-align: center;
     }
 
 
-    .compras{
+    .compras {
         height: 1300px;
     }
 
 
-    .compras .compras_box{
+    .compras .compras_box {
         width: 50%;
         flex-direction: column;
         height: 800px;
         align-items: center;
     }
 
-    .resumo_compras{
+    .resumo_compras {
         width: 50% !important;
     }
 
-    .qtd_box{
+    .qtd_box {
         margin-bottom: 60px !important;
-    }   
+    }
 
-    .compras .compras_box .desc_compras p{
+    .compras .compras_box .desc_compras p {
         text-align: center;
     }
 
-    .compras .compras_box .compras_preco h6, .subtotal h6{
+    .compras .compras_box .compras_preco h6,
+    .subtotal h6 {
         text-align: center;
     }
 
-    .compras .compras_box .desc_compras h6{
+    .compras .compras_box .desc_compras h6 {
         text-align: center;
         margin-top: 10px;
     }
-    
+
+    [vw] [vw-access-button] {
+        left: 0px;
+    }
 }
 
 
@@ -2861,22 +2867,20 @@ text-align: center;
     }
 
 
-    .compras .compras_box{
+    .compras .compras_box {
         width: 80% !important;
     }
 
-    .resumo_compras{
+    .resumo_compras {
         width: 80% !important;
     }
 
-
+    [vw] [vw-access-button] {
+        left: -420px;
+    }
 }
 
-
-
 @media (max-width: 460px) {
-
-
     .subtitle {
         text-align: center;
         margin-top: 20px;
@@ -2888,7 +2892,6 @@ text-align: center;
     .box .img_03 {
         justify-content: center;
     }
-
 
     .ben_vindo .guloseimas h2,
     .qualidade_especial .site h2 {
@@ -2911,30 +2914,24 @@ text-align: center;
         padding: 16px;
     }
 
-
-
     .qualidade_especial .site .lado_a_lado .encomenda p {
         font-size: 15pt;
         text-align: start;
     }
-
 
     .qualidade_especial .site .lado_a_lado .alta_qualidade {
         width: 300px;
         height: 300px;
     }
 
-
     .qualidade_especial .site .alta_qualidade .verde {
         left: 83px;
         top: 250px;
     }
 
-
     .sobre_pessoa .site .sobre {
         width: 90% !important;
     }
-
 
     .carousel .title h3 {
         text-align: center;
@@ -3083,5 +3080,7 @@ text-align: center;
         height: 35px;
     }
 
-
+    [vw] [vw-access-button] {
+        left: -265px;
+    }
 }
